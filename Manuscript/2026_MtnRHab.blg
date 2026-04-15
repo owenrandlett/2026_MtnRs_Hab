@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: 2026_MtnRHab.aux
+The style file: apalike.bst
+Database file #1: References_MtnRHab.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Pachitariu2016
+You've used 35 entries,
+            1935 wiz_defined-function locations,
+            728 strings with 14127 characters,
+and the built_in function-call counts, 19344 in all, are:
+= -- 1686
+> -- 1426
+< -- 9
++ -- 538
+- -- 530
+* -- 1973
+:= -- 3497
+add.period$ -- 104
+call.type$ -- 35
+change.case$ -- 440
+chr.to.int$ -- 35
+cite$ -- 36
+duplicate$ -- 480
+empty$ -- 1005
+format.name$ -- 575
+if$ -- 3551
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 35
+newline$ -- 177
+num.names$ -- 105
+pop$ -- 365
+preamble$ -- 1
+purify$ -- 440
+quote$ -- 0
+skip$ -- 369
+stack$ -- 0
+substring$ -- 1132
+swap$ -- 34
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 210
+warning$ -- 1
+while$ -- 100
+width$ -- 0
+write$ -- 454
+(There were 2 warnings)
