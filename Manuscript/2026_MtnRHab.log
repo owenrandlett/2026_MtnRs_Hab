@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  31 MAR 2026 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  15 APR 2026 13:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1397,8 +1397,18 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
 (Font)              scaled to size 24.0pt on input line 79.
 
-Underfull \hbox (badness 7397) in paragraph at lines 79--79
-[]\T1/opensans-TLF/b/n/24 Melatonin pro-motes vi-sual ha-bit-u-a-tion
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]\T1/opensans-TLF/b/n/24 A noc-tur-nal in-crease in ha-bit-u-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/opensans-TLF/b/n/24 learn-ing per-for-mance is gov-erned by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/opensans-TLF/b/n/24 Mela-tonin act-ing via the co-op-er-a-tive
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
@@ -1480,7 +1490,7 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}]
-<Figures/Figure_MutationAndQualitativePhenotype.png, id=174, 512.3943pt x 313.4109pt>
+<Figures/Figure_MutationAndQualitativePhenotype.png, id=172, 512.3943pt x 313.4109pt>
 File: Figures/Figure_MutationAndQualitativePhenotype.png Graphic file (type png)
 <use Figures/Figure_MutationAndQualitativePhenotype.png>
 Package pdftex.def Info: Figures/Figure_MutationAndQualitativePhenotype.png  used on input line 129.
@@ -1511,16 +1521,17 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 7.5pt on input line 159.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
 (Font)              scaled to size 7.5pt on input line 161.
+
+
+[3]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 177.
-<Figures/Figure_FreeSwimming.png, id=212, 767.9892pt x 299.80005pt>
+<Figures/Figure_FreeSwimming.png, id=216, 767.9892pt x 299.80005pt>
 File: Figures/Figure_FreeSwimming.png Graphic file (type png)
 <use Figures/Figure_FreeSwimming.png>
 Package pdftex.def Info: Figures/Figure_FreeSwimming.png  used on input line 182.
 (pdftex.def)             Requested size: 458.1144pt x 178.8384pt.
 
-
-[3]
 Underfull \hbox (badness 5175) in paragraph at lines 200--205
 \T1/opensans-TLF/m/n/10 Having es-tab-lished that \T1/opensans-TLF/m/it/10 atp1a3a \T1/opensans-TLF/m/n/10 mu-tants ex-hibit com-plex be-havioural ab-nor-mal-i-ties via cat-e-gor-i-cal
  []
@@ -1536,14 +1547,17 @@ Underfull \hbox (badness 1264) in paragraph at lines 211--216
  []
 
 
+Overfull \vbox (4.68484pt too high) has occurred while \output is active []
+
+
 
 [4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc} <./Figures/Figure_FreeSwimming.png>]
-<Figures/Figure_DarkFlash.png, id=244, 600.92505pt x 542.7477pt>
+<Figures/Figure_DarkFlash.png, id=241, 600.92505pt x 542.7477pt>
 File: Figures/Figure_DarkFlash.png Graphic file (type png)
 <use Figures/Figure_DarkFlash.png>
 Package pdftex.def Info: Figures/Figure_DarkFlash.png  used on input line 222.
 (pdftex.def)             Requested size: 458.1144pt x 413.76791pt.
-<Figures/Figure_OMR.png, id=269, 518.53725pt x 184.5294pt>
+<Figures/Figure_OMR.png, id=266, 518.53725pt x 184.5294pt>
 File: Figures/Figure_OMR.png Graphic file (type png)
 <use Figures/Figure_OMR.png>
 Package pdftex.def Info: Figures/Figure_OMR.png  used on input line 263.
@@ -1555,7 +1569,7 @@ Package pdftex.def Info: Figures/Figure_OMR.png  used on input line 263.
 [6 <./Figures/Figure_DarkFlash.png>]
 
 [7 <./Figures/Figure_OMR.png>]
-<Figures/Figure_Intersection.png, id=315, 544.79535pt x 505.6491pt>
+<Figures/Figure_Intersection.png, id=312, 544.79535pt x 505.6491pt>
 File: Figures/Figure_Intersection.png Graphic file (type png)
 <use Figures/Figure_Intersection.png>
 Package pdftex.def Info: Figures/Figure_Intersection.png  used on input line 304.
@@ -1575,7 +1589,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 348.
 
-<Figures/Figure_Ca2Imaging.png, id=348, 525.6438pt x 450.60345pt>
+<Figures/Figure_Ca2Imaging.png, id=345, 525.6438pt x 450.60345pt>
 File: Figures/Figure_Ca2Imaging.png Graphic file (type png)
 <use Figures/Figure_Ca2Imaging.png>
 Package pdftex.def Info: Figures/Figure_Ca2Imaging.png  used on input line 353.
@@ -1672,16 +1686,16 @@ Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
 Here is how much of TeX's memory you used:
  30573 strings out of 473330
  562327 string characters out of 5723877
- 1070492 words of memory out of 5000000
+ 1071610 words of memory out of 5000000
  53153 multiletter control sequences out of 15000+600000
  627195 words of font info for 179 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,12n,131p,2793b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (22 pages, 32374246 bytes).
+Output written on 2026_MtnRHab.pdf (22 pages, 32374180 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 508 compressed objects within 6 object streams
+ 561 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
  102 named destinations out of 1000 (max. 500000)
  16199 words of extra memory for PDF output out of 17280 (max. 10000000)
 

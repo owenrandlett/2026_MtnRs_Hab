@@ -1022,8 +1022,6 @@ plot_bursts_and_epochs(
 
 #%%
 
-
-
 exp_string = os.path.join(graph_dir, "AB Mutants Combined")
 
 
@@ -1065,3 +1063,225 @@ plot_bursts_and_epochs(
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
 
+#%%
+
+
+
+exp_string = os.path.join(graph_dir, "BA1 Mutants")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1ba^{+/?}}$",
+    r"Melatonin, $\it{mtnr1ba^{+/?}}$",
+    r"DMSO, $\it{mtnr1ba^{-/-}}$",
+    r"Melatonin, $\it{mtnr1ba^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+        ['ba1 WT/Het 0.1% DMSO_20211019_plate0',
+         'ba1 WT/Het 1uM Mela_20211019_plate0',
+         'ba1 Mutant DMSO_20211019_plate0',
+         'ba1 Mutant 1uM Mela_20211019_plate0',], 
+        
+        ['ba1 WT/Het 0.1% DMSO_20211020_plate0',
+         'ba1 WT/Het 1uM Mela_20211020_plate0',
+         'ba1 Mutant DMSO_20211020_plate0',
+         'ba1 Mutant 1uM Mela_20211020_plate0',], 
+        
+    
+    ]
+        
+)
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec[: group_names.shape[1]],
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+
+
+#%%
+exp_string = os.path.join(graph_dir, "BA2 Mutants")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1ba^{+/?}}$",
+    r"Melatonin, $\it{mtnr1ba^{+/?}}$",
+    r"DMSO, $\it{mtnr1ba^{-/-}}$",
+    r"Melatonin, $\it{mtnr1ba^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+        ['ba2 WT/Het 0.1% DMSO_20211019_plate1',
+         'ba2 WT/Het 1uM Mela_20211019_plate1',
+         'ba2 Mutant DMSO_20211019_plate1',
+         'ba2 Mutant 1uM Mela_20211019_plate1',], 
+        
+        ['ba2 WT/Het 0.1% DMSO_20211020_plate1',
+         'ba2 WT/Het 1uM Mela_20211020_plate1',
+         'ba2 Mutant DMSO_20211020_plate1',
+         'ba2 Mutant 1uM Mela_20211020_plate1',], 
+        
+    
+    ]
+        
+)
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec[: group_names.shape[1]],
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+#%%
+exp_string = os.path.join(graph_dir, "BA Mutants Combined")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1ba^{+/?}}$",
+    r"Melatonin, $\it{mtnr1ba^{+/?}}$",
+    r"DMSO, $\it{mtnr1ba^{-/-}}$",
+    r"Melatonin, $\it{mtnr1ba^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [     
+     
+        ['ba1 WT/Het 0.1% DMSO_20211019_plate0',
+         'ba1 WT/Het 1uM Mela_20211019_plate0',
+         'ba1 Mutant DMSO_20211019_plate0',
+         'ba1 Mutant 1uM Mela_20211019_plate0',], 
+        
+        ['ba1 WT/Het 0.1% DMSO_20211020_plate0',
+         'ba1 WT/Het 1uM Mela_20211020_plate0',
+         'ba1 Mutant DMSO_20211020_plate0',
+         'ba1 Mutant 1uM Mela_20211020_plate0',],  
+
+        ['ba2 WT/Het 0.1% DMSO_20211019_plate1',
+         'ba2 WT/Het 1uM Mela_20211019_plate1',
+         'ba2 Mutant DMSO_20211019_plate1',
+         'ba2 Mutant 1uM Mela_20211019_plate1',], 
+        
+        ['ba2 WT/Het 0.1% DMSO_20211020_plate1',
+         'ba2 WT/Het 1uM Mela_20211020_plate1',
+         'ba2 Mutant DMSO_20211020_plate1',
+         'ba2 Mutant 1uM Mela_20211020_plate1',], 
+        
+    
+    ]
+        
+)
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec[: group_names.shape[1]],
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+#%%
+exp_string = os.path.join(graph_dir, "C4 Mutants")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1c^{+/?}}$",
+    r"Melatonin, $\it{mtnr1c^{+/?}}$",
+    r"DMSO, $\it{mtnr1c^{-/-}}$",
+    r"Melatonin, $\it{mtnr1c^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+
+        ['c4 WT/Het 0.1% DMSO_20220203_plate0',
+         'c WT/Het melatonin 1µM_20220203_plate0',
+         'c mutant 0.1% DMSO_20220203_plate0',
+         'c mutant melatonin 1µM_20220203_plate0',], 
+
+        ['ba2/C4 WT/Het 0.1% DMSO_20220707_plate0',
+         'ba2/C4 WT/Het 1µM Melatonin_20220707_plate0',
+         'ba2/C4 mutant 0.1% DMSO_20220707_plate0',
+         'ba2/C4 mutant1µM Melatonin_20220707_plate0',], 
+        
+        # ['',
+        #  '',
+        #  '',
+        #  '',],         
+    
+    ]
+        
+)
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec[: group_names.shape[1]],
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+#%%
+exp_string = os.path.join(graph_dir, "AA AL Mutants")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1aa^{+/?}; mtnr1al^{+/?}}$",
+    r"Melatonin, $\it{mtnr1aa^{+/?}; mtnr1al^{+/?}}$",
+    # r"DMSO, $\it{mtnr1aa^{-/-}; mtnr1al^{-/-}}$",
+    r"Melatonin, $\it{mtnr1aa^{-/-}; mtnr1al^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+        ['aa2+/?; al2+/? ; DMSO_20221129_plate0',
+         'aa2+/?; al2+/? ; Mel_20221129_plate0',
+
+         'aa2-/-;al2-/-; Mel_20221129_plate0',], 
+        
+        ['aa2+/?; al2+/? ; DMSO_20221129_plate1',
+         'aa2+/?; al2+/? ; Mel_20221129_plate1',
+
+         'aa2-/-;al2-/-; Mel_20221129_plate1',],    
+        
+        ['aa2+/?; ab2+/? ; DMSO_20221130_plate0',
+         'aa2+/?; ab2+/? ; Mel_20221130_plate0',
+
+         'aa2-/-;ab2-/-; Mel_20221130_plate0',], 
+        
+        ['aa2+/?; ab2+/? ; DMSO_20221130_plate1',
+         'aa2+/?; ab2+/? ; Mel_20221130_plate1',
+
+         'aa2-/-;ab2-/-; Mel_20221130_plate1',],      
+
+        ['aa2+/?; al2+/? ; DMSO_20230110_plate1',
+         'aa2+/?; al2+/? ; Mel_20230110_plate1',
+
+         'aa2-/-;al2-/-; Mel_20230110_plate1',], 
+
+
+
+    ]
+
+
+)
+
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    list(np.array(col_vec)[[0,1,4]]),
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)

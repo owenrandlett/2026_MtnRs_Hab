@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex 2026_MtnRHab"] 1774950735.66911 "2026_MtnRHab.aux" "2026_MtnRHab.bbl" "2026_MtnRHab" 1774950762.72594 0
+["bibtex 2026_MtnRHab"] 1776253458.84275 "2026_MtnRHab.aux" "2026_MtnRHab.bbl" "2026_MtnRHab" 1776253470.69402 0
   "./References_MtnRHab.bib" 1773325101 185334 94dbbdfdaa318acffc6a360d5ea53fa6 ""
-  "2026_MtnRHab.aux" 1774950760 29204 7a0fc413d89901db20d271b1a9f44773 "pdflatex"
+  "2026_MtnRHab.aux" 1776253469 29204 4d9998ac28e50d4cf7187c98e3304998 "pdflatex"
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/apalike.bst" 1734437443 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   (generated)
   "2026_MtnRHab.bbl"
   "2026_MtnRHab.blg"
   (rewritten before read)
-["pdflatex"] 1774950736.06297 "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" "2026_MtnRHab.pdf" "2026_MtnRHab" 1774950762.72641 0
-  "2026_MtnRHab.aux" 1774950760 29204 7a0fc413d89901db20d271b1a9f44773 "pdflatex"
-  "2026_MtnRHab.bbl" 1774950735 11038 684a0c11c9a2cba35e122e6a44dfe7fe "bibtex 2026_MtnRHab"
-  "2026_MtnRHab.out" 1774950760 12043 fb2ed915870818bc5c2835d240556c5c "pdflatex"
-  "2026_MtnRHab.suppinfo" 1774950760 323 2b610727e76c1e9d5c89444e28234255 "pdflatex"
-  "2026_MtnRHab.tex" 1774950668 77398 ba092d381617ae9b099bda3ff2ef535a ""
+["pdflatex"] 1776253459.28216 "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" "2026_MtnRHab.pdf" "2026_MtnRHab" 1776253470.6945 0
+  "2026_MtnRHab.aux" 1776253469 29204 4d9998ac28e50d4cf7187c98e3304998 "pdflatex"
+  "2026_MtnRHab.bbl" 1776253459 11038 684a0c11c9a2cba35e122e6a44dfe7fe "bibtex 2026_MtnRHab"
+  "2026_MtnRHab.out" 1776253469 12043 fb2ed915870818bc5c2835d240556c5c "pdflatex"
+  "2026_MtnRHab.suppinfo" 1776253469 323 2b610727e76c1e9d5c89444e28234255 "pdflatex"
+  "2026_MtnRHab.tex" 1776253441 77427 67cb16d675a4262b654ae91f6f0da752 ""
   "Figures/Figure_Ca2Imaging.png" 1772452968 12804090 3b5189573cc84d275fefc653673200ad ""
   "Figures/Figure_DarkFlash.png" 1771580634 4035861 11a7480f2c968225bee6e41ab24bc0c3 ""
   "Figures/Figure_FreeSwimming.png" 1771941008 2605282 2b0bf40aefafe023286e76ce765f9645 ""
@@ -20,7 +20,7 @@
   "Figures/Figure_MutationAndQualitativePhenotype.png" 1772453028 2040560 3e2ccd341f2d3d2f41ad6a14ad68e23a ""
   "Figures/Figure_OMR.png" 1773843033 1328108 db51dafadaacfc9f12bfa890d519d94e ""
   "RandlettLab_elife.cls" 1772530852 16982 d530601baa1745318ee06ffa160c0bda ""
-  "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" 1774950668 77398 ba092d381617ae9b099bda3ff2ef535a ""
+  "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" 1776253441 77427 67cb16d675a4262b654ae91f6f0da752 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc" 1734439404 2952 84fda6c8ae8be17712e9d998ffe48bad ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc" 1734439404 3364 7c78cdd102714be824555fc722b51d02 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_uv4o4i.enc" 1734439404 3196 c24e59c6a721eefc5435c2036a1953f6 ""
