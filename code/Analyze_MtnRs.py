@@ -1301,9 +1301,6 @@ group_categories = [
 group_names = np.array(
     [      
 
-        # ['WT_20230110_plate0',
-        #  'WT shifted_20230110_plate0',],  # no phenotype - excluding
-
         ['Normal aanat 1 +/? 2 +/?_20230320_plate0',
          'Shifted aanat 1 +/? 2 +/?_20230320_plate0',], 
         
@@ -1312,21 +1309,11 @@ group_names = np.array(
         
         ['Normal aanat 1 +/? 2 +/?_20230418_plate0',
          'Shifted aanat 1 +/? 2 +/?_20230418_plate0',], 
-        
-        ['Normal aanat 1 +/? 2 +/?_20230426_plate0',
 
-         'Shifted aanat 1 +/? 2 +/?_20230426_plate0',], 
 
         ['Normal aanat 1 +/? 2 +/?_20230504_plate0',
          'Shifted aanat 1 +/? 2 +/?_20230504_plate0',], 
         
-        
-        ['Normal aanat 1 +/? 2 +/?_20230612_plate0',
-         'Shifted aanat 1 +/? 2 +/?_20230612_plate0',],
-        
-        ['Normal aanat 1 +/? 2 +/?_20230613_plate0',
-         'Shifted aanat 1 +/? 2 +/?_20230613_plate0',],
-         
     ]
 
 
@@ -1371,53 +1358,22 @@ group_names = np.array(
         'Shifted aanat 1 +/? 2 -/-_20230321_plate0',
         'Shifted aanat 1 -/- 2 -/-_20230321_plate0'
         ],
-
+        
         ['Shifted aanat 1 +/? 2 -/-_20230418_plate0', 
-         'Shifted aanat 1 -/- 2 +/?_20230418_plate0',
+        'Shifted aanat 1 -/- 2 +/?_20230418_plate0',
         'Shifted aanat 1 +/? 2 -/-_20230418_plate0',
-        'Shifted aanat 1 -/- 2 -/-_20230321_plate0'
-        ],
-
-        ['Shifted aanat 1 +/? 2 +/?_20230426_plate0', 
-         'Shifted aanat 1 -/- 2 +/?_20230426_plate0',
-        'Shifted aanat 1 +/? 2 -/-_20230426_plate0',
-        'Shifted aanat 1 -/- 2 -/-_20230426_plate0'
+        'Shifted aanat 1 -/- 2 -/-_20230418_plate0'
         ],
         
-        ['Shifted aanat 1 +/? 2 +/?_20230426_plate0', 
+        ['Shifted aanat 1 +/? 2 +/?_20230504_plate0', 
          'Shifted aanat 1 -/- 2 +/?_20230504_plate0',
         'Shifted aanat 1 +/? 2 -/-_20230504_plate0',
         'Shifted aanat 1 -/- 2 -/-_20230504_plate0'
         ],
-        
-        ['Shifted aanat 1 +/? 2 +/?_20230612_plate0', 
-         'Shifted aanat 1 -/- 2 +/?_20230612_plate0',
-        'Shifted aanat 1 +/? 2 -/-_20230612_plate0',
-        'Shifted aanat 1 -/- 2 -/-_20230612_plate0'
-        ],
-        
-        ['Shifted aanat 1 +/? 2 +/?_20230613_plate0', 
-         'Shifted aanat 1 -/- 2 +/?_20230613_plate0',
-        'Shifted aanat 1 +/? 2 -/-_20230613_plate0',
-        'Shifted aanat 1 -/- 2 -/-_20230613_plate0'
-        ],
-        
-        # ['Normal aanat 1 +/? 2 +/?_20230418_plate0',
-        #  'Shifted aanat 1 +/? 2 +/?_20230418_plate0',], 
-        
-        # ['Normal aanat 1 +/? 2 +/?_20230426_plate0',
 
-        #  'Shifted aanat 1 +/? 2 +/?_20230426_plate0',], 
 
-        # ['Normal aanat 1 +/? 2 +/?_20230504_plate0',
-        #  'Shifted aanat 1 +/? 2 +/?_20230504_plate0',], 
-        
-        # ['Normal aanat 1 +/? 2 +/?_20230612_plate0',
-        #  'Shifted aanat 1 +/? 2 +/?_20230612_plate0',],
-        
-        # ['Normal aanat 1 +/? 2 +/?_20230613_plate0',
-        #  'Shifted aanat 1 +/? 2 +/?_20230613_plate0',],
-         
+
+
     ]
 
 
@@ -1428,6 +1384,137 @@ plot_bursts_and_epochs(
     group_categories,
     group_names,
     col_vec,
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+#%%
+
+exp_string = os.path.join(graph_dir, "AANAT Mutants Day")
+
+group_categories = [
+    r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$",
+    
+    r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{+/?}}$",
+    
+    r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{-/-}}$",
+    
+    r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$",
+    
+    ]
+
+group_names = np.array(
+    [      
+
+        ['Normal aanat 1 +/? 2 +/?_20230320_plate0', 
+         'Normal aanat 1 -/- 2 +/-_20230320_plate0',
+        'Normal aanat 1 +/- 2 -/-_20230320_plate0',
+        'Normal aanat 1 -/- 2 -/-_20230320_plate0'
+        ],
+        
+        ['Normal aanat 1 +/? 2 +/?_20230321_plate0', 
+         'Normal aanat 1 -/- 2 +/?_20230321_plate0',
+        'Normal aanat 1 +/? 2 -/-_20230321_plate0',
+        'Normal aanat 1 -/- 2 -/-_20230321_plate0'
+        ],
+        
+        ['Normal aanat 1 +/? 2 -/-_20230418_plate0', 
+        'Normal aanat 1 -/- 2 +/?_20230418_plate0',
+        'Normal aanat 1 +/? 2 -/-_20230418_plate0',
+        'Normal aanat 1 -/- 2 -/-_20230418_plate0'
+        ],
+        
+        ['Normal aanat 1 +/? 2 +/?_20230504_plate0', 
+         'Normal aanat 1 -/- 2 +/?_20230504_plate0',
+        'Normal aanat 1 +/? 2 -/-_20230504_plate0',
+        'Normal aanat 1 -/- 2 -/-_20230504_plate0'
+        ],
+
+
+
+
+    ]
+
+)
+
+
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec,
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+
+#%%
+
+exp_string = os.path.join(graph_dir, "AANAT Mutants Day and Night")
+
+
+group_categories = [
+    r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$", 
+    r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$", 
+    r"Shifted Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$",   
+    r"Shifted Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+        ['Normal aanat 1 +/? 2 +/?_20230320_plate0', 
+         'Normal aanat 1 -/- 2 -/-_20230320_plate0',
+         'Shifted aanat 1 +/? 2 +/?_20230320_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230320_plate0'
+
+        ],
+        
+        ['Normal aanat 1 +/? 2 +/?_20230321_plate0', 
+         'Normal aanat 1 -/- 2 -/-_20230321_plate0',
+         'Shifted aanat 1 +/? 2 +/?_20230321_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230321_plate0'
+
+        ],
+        
+        ['Normal aanat 1 +/? 2 -/-_20230418_plate0', 
+         'Normal aanat 1 -/- 2 -/-_20230418_plate0',
+         'Shifted aanat 1 +/? 2 -/-_20230418_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230418_plate0'
+
+        ],
+        
+        ['Normal aanat 1 +/? 2 +/?_20230504_plate0', 
+         'Normal aanat 1 -/- 2 -/-_20230504_plate0',
+        'Shifted aanat 1 +/? 2 +/?_20230504_plate0', 
+        
+        'Shifted aanat 1 -/- 2 -/-_20230504_plate0'
+
+        ],
+
+
+
+
+    ]
+
+)
+
+col_nightday = [
+    np.array([0.7, 0.549, 0.]),
+    np.array([0.7, 0.549, 0.5]),
+    np.array([0.1, 0.1, 0.1]),
+    
+    np.array([0.1, 0.1, 0.45]),
+]
+
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_nightday,
     plot_cumdiff=False,
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
