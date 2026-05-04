@@ -1232,6 +1232,45 @@ plot_bursts_and_epochs(
 )
 
 #%%
+exp_string = os.path.join(graph_dir, "BB5 Mutants")
+
+
+group_categories = [
+    r"DMSO, $\it{mtnr1bb^{+/?}}$",
+    r"Melatonin, $\it{mtnr1bb^{+/?}}$",
+    r"DMSO, $\it{mtnr1bb^{-/-}}$",
+    r"Melatonin, $\it{mtnr1bb^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+
+        ['wt/het DMSO 0.1% _20260422_plate0',
+         'wt/het Melatonin 1uM_20260422_plate0',
+         'mutant DMSO 0.1% _20260422_plate0',
+         'mutant Melatonin 1uM_20260422_plate0',], 
+
+        
+        # ['',
+        #  '',
+        #  '',
+        #  '',],         
+    
+    ]
+        
+)
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_vec[: group_names.shape[1]],
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+
+#%%
 exp_string = os.path.join(graph_dir, "AA AL Mutants")
 
 
