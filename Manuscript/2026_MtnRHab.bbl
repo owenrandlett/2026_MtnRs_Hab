@@ -30,11 +30,6 @@ Peirce, J.~W. (2007).
 \newblock Psychopy—psychophysics software in python.
 \newblock {\em Journal of Neuroscience Methods}, 162(1–2):8–13.
 
-\bibitem[Randlett, 2023]{Randlett2023}
-Randlett, O. (2023).
-\newblock pi\_tailtrack: A compact, inexpensive and open-source behaviour-tracking system for head-restrained zebrafish.
-\newblock {\em Journal of Experimental Biology}, 226(22).
-
 \bibitem[Randlett et~al., 2019]{Randlett2019-fj}
 Randlett, O., Haesemeyer, M., Forkin, G., Shoenhard, H., Schier, A.~F., Engert, F., and Granato, M. (2019).
 \newblock Distributed plasticity drives visual habituation learning in larval zebrafish.
