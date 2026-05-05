@@ -19,10 +19,7 @@ import scipy.stats as stats
 import scikit_posthocs as sp
 
 # Update system paths for local modules if needed
-try:
-    current_dir = os.path.dirname(__file__)
-except NameError:
-    current_dir = os.path.dirname(os.path.abspath(""))
+current_dir = os.path.realpath(r'C:\Users\owen.randlett\Documents\GitHub\2026_MtnRs_Hab\code')
 sys.path.append(current_dir)
 sys.path.append(
     os.path.realpath(os.path.join(current_dir, "ExtraFunctions", "glasbey-master"))
@@ -821,71 +818,6 @@ plot_bursts_and_epochs(
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
 
-#%%
-
-exp_string = os.path.join(graph_dir, "AA Mutants Combined")
-
-
-group_categories = [
-    r"DMSO, $\it{mtnr1aa^{+/?}}$",
-    r"Melatonin, $\it{mtnr1aa^{+/?}}$",
-    r"DMSO, $\it{mtnr1aa^{-/-}}$",
-    r"Melatonin, $\it{mtnr1aa^{-/-}}$",
-    ]
-
-group_names = np.array(
-    [
-        ['aa2 WT/Het DMSO_20230110_plate1',
-         'aa2 WT/Het 1µM Melatonin_20230110_plate1',
-         'aa2 mutant DMSO_20230110_plate1',
-         'aa2 mutant 1µM Melatonin_20230110_plate1',], 
-        
-        ['aa2 WT/Het DMSO_20230123_plate0',
-         'aa2 WT/Het 1µM Melatonin_20230123_plate0',
-         'aa2 mutant DMSO_20230123_plate0',
-         'aa2 mutant 1µM Melatonin_20230123_plate0',], 
-        
-        ['aa2 WT/Het DMSO_20230123_plate1',
-         'aa2 WT/Het 1µM Melatonin_20230123_plate1',
-         'aa2 mutant DMSO_20230123_plate1',
-         'aa2 mutant 1µM Melatonin_20230123_plate1',], 
-        
-        ['aa2 WT/Het DMSO_20221129_plate0',
-         'aa2 WT/Het 1µM Melatonin_20221129_plate0',
-         'aa2 mutant DMSO_20221129_plate0',
-         'aa2 mutant 1µM Melatonin_20221129_plate0',],  
-        
-        ['aa2 WT/Het DMSO_20221129_plate1',
-         'aa2 WT/Het 1µM Melatonin_20221129_plate1',
-         'aa2 mutant DMSO_20221129_plate1',
-         'aa2 mutant 1µM Melatonin_20221129_plate1',],  
-        
-        ['aa2 WT/Het DMSO_20221130_plate0',
-         'aa2 WT/Het 1µM Melatonin_20221130_plate0',
-         'aa2 mutant DMSO_20221130_plate0',
-         'aa2 mutant 1µM Melatonin_20221130_plate0',], 
-        
-        ['aa2 WT/Het DMSO_20221130_plate1',
-         'aa2 WT/Het 1µM Melatonin_20221130_plate1',
-         'aa2 mutant DMSO_20221130_plate1',
-         'aa2 mutant 1µM Melatonin_20221130_plate1',], 
-        
-        # ['',
-        #  '',
-        #  '',
-        #  '',], 
-    ]
-        
-)
-plot_bursts_and_epochs(
-    exp_string,
-    group_categories,
-    group_names,
-    col_vec[: group_names.shape[1]],
-    plot_cumdiff=True,
-    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
-)
-
 
 #%%
 exp_string = os.path.join(graph_dir, "AL Mutants")
@@ -1293,16 +1225,7 @@ group_names = np.array(
          'aa2+/?; al2+/? ; Mel_20221129_plate1',
 
          'aa2-/-;al2-/-; Mel_20221129_plate1',],    
-        
-        ['aa2+/?; ab2+/? ; DMSO_20221130_plate0',
-         'aa2+/?; ab2+/? ; Mel_20221130_plate0',
-
-         'aa2-/-;ab2-/-; Mel_20221130_plate0',], 
-        
-        ['aa2+/?; ab2+/? ; DMSO_20221130_plate1',
-         'aa2+/?; ab2+/? ; Mel_20221130_plate1',
-
-         'aa2-/-;ab2-/-; Mel_20221130_plate1',],      
+     
 
         ['aa2+/?; al2+/? ; DMSO_20230110_plate1',
          'aa2+/?; al2+/? ; Mel_20230110_plate1',
@@ -1373,13 +1296,13 @@ exp_string = os.path.join(graph_dir, "AANAT Mutants Subjective Night")
 
 
 group_categories = [
-    r"Shifted Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$",
+    r"$\it{aanat1^{+/?}; aanat2^{+/?}}$",
     
-    r"Shifted Light Cycle; $\it{aanat1^{-/-}; aanat2^{+/?}}$",
+    r"$\it{aanat1^{-/-}; aanat2^{+/?}}$",
     
-    r"Shifted Light Cycle; $\it{aanat1^{+/?}; aanat2^{-/-}}$",
+    r"$\it{aanat1^{+/?}; aanat2^{-/-}}$",
     
-    r"Shifted Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$",
+    r"$\it{aanat1^{-/-}; aanat2^{-/-}}$",
     
     ]
 
@@ -1422,7 +1345,7 @@ plot_bursts_and_epochs(
     exp_string,
     group_categories,
     group_names,
-    col_vec,
+    col_vec[8:],
     plot_cumdiff=False,
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
@@ -1432,13 +1355,13 @@ plot_bursts_and_epochs(
 exp_string = os.path.join(graph_dir, "AANAT Mutants Day")
 
 group_categories = [
-    r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$",
+    r"$\it{aanat1^{+/?}; aanat2^{+/?}}$",
     
-    r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{+/?}}$",
+    r"$\it{aanat1^{-/-}; aanat2^{+/?}}$",
     
-    r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{-/-}}$",
+    r"$\it{aanat1^{+/?}; aanat2^{-/-}}$",
     
-    r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$",
+    r"$\it{aanat1^{-/-}; aanat2^{-/-}}$",
     
     ]
 
@@ -1481,7 +1404,7 @@ plot_bursts_and_epochs(
     exp_string,
     group_categories,
     group_names,
-    col_vec,
+    col_vec[4:],
     plot_cumdiff=False,
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
@@ -1544,6 +1467,82 @@ group_names = np.array(
 col_nightday = [
     np.array([0.7, 0.549, 0.]),
     np.array([0.7, 0.549, 0.5]),
+    np.array([0.1, 0.1, 0.1]),
+    
+    np.array([0.1, 0.1, 0.45]),
+]
+
+plot_bursts_and_epochs(
+    exp_string,
+    group_categories,
+    group_names,
+    col_nightday,
+    plot_cumdiff=False,
+    cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
+)
+
+#%%
+
+
+exp_string = os.path.join(graph_dir, "AANAT Mutants Night")
+
+
+group_categories = [
+    # r"Normal Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$", 
+    # r"Normal Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$", 
+    r"Shifted Light Cycle; $\it{aanat1^{+/?}; aanat2^{+/?}}$",   
+    r"Shifted Light Cycle; $\it{aanat1^{-/-}; aanat2^{-/-}}$",
+    ]
+
+group_names = np.array(
+    [      
+
+        [
+            # 'Normal aanat 1 +/? 2 +/?_20230320_plate0', 
+        #  'Normal aanat 1 -/- 2 -/-_20230320_plate0',
+         'Shifted aanat 1 +/? 2 +/?_20230320_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230320_plate0'
+
+        ],
+        
+        [
+        #     'Normal aanat 1 +/? 2 +/?_20230321_plate0', 
+        #  'Normal aanat 1 -/- 2 -/-_20230321_plate0',
+         'Shifted aanat 1 +/? 2 +/?_20230321_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230321_plate0'
+
+        ],
+        
+        [
+        #     'Normal aanat 1 +/? 2 -/-_20230418_plate0', 
+        #  'Normal aanat 1 -/- 2 -/-_20230418_plate0',
+         'Shifted aanat 1 +/? 2 -/-_20230418_plate0', 
+         
+         'Shifted aanat 1 -/- 2 -/-_20230418_plate0'
+
+        ],
+        
+        [
+        # 'Normal aanat 1 +/? 2 +/?_20230504_plate0', 
+        #  'Normal aanat 1 -/- 2 -/-_20230504_plate0',
+        'Shifted aanat 1 +/? 2 +/?_20230504_plate0', 
+        
+        'Shifted aanat 1 -/- 2 -/-_20230504_plate0'
+
+        ],
+
+
+
+
+    ]
+
+)
+
+col_nightday = [
+    # np.array([0.7, 0.549, 0.]),
+    # np.array([0.7, 0.549, 0.5]),
     np.array([0.1, 0.1, 0.1]),
     
     np.array([0.1, 0.1, 0.45]),
