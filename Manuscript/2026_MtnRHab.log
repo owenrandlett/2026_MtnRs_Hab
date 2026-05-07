@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  6 MAY 2026 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  7 MAY 2026 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1553,43 +1553,44 @@ File: Figures/Figure_AAandALMutants.png Graphic file (type png)
 <use Figures/Figure_AAandALMutants.png>
 Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 299.
 (pdftex.def)             Requested size: 509.01945pt x 161.36656pt.
-
-
-Package natbib Warning: Citation `Randlett2015-fo' on page 7 undefined on input line 338.
-
+<Figures/Figure_pERK.png, id=205, 668.2566pt x 572.1375pt>
+File: Figures/Figure_pERK.png Graphic file (type png)
+<use Figures/Figure_pERK.png>
+Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 336.
+(pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
 
 
 [7]
 
 [8 <./Figures/Figure_MT2andCMutants.png>]
+
+[9 <./Figures/Figure_AAandALMutants.png> <./Figures/Figure_pERK.png>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 356.
+(Font)              scaled to size 12.0pt on input line 381.
 
-
-[9 <./Figures/Figure_AAandALMutants.png>]
 
 [10]
-Underfull \hbox (badness 1152) in paragraph at lines 403--406
+
+[11]
+Underfull \hbox (badness 1152) in paragraph at lines 428--431
 []\T1/opensans-TLF/m/n/10 Control of the LEDs, solenoid, and cam-era ac-tu-a-tor was man-aged by a Rasp-berry Pi Pico run-ning
  []
 
 
 
-[11]
-Underfull \hbox (badness 1117) in paragraph at lines 446--447
+[12]
+Underfull \hbox (badness 1117) in paragraph at lines 471--472
 []\T1/opensans-TLF/m/n/10 Behavioral events were op-er-a-tionally de-fined based on cu-mu-la-tive tail bend an-gle thresh-olds, with
  []
 
 (./2026_MtnRHab.bbl
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 6.
-)
 
-[12]
 
-Package natbib Warning: There were undefined citations.
+[13])
 
-(./2026_MtnRHab.suppinfo) 
+[14] (./2026_MtnRHab.suppinfo) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./2026_MtnRHab.aux)
  ***********
@@ -1597,21 +1598,21 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2021/03/21>
  ***********
 Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
-(rerunfilecheck)             Checksum: 9FD4B6809549665590735ECEE0B48FF1;6578.
+(rerunfilecheck)             Checksum: D99D68127CE4BEADD0E10FAC76EF18B9;6578.
  ) 
 Here is how much of TeX's memory you used:
- 30354 strings out of 473330
- 557799 string characters out of 5723877
- 1060336 words of memory out of 5000000
- 52999 multiletter control sequences out of 15000+600000
- 624838 words of font info for 173 fonts, out of 8000000 for 9000
+ 30363 strings out of 473330
+ 558000 string characters out of 5723877
+ 1060553 words of memory out of 5000000
+ 53006 multiletter control sequences out of 15000+600000
+ 624443 words of font info for 172 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,12n,131p,2342b,1121s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,11n,131p,2342b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (12 pages, 30268961 bytes).
+Output written on 2026_MtnRHab.pdf (14 pages, 43466806 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 15562 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 15567 words of extra memory for PDF output out of 17280 (max. 10000000)
 

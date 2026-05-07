@@ -30,16 +30,16 @@ os.makedirs(OUT_DIR, exist_ok=True)
 # ── which comparisons to show (first group "over" second group = WT) ───────
 COMPARISONS = [
     {
-        "file": "aa--_al--_over_aa+_al+_SignificantDeltaMedians_ZBrain2Analysis.csv",
-        "label": "dKO\n(aa⁻⁻ al⁻⁻) vs WT",
-    },
-    {
         "file": "aa--_al+_over_aa+_al+_SignificantDeltaMedians_ZBrain2Analysis.csv",
         "label": "aa KO\n(aa⁻⁻ al⁺) vs WT",
     },
     {
         "file": "aa+_al--_over_aa+_al+_SignificantDeltaMedians_ZBrain2Analysis.csv",
         "label": "al KO\n(aa⁺ al⁻⁻) vs WT",
+    },
+    {
+        "file": "aa--_al--_over_aa+_al+_SignificantDeltaMedians_ZBrain2Analysis.csv",
+        "label": "dKO\n(aa⁻⁻ al⁻⁻) vs WT",
     },
 ]
 
@@ -203,3 +203,5 @@ fig.savefig(out_path_pdf, bbox_inches="tight")
 print(f"Saved: {out_path_pdf}")
 
 plt.show()
+
+# %%
