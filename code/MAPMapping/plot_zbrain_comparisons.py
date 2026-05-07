@@ -24,7 +24,8 @@ DATA_DIR = (
     r"\output_FDR=5e-05_UsingERK=True\zbrain_output"
 )
 
-OUT_DIR = DATA_DIR
+OUT_DIR = os.path.join(DATA_DIR, "plots")
+os.makedirs(OUT_DIR, exist_ok=True)
 
 # ── which comparisons to show (first group "over" second group = WT) ───────
 COMPARISONS = [
@@ -58,6 +59,34 @@ for comp in COMPARISONS:
     path = os.path.join(DATA_DIR, comp["file"])
     frames[comp["label"]] = pd.read_csv(path, index_col=0)
 
+# ── collapse sub-regions into combined parent regions ─────────────────────
+# Each entry is (match_string, new_row_name). Any region whose index
+# contains match_string will be averaged into a single combined row,
+# and the originals removed.
+COLLAPSE = [
+    ("Preoptic Area", "-Forebrain-Diencephalon-Preoptic Area"),
+    ("Raphe", "-Hindbrain-Raphe"),
+    ("Intermediate Hypothalamus", "-Forebrain-Diencephalon-Hypothalamus-Intermediate Hypothalamus"),
+    ("Facial Motor", "-Hindbrain-VII Facial MNs"),
+]
+
+for label, df in frames.items():
+    for match, new_name in COLLAPSE:
+        sub = df[df.index.str.contains(match, regex=False)]
+        if len(sub) > 1:
+            combined = sub.mean(axis=0)
+            combined.name = new_name
+            # find position of the first matching row in the original index
+            insert_pos = df.index.get_loc(sub.index[0])
+            df = df.drop(index=sub.index)
+            # rebuild with the combined row inserted at the original position
+            df = pd.concat([
+                df.iloc[:insert_pos],
+                combined.to_frame().T,
+                df.iloc[insert_pos:],
+            ])
+            frames[label] = df
+
 # ── filter to regions with any signal in any comparison ───────────────────
 all_regions = frames[COMPARISONS[0]["label"]].index.tolist()
 
@@ -68,18 +97,31 @@ def has_signal(region):
             return True
     return False
 
-active_regions = [r for r in all_regions if has_signal(r)]
+active_regions = [r for r in all_regions if has_signal(r) and "ganglia" not in r.lower()]
 
-# Clean region names: strip leading "-", replace "-" separators with " > "
+# Override display labels for specific regions (applied before generic cleaning).
+LABEL_OVERRIDES = {
+    "-Forebrain-Diencephalon-Preglomerular Complex (approximate area)": "Preglomerular Complex",
+    "-Hindbrain-Rhombomere 2-Anterior Cluster of nV Trigeminal Motorneurons": "Ant. nV Trigeminal MNs",
+}
+
+# Clean region names: use only the last hierarchical segment.
+# For Tectum sub-regions, prepend "Tectum " so context is not lost.
 def clean_name(name):
-    return name.strip("-").replace("-", " > ")
+    if name in LABEL_OVERRIDES:
+        return LABEL_OVERRIDES[name]
+    parts = name.strip("-").split("-")
+    label = parts[-1]
+    if "Tectum" in parts[:-1]:
+        label = "Tectum " + label
+    return label
 
 col_labels = [comp["label"] for comp in COMPARISONS]
 
 # ── options ────────────────────────────────────────────────────────────────
 # Set to an integer to show only the N regions with the largest absolute
 # signal (max across all comparisons). Set to None to show all regions.
-TOP_N = None
+TOP_N = 35
 
 # ── build data matrix (all active regions × comparisons) ─────────────────
 # signed value = Mean Positive - Mean Negative
@@ -111,7 +153,7 @@ vlim = np.percentile(nz, VMAX_PERCENTILE) if len(nz) > 0 else 1.0
 # ── figure ─────────────────────────────────────────────────────────────────
 row_height = 0.22   # inches per region
 fig_h = max(5, len(plot_regions) * row_height + 2)
-fig_w = 2.5 + len(COMPARISONS) * 0.9
+fig_w = 5.0 + len(COMPARISONS) * 0.9
 
 fig, ax = plt.subplots(figsize=(fig_w, fig_h))
 
@@ -123,30 +165,31 @@ im = ax.imshow(
     vmax=vlim,
     interpolation="nearest",
 )
+ax.set_ylim(len(plot_regions) - 0.5, -0.5)  # clamp to actual rows
 
 # axes labels
 ax.set_xticks(np.arange(len(COMPARISONS)))
-ax.set_xticklabels(col_labels, fontsize=8)
+ax.set_xticklabels(col_labels, fontsize=13)
 ax.xaxis.tick_top()
 ax.xaxis.set_label_position("top")
 
 ax.set_yticks(np.arange(len(plot_regions)))
-ax.set_yticklabels(region_labels, fontsize=10)
+ax.set_yticklabels(region_labels, fontsize=14)
 
 # thin grid lines between cells
 ax.set_xticks(np.arange(len(COMPARISONS)) - 0.5, minor=True)
-ax.set_yticks(np.arange(len(active_regions)) - 0.5, minor=True)
+ax.set_yticks(np.arange(len(plot_regions)) - 0.5, minor=True)
 ax.grid(which="minor", color="lightgrey", linewidth=0.4)
 ax.tick_params(which="minor", length=0)
 
 # colourbar
 cbar = fig.colorbar(im, ax=ax, fraction=0.03, pad=0.02, aspect=40)
-cbar.set_label("Δ mean pERK/tERK (mutant − WT)", fontsize=7)
-cbar.ax.tick_params(labelsize=7)
+cbar.set_label("Δ mean pERK/tERK (mutant − WT)", fontsize=12)
+cbar.ax.tick_params(labelsize=12)
 
 fig.suptitle(
-    "MAP-Mapping: ZBrain region analysis\nMtnr1aa / Mtnr1al mutants vs WT",
-    fontsize=9,
+    "ZBrain pERK: Mtnr1aa / Mtnr1al vs WT",
+    fontsize=14,
     y=1.01,
 )
 plt.tight_layout()
