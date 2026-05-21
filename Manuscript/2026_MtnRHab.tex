@@ -96,16 +96,53 @@ Melatonin, Melatonin Receptors, Habituation, Learning, Zebrafish, Larva, Sensori
 
 % \newpage
 \begin{abstract}
-  
-Melatonin is a circadianly-regulated hormone that is produced by the pineal gland and the retina that has important roles not only in regulating sleep and circadian rhythms, but also other diverse physiological processes, including neuronal plasticity and learning. 
-Melatonin is though to signal primarily through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which are expressed in the brain and other tissues.
+
+Melatonin is a circadianly-regulated hormone produced by the pineal gland and retina, with roles in sleep and circadian rhythms as well as other neuronal processes such as neuronal plasticity and learning.
+Melatonin signals mostly via the G-protein coupled receptors MT1 (Mtnr1a) and MT2 (Mtnr1b), which show distinct expression patterns and functional roles.
+Using larval zebrafish, we previously identified Melatonin as a potent modulator of habituation learning and -- the progressive suppression of responses to a repeated stimulus.
+Here we have extended these analyses and have found that Melatonin has strong bidirectional effects on habituation: it potentiates habituation of response probability and latency, while actually inhibiting habituation of movement amplitude and duration. 
+Through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors, we found that only two MT1-type receptors (Mtnr1aa and Mtnr1al) are required, while the MT2-type receptors and Mtnr1c are dispensable for Melatonin's effects on habituation.
+Individual \emph{mtnr1aa} and \emph{mtnr1al} mutants show partial insensitivity to Melatonin, while \emph{mtnr1aa;mtnr1al} double mutants show complete insensitivity, demonstrating they act in a cooperative and non-redundant manner.
+Finally, expression pattern analyeses confirm that \emph{mtnr1aa} is more widely and highly expressed than \emph{mtnr1al}, and functional analyses using whole-brain activity mapping indicate that Mtnr1aa acts primarily the optic tectum and other visual areas, while Mtnr1al exerts its effects most prominently in the preoptic area.
+Together, these results show that Melatonin promotes habituation learning through the independent action of two MT1-type receptors, which act in different brain regions. 
+These findings provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning, revealing a functional subdivision between closely related receptor paralogs.
 
 \end{abstract}
 
 \section{Introduction}
 
-Melatonin is a circadianly-regulated hormone that is produced by the pineal gland and the retina that has important roles not only in regulating sleep and circadian rhythms, but also other diverse physiological processes, including neuronal plasticity and learning. 
-Melatonin is though to signal primarily through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which are expressed in the brain and other tissues.
+Habituation is an evolutionarily conserved forms of learning, defined as a progressive and reversible decrease in responsiveness to a repeatedly presented stimulus \citep{Rankin2009-no}.
+First systematically characterized by Thompson and Spencer, habituation displays a well-defined set of parametric properties: it is stimulus-specific, recovers spontaneously after a rest period, is accelerated by high-frequency stimulus presentation, and can be disrupted by the introduction of a novel stimulus \citep{Thompson1966}.
+Far from being a passive consequence of neural fatigue or sensory adaptation, habituation is now recognized as an active form of synaptic plasticity \citep{McDiarmid2019-td}, involving persistent changes at multiple synapses within sensory-motor circuits \citep{Randlett2019-fj, ramaswami2014network, Cooke2020, Nelson2022}.
+Deficits in habituation are associated with neurodevelopmental and psychiatric conditions including autism spectrum disorder, schizophrenia, and ADHD \citep{McDiarmid2017}, underscoring its relevance to normal cognitive function and its potential as a tractable behavioral readout of circuit-level plasticity.
+
+Larval zebrafish have emerged as a powerful system for dissecting the neural and molecular substrates of habituation learning.
+When exposed to a sudden transition to whole-field darkness (a dark flash, DF), larvae execute a stereotyped escape maneuver called the O-bend \citep{Burgess2007-2}, which habituates robustly with repeated stimulation \citep{wolman_chemical_2011, Randlett2019-fj}.
+The transparency and genetic tractability of larvae, combined with whole-brain activity mapping and calcium imaging approaches, have enabled identification of distributed plasticity across multiple brain regions that collectively drive DF habituation learning \citep{Randlett2019-fj, Lamire2023-he}. 
+Furthermore, the accessibility of larval zebrafish to high-throughput pharmacological and genetic screening has allowed systematic identification of neuromodulatory pathways that regulate habituation performance \citep{wolman_chemical_2011, Wolman2015}.
+Through such a screen, we previously identified Melatonin as one of the most potent modulators of dark-flash habituation learning, with acute exposure causing a dramatic enhancement of habituation for the probability of executing an O-bend response \citep{Lamire2023-he}.
+
+Melatonin is a neuroendocrine hormone synthesized from tryptophan via serotonin, with the rate-limiting step catalyzed by arylalkylamine N-acetyltransferase (AANAT) \citep{Ganguly2002}.
+Its production is under tight circadian control, driven by the sympathetic innervation of the pineal gland and suppressed by light, resulting in high nocturnal concentrations in the blood and cerebrospinal fluid across vertebrate species, including zebrafish \citep{Falcn2009, Cahill1996, Gandhi2015_NEURON}.
+In zebrafish, two AANAT paralogs contribute to Melatonin synthesis: Aanat1, expressed primarily in the retina, and Aanat2, expressed in both the retina and the pineal gland \citep{Gandhi2015_NEURON, Hill2026}.
+This positions Melatonin as a key hormonal signal coupling the external light/dark cycle to internal physiological state.
+
+Melatonin acts primarily through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which signal through Gi proteins to reduce intracellular cAMP, though they exhibit distinct binding kinetics, signaling properties, and expression patterns \citep{Dubocovich2005, Liu2016, Cecon2017}.
+Both receptors are broadly expressed in the brain, including regions implicated in circadian regulation, sleep, and plasticity \citep{Ng2017, Klosen2019}.
+Zebrafish possess an expanded repertoire of six Melatonin receptors: three MT1-type (Mtnr1aa, Mtnr1ab, Mtnr1al), two MT2-type (Mtnr1ba, Mtnr1bb), and Mtnr1c, an ortholog of the mammalian Melatonin-insensitive GPR50 \citep{Hill2026}.
+This expanded repertoire provides a unique genetic handle for dissecting the functional contributions of individual receptor subtypes \emph{in vivo}.
+
+Beyond its canonical roles in sleep and circadian entrainment, Melatonin has been increasingly implicated in synaptic plasticity and cognitive function.
+In rodents, MT1/MT2 signaling shapes time-of-day-dependent hippocampal synaptic plasticity and learning efficiency \citep{Jilg2019-oy}, and genetic deletion of both receptors alters cognitive and motor performance \citep{ONealMoffitt2014}.
+Individual receptor knockouts reveal distinct functional roles: MT2-deficient mice show impaired hippocampal long-term potentiation \citep{Larson2006} and reduced long-term recognition memory \citep{Pistono2021}, while deletion of either MT1 or MT2 alone is sufficient to abrogate reward-associated conditioned place preference \citep{Clough2014}.
+Melatonin more broadly supports neuroplasticity through modulation of cAMP/CREB signaling \citep{ValdsTovar2018}.
+These findings argue that Melatonin receptor signaling has important functions in learning that are separable from its role in sleep promotion, but the circuit mechanisms and specific receptor subtypes responsible have not been well defined.
+
+Here we leverage the zebrafish system to address this gap.
+Using a large behavioral dataset, we first show that Melatonin has complex, bidirectional effects on multiple independently regulated components of dark-flash habituation, potentiating learning for response probability and latency while inhibiting habituation of movement amplitude and duration.
+We then demonstrate through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors that two MT1-type receptors, Mtnr1aa and Mtnr1al, cooperatively and non-redundantly mediate these effects.
+Finally, using whole-brain pERK activity mapping, we show that these two receptors appear to act in largely non-overlapping neural circuits.
+Together, these data provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning through the independent action of receptor paralogs in distinct brain regions.
 
 
 \section{Results}
@@ -246,9 +283,9 @@ Statistical significance was calculated using the Kruskal-Wallis test followed b
 \end{figure}
 
 In mammals, Melatonin signals through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which are expressed in the brain and other tissues.
-Zebrafish have a total of 6 MtnRs, including 3 MT1-type receptors (Mtnr1aa, Mtnr1ab, Mtnr1al), and 2 MT2-type receptors (Mtnr1ba, Mtnr1bb), and the additional Mtnr1c, which is homologous to the Melatonin-insensitive GPR50 receptor in mammals \citep{Hill2026}. '
-To identify which of these receptors mediate the effects of Melatonin on habituation learning, we generated CRISPR mutants for each of the 6 Mtnrs, and tested their effect on the modulation of habituation learning by exogenous Melatonin, to determine if we could identify mutants that are insensitive to the effects of Melatonin on habiuation. 
-Since the endogenous effects of Melatonin are mild (\autoref{fig:2}), we reasoned that mutants for the relevant receptor that are treated with Melatonin should show a significant change in responsivness during habituation relative to their sibling controls, and be indistinguishable from larvae untreated with Melatonin. THerefore, we focused our analyses on the Melatonin-treated groups, and compared the habituation of the mutants to their sibling controls, and to the untreated controls.
+Zebrafish have 6 identified MtnRs, including 3 MT1-type receptors (Mtnr1aa, Mtnr1ab, Mtnr1al), 2 MT2-type receptors (Mtnr1ba, Mtnr1bb), and the additional Mtnr1c, which is homologous to the Melatonin-insensitive GPR50 receptor in mammals \citep{Hill2026}. '
+To identify which of these receptors mediate the effects of Melatonin on habituation learning, we generated CRISPR mutants for each of the 6 Mtnrs, and tested their effect on the modulation of habituation learning by exogenous Melatonin, to determine if we could identify mutants that are insensitive to the effects of Melatonin on habituation. 
+Since the endogenous effects of Melatonin are subtle (\autoref{fig:2}), we focused our analyses of mutants on the effects of endogenous Melatonin, reasoning that mutants for the relevant receptor(s) should show a significant change in habituation relative to their sibling controls in the presence of Melatonin, behaving more similarly to untreated larvae. 
 
 \subsubsection{Mtnr1aa and Mtnr1al are each partially required for the effects of Melatonin on habituation learning}
 
@@ -285,7 +322,7 @@ Statistical significance was calculated using the Kruskal-Wallis test followed b
 % \endinternallinenumbers
 \end{figure}
 
-Having identified Mtnr1aa and Mtnr1al as two receptors that contribute to mediating the effects of Melatonin on habituation learning, we next wanted to determine if the MT2-type receptors (Mtnr1ba and Mtnr1bb) or Mtnr1c also play a role in mediating these effects. Each of these receptors are expressed in the brain, but in more restricted patterns than \emph{mtnr1aa} \citep{Hill2026}, and therefore they were also good candidates for mediating the effects of Melatonin on habituation learning. As with the other receptors, we generated CRISPR mutants for each of these receptors, and tested their effect on the modulation of habituation learning by exogenous Melatonin. As with \emph{mtnr1ab}, we found no evidence that mutants for either of the MT2-type receptors, Mtnr1ba and Mtnr1bb, or Mtnr1c show deficits in the effects of Melatonin on habituation learning (\autoref{fig:4}A-L), indicating that these receptors do not play a major role in mediating the effects of Melatonin on habituation learning.
+Having identified Mtnr1aa and Mtnr1al as two receptors that contribute to mediating the effects of Melatonin on habituation learning, we next wanted to determine if the MT2-type receptors (Mtnr1ba and Mtnr1bb) or Mtnr1c, may also modulate habituation learning. Each of these receptors are expressed in the brain, but in more restricted patterns than \emph{mtnr1aa} \citep{Hill2026}. As with the other receptors, we generated CRISPR mutants for each of these receptors, and tested their effect on the modulation of habituation learning by exogenous Melatonin. As with \emph{mtnr1ab}, we found no evidence that mutants for either of the MT2-type receptors, Mtnr1ba and Mtnr1bb, or Mtnr1c show deficits in the effects of Melatonin on habituation learning (\autoref{fig:4}A-L), indicating that these receptors do not play a major role in mediating the effects of Melatonin on habituation learning.
 
 \subsubsection{Mtnr1aa and Mtnr1al cooperatively mediate the effects of Melatonin on habituation learning}
 
@@ -342,7 +379,7 @@ From these data we can conclude that Mtnr1aa and Mtnr1al cooperatively mediate t
 % \endinternallinenumbers
 \end{figure}
 
-We envishion two models for how Mtnr1aa and Mtnr1al could cooperatively mediate the effects of Melatonin on habituation learning.
+We envision two models for how Mtnr1aa and Mtnr1al could cooperatively mediate the effects of Melatonin on habituation learning.
 In the first model, Mtnr1aa and Mtnr1al could be expressed in the same neurons, and therefore could act in a cooperative manner within the same cells to mediate the effects of Melatonin on habituation learning.
 In the second model, Mtnr1aa and Mtnr1al could be expressed in different neurons, and therefore could act in a cooperative manner across different parts of the circuit to mediate the effects of Melatonin on habituation learning.
 To distinguish between these models, we first examined the expression pattern of Mtnr1aa and Mtnr1al in the brain using fluorescent in situ hybridization (HCR) for each of these receptors. 
@@ -355,13 +392,20 @@ We compared Melatonin-treated mutants vs sibling controls after being exposed to
 This analysis revealed that the most prominent changes in the \emph{mtnr1aa} mutants were in the Tectum and the vicinity of the retinal arborization fields (AFs) which showed stronger activity in the mutants relative to sibling controls (\autoref{fig:6}C, F). This is consistent with a prominent role for the Tectum, and perhaps other primary visual areas like the pretectum, in mediating habituation learning \citep{Lamire2023-he}, and that Mtnr1aa acts in these areas to reinforce these effects. Other areas of differential activity included weak suppression of the Preoptic Area (POA), and some activation of the Torus Semicircularis.
 
 
-In contrast, \emph{mtnr1al} mutants showed very little modulation of the tectum, indicating that this is likely not the primary site of action for this receptor. However, they showed very strong suppression of the preoptic area (POA) (\autoref{fig:6}C, F). THis is similar to what we observed in the \emph{mtnr1aa} mutants, but much stronger. They also showed sparse alterations in activity in distributed hindbrain regions, and weak activation of the torus longitudinalis (TL). Therefore, despite the similar behavioural phenotype of \emph{mtnr1aa} and \emph{mtnr1al} mutants, these activity mapping data reveal a largely differential pattern of activity.
-Finally, we analyzed double mutants for both \emph{mtnr1aa} and \emph{mtnr1al}, which showed the strongest differential activity pattern, consistent with the stronger behavioural effects observed in these mutants (\autoref{fig:5}) and a cooperative role for these receptors. Indeed, the activity map observed for double-mutants appears to be both a combination of the more localized effects seen in the individual mutants (including strong tectum activation and POA suppression), well as additional alterations in activity, including areas of the pallium and subpallium, habenula, and cerebellum, as well as much stronger activation of the TL (\autoref{fig:6}E, F). 
-Collectively, these data are consistent with a model in which Mtnr1aa and Mtnr1al act in different parts of the circuit to promote habituation learning, with Mtnr1aa acting primarily in the Tectum and other primary visual areas, and Mtnr1al acting primarily in the POA, TL and hindbrain. 
+In contrast, \emph{mtnr1al} mutants showed very little modulation of the tectum, indicating that this is likely not the primary site of action for this receptor. 
+However, they showed very strong suppression of the preoptic area (POA) (\autoref{fig:6}C, F). 
+The POA was also suppressed in the \emph{mtnr1aa} mutants, but to a much lesser extent.
+In contrast, the torus longitudinalis (TL) showed little modulation in the \emph{mtnr1aa} mutants, but strong activation in the \emph{mtnr1al} mutants, indicating that this may be a key site of action for Mtnr1al. 
+The \emph{mtnr1al} mutants also showed sparse alterations in activity in distributed hindbrain regions.
+Therefore, despite the similar behavioural phenotype of \emph{mtnr1aa} and \emph{mtnr1al} mutants, these activity mapping data reveal a largely differential pattern of activity.
 
-
-
-
+To identify how these receptors function cooperatively, we analyzed double mutants for both \emph{mtnr1aa} and \emph{mtnr1al}. 
+These double muatnts showed the strongest differential activity pattern, consistent with the stronger behavioural effects observed in these mutants (\autoref{fig:5}) and a cooperative role for these receptors. 
+Indeed, the activity map observed for double-mutants appears to be: 
+1) a combination of the more localized effects seen in the individual mutants (including the activation of the tectum, retinal AFs, and TL, as well as suppression of the POA suppression), and 
+2) additional alterations in activity (including areas of the pallium and subpallium, habenula, and cerebellum) (\autoref{fig:6}E, F). 
+Collectively, these data are consistent with a model in which Mtnr1aa and Mtnr1al act in different parts of the circuit to promote habituation learning, with Mtnr1aa acting primarily in the Tectum and other primary visual areas, and Mtnr1al acting primarily in the POA, TL and hindbrain.
+When lost collectively, these effects combine to yield a much more robust and widespread alteration in brain activity patterns in response to DF training. 
 
 
 

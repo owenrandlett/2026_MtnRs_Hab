@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  19 MAY 2026 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  21 MAY 2026 08:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1472,120 +1472,130 @@ Underfull \hbox (badness 2005) in paragraph at lines 86--87
 \T1/opensans-TLF/m/n/10 Melatonin, Mela-tonin Re-cep-tors, Ha-bit-u-a-tion, Learn-ing, Ze-brafish, Larva, Sen-so-ri-mo-tor Gat-ing, Star-tle
  []
 
-<Figures/Figure_MelatoninBehaviourPhenotype.png, id=94, 936.25784pt x 287.03235pt>
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 105.
+
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 118.
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}]
+
+[2]
+<Figures/Figure_MelatoninBehaviourPhenotype.png, id=202, 936.25784pt x 287.03235pt>
 File: Figures/Figure_MelatoninBehaviourPhenotype.png Graphic file (type png)
 <use Figures/Figure_MelatoninBehaviourPhenotype.png>
-Package pdftex.def Info: Figures/Figure_MelatoninBehaviourPhenotype.png  used on input line 120.
+Package pdftex.def Info: Figures/Figure_MelatoninBehaviourPhenotype.png  used on input line 157.
 (pdftex.def)             Requested size: 509.01945pt x 156.05067pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 136.
+(Font)              scaled to size 7.0pt on input line 173.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 136.
+(Font)              scaled to size 7.0pt on input line 173.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 136.
+(Font)              scaled to size 7.0pt on input line 173.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 136.
+(Font)              scaled to size 5.0pt on input line 173.
 
-Underfull \hbox (badness 1270) in paragraph at lines 143--147
+Underfull \hbox (badness 1270) in paragraph at lines 180--184
 \T1/opensans-TLF/m/n/10 Through a high-throughput drug screen, we pre-vi-ously iden-ti-fied Mela-tonin as a po-tent mod-u-la-tor of
  []
 
 
+Overfull \vbox (4.93321pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
-[1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}]
+
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc} <./Figures/Figure_MelatoninBehaviourPhenotype.png>]
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 148.
+(Font)              scaled to size 10.0pt on input line 185.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 148.
+(Font)              scaled to size 7.5pt on input line 185.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 148.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 148.
+(Font)              scaled to size 7.5pt on input line 185.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 10.0pt on input line 148.
-
-
-[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc} <./Figures/Figure_MelatoninBehaviourPhenotype.png>]
-<Figures/Figure_AANATMutants.png, id=145, 969.02025pt x 609.7179pt>
+(Font)              scaled to size 10.0pt on input line 185.
+<Figures/Figure_AANATMutants.png, id=242, 969.02025pt x 609.7179pt>
 File: Figures/Figure_AANATMutants.png Graphic file (type png)
 <use Figures/Figure_AANATMutants.png>
-Package pdftex.def Info: Figures/Figure_AANATMutants.png  used on input line 173.
+Package pdftex.def Info: Figures/Figure_AANATMutants.png  used on input line 210.
 (pdftex.def)             Requested size: 509.01945pt x 320.28346pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.5pt on input line 203.
+(Font)              scaled to size 7.5pt on input line 240.
 
 
-[3]
+[4]
 
-[4 <./Figures/Figure_AANATMutants.png>]
-<Figures/Figure_MT1Mutants.png, id=170, 975.1632pt x 923.49014pt>
+[5 <./Figures/Figure_AANATMutants.png>]
+<Figures/Figure_MT1Mutants.png, id=268, 975.1632pt x 923.49014pt>
 File: Figures/Figure_MT1Mutants.png Graphic file (type png)
 <use Figures/Figure_MT1Mutants.png>
-Package pdftex.def Info: Figures/Figure_MT1Mutants.png  used on input line 226.
+Package pdftex.def Info: Figures/Figure_MT1Mutants.png  used on input line 263.
 (pdftex.def)             Requested size: 509.01945pt x 482.03542pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 7.0pt on input line 241.
+(Font)              scaled to size 7.0pt on input line 278.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 241.
+(Font)              scaled to size 7.0pt on input line 278.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 253.
-<Figures/Figure_MT2andCMutants.png, id=186, 971.42924pt x 940.35315pt>
+(Font)              scaled to size 12.0pt on input line 290.
+
+
+[6]
+
+[7 <./Figures/Figure_MT1Mutants.png>]
+<Figures/Figure_MT2andCMutants.png, id=297, 971.42924pt x 940.35315pt>
 File: Figures/Figure_MT2andCMutants.png Graphic file (type png)
 <use Figures/Figure_MT2andCMutants.png>
-Package pdftex.def Info: Figures/Figure_MT2andCMutants.png  used on input line 266.
+Package pdftex.def Info: Figures/Figure_MT2andCMutants.png  used on input line 303.
 (pdftex.def)             Requested size: 509.01945pt x 492.74579pt.
-
-
-[5]
-
-[6 <./Figures/Figure_MT1Mutants.png>]
-<Figures/Figure_AAandALMutants.png, id=202, 935.05334pt x 296.42744pt>
+<Figures/Figure_AAandALMutants.png, id=301, 935.05334pt x 296.42744pt>
 File: Figures/Figure_AAandALMutants.png Graphic file (type png)
 <use Figures/Figure_AAandALMutants.png>
-Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 297.
+Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 334.
 (pdftex.def)             Requested size: 509.01945pt x 161.36656pt.
-<Figures/Figure_pERK.png, id=206, 668.2566pt x 572.1375pt>
+
+
+[8]
+
+[9 <./Figures/Figure_MT2andCMutants.png>]
+<Figures/Figure_pERK.png, id=319, 668.2566pt x 572.1375pt>
 File: Figures/Figure_pERK.png Graphic file (type png)
 <use Figures/Figure_pERK.png>
-Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 334.
+Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 371.
 (pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
 
 
-[7]
+[10 <./Figures/Figure_AAandALMutants.png>]
 
-[8 <./Figures/Figure_MT2andCMutants.png>]
-
-[9 <./Figures/Figure_AAandALMutants.png> <./Figures/Figure_pERK.png>]
+[11 <./Figures/Figure_pERK.png>]
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 379.
+(Font)              scaled to size 12.0pt on input line 423.
 
 
-[10]
-
-[11]
-Underfull \hbox (badness 1152) in paragraph at lines 426--429
+[12]
+Underfull \hbox (badness 1152) in paragraph at lines 470--473
 []\T1/opensans-TLF/m/n/10 Control of the LEDs, solenoid, and cam-era ac-tu-a-tor was man-aged by a Rasp-berry Pi Pico run-ning
  []
 
 
 
-[12]
-Underfull \hbox (badness 1117) in paragraph at lines 469--470
+[13]
+Underfull \hbox (badness 1117) in paragraph at lines 513--514
 []\T1/opensans-TLF/m/n/10 Behavioral events were op-er-a-tionally de-fined based on cu-mu-la-tive tail bend an-gle thresh-olds, with
  []
 
-(./2026_MtnRHab.bbl
+
+
+[14] (./2026_MtnRHab.bbl
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 6.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 30.
 
 
-[13])
+[15])
 
-[14] (./2026_MtnRHab.suppinfo) 
+[16] (./2026_MtnRHab.suppinfo) 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./2026_MtnRHab.aux)
  ***********
@@ -1596,18 +1606,18 @@ Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
 (rerunfilecheck)             Checksum: D99D68127CE4BEADD0E10FAC76EF18B9;6578.
  ) 
 Here is how much of TeX's memory you used:
- 30363 strings out of 473330
- 558000 string characters out of 5723877
- 1061751 words of memory out of 5000000
- 53006 multiletter control sequences out of 15000+600000
- 624443 words of font info for 172 fonts, out of 8000000 for 9000
+ 30487 strings out of 473330
+ 560393 string characters out of 5723877
+ 1065418 words of memory out of 5000000
+ 53104 multiletter control sequences out of 15000+600000
+ 631210 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,11n,131p,2342b,1246s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,11n,131p,2342b,1264s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (14 pages, 43485268 bytes).
+Output written on 2026_MtnRHab.pdf (16 pages, 43500822 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 15567 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 16079 words of extra memory for PDF output out of 17280 (max. 10000000)
 
