@@ -2,43 +2,70 @@
 
 \bibitem[Burgess and Granato, 2007]{Burgess2007-2}
 Burgess, H.~A. and Granato, M. (2007).
-\newblock Modulation of locomotor activity in larval zebrafish during light adaptation.
+\newblock Modulation of locomotor activity in larval zebrafish during light
+  adaptation.
 \newblock {\em Journal of Experimental Biology}, 210(14):2526–2539.
 
 \bibitem[Cahill, 1996]{Cahill1996}
 Cahill, G.~M. (1996).
-\newblock Circadian regulation of melatonin production in cultured zebrafish pineal and retina.
+\newblock Circadian regulation of melatonin production in cultured zebrafish
+  pineal and retina.
 \newblock {\em Brain Research}, 708(1-2):177–181.
 
 \bibitem[Cecon et~al., 2017]{Cecon2017}
 Cecon, E., Oishi, A., and Jockers, R. (2017).
-\newblock Melatonin receptors: molecular pharmacology and signalling in the context of system bias.
+\newblock Melatonin receptors: molecular pharmacology and signalling in the
+  context of system bias.
 \newblock {\em British Journal of Pharmacology}, 175(16):3263–3280.
 
 \bibitem[Choi et~al., 2018]{Choi2018}
-Choi, H. M.~T., Schwarzkopf, M., Fornace, M.~E., Acharya, A., Artavanis, G., Stegmaier, J., Cunha, A., and Pierce, N.~A. (2018).
-\newblock Third-generation <i>in situ</i> hybridization chain reaction: multiplexed, quantitative, sensitive, versatile, robust.
+Choi, H. M.~T., Schwarzkopf, M., Fornace, M.~E., Acharya, A., Artavanis, G.,
+  Stegmaier, J., Cunha, A., and Pierce, N.~A. (2018).
+\newblock Third-generation <i>in situ</i> hybridization chain reaction:
+  multiplexed, quantitative, sensitive, versatile, robust.
 \newblock {\em Development}, 145(12).
 
 \bibitem[Clough et~al., 2014]{Clough2014}
 Clough, S.~J., Hutchinson, A.~J., Hudson, R.~L., and Dubocovich, M.~L. (2014).
-\newblock Genetic deletion of the mt1 or mt2 melatonin receptors abrogates methamphetamine-induced reward in c3h/hen mice.
+\newblock Genetic deletion of the mt1 or mt2 melatonin receptors abrogates
+  methamphetamine-induced reward in c3h/hen mice.
 \newblock {\em Physiology \& Behavior}, 132:79--86.
 
 \bibitem[Cooke and Ramaswami, 2020]{Cooke2020}
 Cooke, S.~F. and Ramaswami, M. (2020).
-\newblock {\em Ignoring the Innocuous: Neural Mechanisms of Habituation}, pages 197--206.
+\newblock {\em Ignoring the Innocuous: Neural Mechanisms of Habituation}, pages
+  197--206.
 \newblock The MIT Press.
+
+\bibitem[DeMarco et~al., 2021]{DeMarco2021}
+DeMarco, E., Tesmer, A.~L., Hech, B., Kawakami, K., and Robles, E. (2021).
+\newblock Pyramidal neurons of the zebrafish tectum receive highly convergent
+  input from torus longitudinalis.
+\newblock {\em Frontiers in Neuroanatomy}, 15:636683.
 
 \bibitem[Dubocovich and Markowska, 2005]{Dubocovich2005}
 Dubocovich, M.~L. and Markowska, M. (2005).
 \newblock Functional mt$_{1}$ and mt$_{2}$ melatonin receptors in mammals.
 \newblock {\em Endocrine}, 27(2):101–110.
 
+\bibitem[El-Sherif et~al., 2003]{El-Sherif2003-vt}
+El-Sherif, Y., Tesoriero, J., Hogan, M.~V., and Wieraszko, A. (2003).
+\newblock Melatonin regulates neuronal plasticity in the hippocampus.
+\newblock {\em J. Neurosci. Res.}, 72(4):454--460.
+
 \bibitem[Falcón et~al., 2009]{Falcn2009}
-Falcón, J., Besseau, L., Fuentès, M., Sauzet, S., Magnanou, E., and Boeuf, G. (2009).
-\newblock Structural and functional evolution of the pineal melatonin system in vertebrates.
+Falcón, J., Besseau, L., Fuentès, M., Sauzet, S., Magnanou, E., and Boeuf, G.
+  (2009).
+\newblock Structural and functional evolution of the pineal melatonin system in
+  vertebrates.
 \newblock {\em Annals of the New York Academy of Sciences}, 1163(1):101–111.
+
+\bibitem[Folgueira et~al., 2020]{Folgueira2020-tl}
+Folgueira, M., Riva-Mendoza, S., Ferre{\~n}o-Galm{\'a}n, N., Castro, A.,
+  Bianco, I.~H., Anad{\'o}n, R., and Y{\'a}{\~n}ez, J. (2020).
+\newblock Anatomy and connectivity of the torus longitudinalis of the adult
+  zebrafish.
+\newblock {\em Frontiers in Neural Circuits}, 14:8.
 
 \bibitem[Gandhi et~al., 2015]{Gandhi2015_NEURON}
 Gandhi, A.~V., Mosser, E.~A., Oikonomou, G., and Prober, D.~A. (2015).
@@ -47,77 +74,101 @@ Gandhi, A.~V., Mosser, E.~A., Oikonomou, G., and Prober, D.~A. (2015).
 
 \bibitem[Ganguly et~al., 2002]{Ganguly2002}
 Ganguly, S., Coon, S.~L., and Klein, D.~C. (2002).
-\newblock Control of melatonin synthesis in the mammalian pineal gland: the critical role of serotonin acetylation.
+\newblock Control of melatonin synthesis in the mammalian pineal gland: the
+  critical role of serotonin acetylation.
 \newblock {\em Cell and Tissue Research}, 309(1):127–137.
 
 \bibitem[Hill et~al., 2026]{Hill2026}
-Hill, A.~J., Eliopoulos, O., Emtage, J., Oikonomou, G., and Prober, D.~A. (2026).
-\newblock Melatonin promotes sleep by suppressing responses to visual stimuli via mt1 receptors.
+Hill, A.~J., Eliopoulos, O., Emtage, J., Oikonomou, G., and Prober, D.~A.
+  (2026).
+\newblock Melatonin promotes sleep by suppressing responses to visual stimuli
+  via mt1 receptors.
 \newblock {\em Current Biology}.
 
 \bibitem[Hsiao et~al., 2025]{Hsiao2025}
-Hsiao, A., Darvaux-Hubert, I., Hicks, D., Joux, E., De~Freitas, S., Dracos, E., Lizé, J., Perrichet, J., Baas, D., and Randlett, O. (2025).
-\newblock Estradiol promotes habituation learning via an unidentified target, bypassing the suppressive effects of established ers.
+Hsiao, A., Darvaux-Hubert, I., Hicks, D., Joux, E., De~Freitas, S., Dracos, E.,
+  Lizé, J., Perrichet, J., Baas, D., and Randlett, O. (2025).
+\newblock Estradiol promotes habituation learning via an unidentified target,
+  bypassing the suppressive effects of established ers.
 \newblock {\em Endocrinology}, 166(8).
 
 \bibitem[Jilg et~al., 2019]{Jilg2019-oy}
-Jilg, A., Bechstein, P., Saade, A., Dick, M., Li, T.~X., Tosini, G., Rami, A., Zemmar, A., and Stehle, J.~H. (2019).
-\newblock Melatonin modulates daytime-dependent synaptic plasticity and learning efficiency.
+Jilg, A., Bechstein, P., Saade, A., Dick, M., Li, T.~X., Tosini, G., Rami, A.,
+  Zemmar, A., and Stehle, J.~H. (2019).
+\newblock Melatonin modulates daytime-dependent synaptic plasticity and
+  learning efficiency.
 \newblock {\em J. Pineal Res.}, 66(3):e12553.
 
 \bibitem[Klosen et~al., 2019]{Klosen2019}
-Klosen, P., Lapmanee, S., Schuster, C., Guardiola, B., Hicks, D., Pevet, P., and Felder‐Schmittbuhl, M.~P. (2019).
-\newblock Mt1 and mt2 melatonin receptors are expressed in nonoverlapping neuronal populations.
+Klosen, P., Lapmanee, S., Schuster, C., Guardiola, B., Hicks, D., Pevet, P.,
+  and Felder‐Schmittbuhl, M.~P. (2019).
+\newblock Mt1 and mt2 melatonin receptors are expressed in nonoverlapping
+  neuronal populations.
 \newblock {\em Journal of Pineal Research}, 67(1).
 
 \bibitem[Labun et~al., 2019]{Labun2019}
-Labun, K., Montague, T.~G., Krause, M., Torres~Cleuren, Y.~N., Tjeldnes, H., and Valen, E. (2019).
+Labun, K., Montague, T.~G., Krause, M., Torres~Cleuren, Y.~N., Tjeldnes, H.,
+  and Valen, E. (2019).
 \newblock Chopchop v3: expanding the crispr web toolbox beyond genome editing.
 \newblock {\em Nucleic Acids Research}, 47(W1):W171–W174.
 
 \bibitem[Lamir{\'e} et~al., 2023]{Lamire2023-he}
-Lamir{\'e}, L.~A., Haesemeyer, M., Engert, F., Granato, M., and Randlett, O. (2023).
-\newblock Functional and pharmacological analyses of visual habituation learning in larval zebrafish.
+Lamir{\'e}, L.~A., Haesemeyer, M., Engert, F., Granato, M., and Randlett, O.
+  (2023).
+\newblock Functional and pharmacological analyses of visual habituation
+  learning in larval zebrafish.
 \newblock {\em Elife}, 12.
 
 \bibitem[Larson et~al., 2006]{Larson2006}
-Larson, J., Jessen, R.~E., Uz, T., Arslan, A.~D., Kurtuncu, M., Imbesi, M., and Manev, H. (2006).
-\newblock Impaired hippocampal long-term potentiation in melatonin mt2 receptor-deficient mice.
+Larson, J., Jessen, R.~E., Uz, T., Arslan, A.~D., Kurtuncu, M., Imbesi, M., and
+  Manev, H. (2006).
+\newblock Impaired hippocampal long-term potentiation in melatonin mt2
+  receptor-deficient mice.
 \newblock {\em Neuroscience Letters}, 393(1):23–26.
 
 \bibitem[Liu et~al., 2016]{Liu2016}
-Liu, J., Clough, S.~J., Hutchinson, A.~J., Adamah-Biassi, E.~B., Popovska-Gorevski, M., and Dubocovich, M.~L. (2016).
+Liu, J., Clough, S.~J., Hutchinson, A.~J., Adamah-Biassi, E.~B.,
+  Popovska-Gorevski, M., and Dubocovich, M.~L. (2016).
 \newblock Mt1 and mt2 melatonin receptors: A therapeutic perspective.
 \newblock {\em Annual Review of Pharmacology and Toxicology}, 56(1):361–383.
 
 \bibitem[McDiarmid et~al., 2017]{McDiarmid2017}
 McDiarmid, T.~A., Bernardos, A.~C., and Rankin, C.~H. (2017).
-\newblock Habituation is altered in neuropsychiatric disorders---a comprehensive review with recommendations for experimental design and analysis.
+\newblock Habituation is altered in neuropsychiatric disorders---a
+  comprehensive review with recommendations for experimental design and
+  analysis.
 \newblock {\em Neuroscience \& Biobehavioral Reviews}, 80:286--305.
 
 \bibitem[McDiarmid et~al., 2019]{McDiarmid2019-td}
 McDiarmid, T.~A., Yu, A.~J., and Rankin, C.~H. (2019).
-\newblock Habituation is more than learning to ignore: Multiple mechanisms serve to facilitate shifts in behavioral strategy.
+\newblock Habituation is more than learning to ignore: Multiple mechanisms
+  serve to facilitate shifts in behavioral strategy.
 \newblock {\em Bioessays}, 41(9):e1900077.
 
 \bibitem[Nelson et~al., 2022]{Nelson2022}
 Nelson, J.~C., Shoenhard, H.~M., and Granato, M. (2022).
-\newblock Pharmacogenetic and whole-brain activity analyses uncover integration of distinct molecular and circuit programs that drive learning.
+\newblock Pharmacogenetic and whole-brain activity analyses uncover integration
+  of distinct molecular and circuit programs that drive learning.
 \newblock {\em bioRxiv}.
 
 \bibitem[Ng et~al., 2017]{Ng2017}
 Ng, K.~Y., Leong, M.~K., Liang, H., and Paxinos, G. (2017).
-\newblock Melatonin receptors: distribution in mammalian brain and their respective putative functions.
+\newblock Melatonin receptors: distribution in mammalian brain and their
+  respective putative functions.
 \newblock {\em Brain Structure and Function}, 222(7):2921–2939.
 
 \bibitem[O’Neal-Moffitt et~al., 2014]{ONealMoffitt2014}
 O’Neal-Moffitt, G., Pilli, J., Kumar, S., and Olcese, J. (2014).
-\newblock Genetic deletion of mt1/mt2 melatonin receptors enhances murine cognitive and motor performance.
+\newblock Genetic deletion of mt1/mt2 melatonin receptors enhances murine
+  cognitive and motor performance.
 \newblock {\em Neuroscience}, 277:506–521.
 
 \bibitem[Pistono et~al., 2021]{Pistono2021}
-Pistono, C., Zimmermann, A., Morel, C., Herbeaux, K., Héraud, C., Dumont-Kientzy, S., Pevet, P., Felder-Schmittbuhl, M.-P., and Mathis, C. (2021).
-\newblock Major role of mt2 receptors in the beneficial effect of melatonin on long-term recognition memory in c57bl/6j male mice.
+Pistono, C., Zimmermann, A., Morel, C., Herbeaux, K., Héraud, C.,
+  Dumont-Kientzy, S., Pevet, P., Felder-Schmittbuhl, M.-P., and Mathis, C.
+  (2021).
+\newblock Major role of mt2 receptors in the beneficial effect of melatonin on
+  long-term recognition memory in c57bl/6j male mice.
 \newblock {\em Hormones and Behavior}, 136:105076.
 
 \bibitem[Ramaswami, 2014]{ramaswami2014network}
@@ -126,33 +177,74 @@ Ramaswami, M. (2014).
 \newblock {\em Neuron}, 82(6):1216--1229.
 
 \bibitem[Randlett et~al., 2019]{Randlett2019-fj}
-Randlett, O., Haesemeyer, M., Forkin, G., Shoenhard, H., Schier, A.~F., Engert, F., and Granato, M. (2019).
-\newblock Distributed plasticity drives visual habituation learning in larval zebrafish.
+Randlett, O., Haesemeyer, M., Forkin, G., Shoenhard, H., Schier, A.~F., Engert,
+  F., and Granato, M. (2019).
+\newblock Distributed plasticity drives visual habituation learning in larval
+  zebrafish.
 \newblock {\em Curr. Biol.}, 29(8):1337--1345.e4.
 
 \bibitem[Rankin et~al., 2009]{Rankin2009-no}
-Rankin, C.~H., Abrams, T., Barry, R.~J., Bhatnagar, S., Clayton, D.~F., Colombo, J., Coppola, G., Geyer, M.~A., Glanzman, D.~L., Marsland, S., McSweeney, F.~K., Wilson, D.~A., Wu, C.-F., and Thompson, R.~F. (2009).
-\newblock Habituation revisited: an updated and revised description of the behavioral characteristics of habituation.
+Rankin, C.~H., Abrams, T., Barry, R.~J., Bhatnagar, S., Clayton, D.~F.,
+  Colombo, J., Coppola, G., Geyer, M.~A., Glanzman, D.~L., Marsland, S.,
+  McSweeney, F.~K., Wilson, D.~A., Wu, C.-F., and Thompson, R.~F. (2009).
+\newblock Habituation revisited: an updated and revised description of the
+  behavioral characteristics of habituation.
 \newblock {\em Neurobiol. Learn. Mem.}, 92(2):135--138.
+
+\bibitem[Rawashdeh et~al., 2007]{Rawashdeh2007-bw}
+Rawashdeh, O., de~Borsetti, N.~H., Roman, G., and Cahill, G.~M. (2007).
+\newblock Melatonin suppresses nighttime memory formation in zebrafish.
+\newblock {\em Science}, 318(5853):1144--1146.
+
+\bibitem[Reichert et~al., 2019]{Reichert2019-sz}
+Reichert, S., Pav{\'o}n~Arocas, O., and Rihel, J. (2019).
+\newblock The neuropeptide galanin is required for homeostatic rebound sleep
+  following increased neuronal activity.
+\newblock {\em Neuron}, 104(2):370--384.e8.
+
+\bibitem[Robles et~al., 2021]{Robles2021}
+Robles, E., Fields, N.~P., and Baier, H. (2021).
+\newblock The zebrafish visual system transmits dimming information via
+  multiple segregated pathways.
+\newblock {\em Journal of Comparative Neurology}, 529(3):539--552.
+
+\bibitem[Terpilowski, 2019]{Terpilowski2019}
+Terpilowski, M. (2019).
+\newblock scikit-posthocs: Pairwise multiple comparison tests in python.
+\newblock {\em Journal of Open Source Software}, 4(36):1169.
+
+\bibitem[Tesmer et~al., 2022]{Tesmer2022}
+Tesmer, A.~L., Fields, N.~P., and Robles, E. (2022).
+\newblock Input from torus longitudinalis drives binocularity and spatial
+  summation in zebrafish optic tectum.
+\newblock {\em {BMC} Biology}, 20(1):24.
 
 \bibitem[Thompson and Spencer, 1966]{Thompson1966}
 Thompson, R.~F. and Spencer, W.~A. (1966).
-\newblock Habituation: A model phenomenon for the study of neuronal substrates of behavior.
+\newblock Habituation: A model phenomenon for the study of neuronal substrates
+  of behavior.
 \newblock {\em Psychological Review}, 73(1):16–43.
 
 \bibitem[Valdés‐Tovar et~al., 2018]{ValdsTovar2018}
-Valdés‐Tovar, M., Estrada‐Reyes, R., Solís‐Chagoyán, H., Argueta, J., Dorantes‐Barrón, A.~M., Quero‐Chávez, D., Cruz‐Garduño, R., Cercós, M.~G., Trueta, C., Oikawa‐Sala, J., Dubocovich, M.~L., and Benítez‐King, G. (2018).
-\newblock Circadian modulation of neuroplasticity by melatonin: a target in the treatment of depression.
+Valdés‐Tovar, M., Estrada‐Reyes, R., Solís‐Chagoyán, H., Argueta, J.,
+  Dorantes‐Barrón, A.~M., Quero‐Chávez, D., Cruz‐Garduño, R., Cercós,
+  M.~G., Trueta, C., Oikawa‐Sala, J., Dubocovich, M.~L., and Benítez‐King,
+  G. (2018).
+\newblock Circadian modulation of neuroplasticity by melatonin: a target in the
+  treatment of depression.
 \newblock {\em British Journal of Pharmacology}, 175(16):3200--3208.
 
 \bibitem[Wolman et~al., 2011]{wolman_chemical_2011}
 Wolman, M.~A., Jain, R.~A., Liss, L., and Granato, M. (2011).
 \newblock Chemical modulation of memory formation in larval zebrafish.
-\newblock {\em Proceedings of the National Academy of Sciences}, 108(37):15468--15473.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  108(37):15468--15473.
 
 \bibitem[Wolman et~al., 2015]{Wolman2015}
-Wolman, M.~A., Jain, R.~A., Marsden, K.~C., Bell, H., Skinner, J., Hayer, K.~E., Hogenesch, J.~B., and Granato, M. (2015).
-\newblock A genome-wide screen identifies papp-aa-mediated igfr signaling as a novel regulator of habituation learning.
+Wolman, M.~A., Jain, R.~A., Marsden, K.~C., Bell, H., Skinner, J., Hayer,
+  K.~E., Hogenesch, J.~B., and Granato, M. (2015).
+\newblock A genome-wide screen identifies papp-aa-mediated igfr signaling as a
+  novel regulator of habituation learning.
 \newblock {\em Neuron}, 85(6):1200–1211.
 
 \end{thebibliography}

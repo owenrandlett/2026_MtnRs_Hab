@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 2026_MtnRHab.aux
 The style file: apalike.bst
 Database file #1: References_MtnRHab.bib
-You've used 31 entries,
+You've used 39 entries,
             1935 wiz_defined-function locations,
-            713 strings with 11828 characters,
-and the built_in function-call counts, 15283 in all, are:
-= -- 1398
-> -- 911
-< -- 7
-+ -- 330
-- -- 328
-* -- 1494
-:= -- 2706
-add.period$ -- 93
-call.type$ -- 31
-change.case$ -- 318
-chr.to.int$ -- 31
-cite$ -- 31
-duplicate$ -- 438
-empty$ -- 925
-format.name$ -- 367
-if$ -- 2878
+            773 strings with 13683 characters,
+and the built_in function-call counts, 18753 in all, are:
+= -- 1727
+> -- 1084
+< -- 8
++ -- 394
+- -- 388
+* -- 1824
+:= -- 3320
+add.period$ -- 117
+call.type$ -- 39
+change.case$ -- 388
+chr.to.int$ -- 39
+cite$ -- 39
+duplicate$ -- 550
+empty$ -- 1153
+format.name$ -- 435
+if$ -- 3533
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 32
-newline$ -- 158
-num.names$ -- 93
-pop$ -- 262
+missing$ -- 40
+newline$ -- 198
+num.names$ -- 117
+pop$ -- 315
 preamble$ -- 1
-purify$ -- 319
+purify$ -- 389
 quote$ -- 0
-skip$ -- 331
+skip$ -- 412
 stack$ -- 0
-substring$ -- 1076
-swap$ -- 40
+substring$ -- 1330
+swap$ -- 48
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 184
+type$ -- 232
 warning$ -- 0
-while$ -- 96
+while$ -- 124
 width$ -- 0
-write$ -- 403
+write$ -- 507
