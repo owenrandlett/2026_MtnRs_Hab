@@ -509,9 +509,14 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-T1
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-BoldItalic-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/ascender/opensans/OpenSans-BoldItalic-T1-TLF.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-BoldItalic-T1-TLF--base.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt10.tfm
 INPUT ./2026_MtnRHab.bbl
 INPUT ./2026_MtnRHab.bbl
 INPUT 2026_MtnRHab.bbl
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Italic-T1-TLF.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/stix/stix-mathrm.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/stix/stix-mathit.tfm
@@ -538,5 +543,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb

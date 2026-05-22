@@ -15,6 +15,11 @@ Cecon, E., Oishi, A., and Jockers, R. (2017).
 \newblock Melatonin receptors: molecular pharmacology and signalling in the context of system bias.
 \newblock {\em British Journal of Pharmacology}, 175(16):3263–3280.
 
+\bibitem[Choi et~al., 2018]{Choi2018}
+Choi, H. M.~T., Schwarzkopf, M., Fornace, M.~E., Acharya, A., Artavanis, G., Stegmaier, J., Cunha, A., and Pierce, N.~A. (2018).
+\newblock Third-generation <i>in situ</i> hybridization chain reaction: multiplexed, quantitative, sensitive, versatile, robust.
+\newblock {\em Development}, 145(12).
+
 \bibitem[Clough et~al., 2014]{Clough2014}
 Clough, S.~J., Hutchinson, A.~J., Hudson, R.~L., and Dubocovich, M.~L. (2014).
 \newblock Genetic deletion of the mt1 or mt2 melatonin receptors abrogates methamphetamine-induced reward in c3h/hen mice.
@@ -45,15 +50,15 @@ Ganguly, S., Coon, S.~L., and Klein, D.~C. (2002).
 \newblock Control of melatonin synthesis in the mammalian pineal gland: the critical role of serotonin acetylation.
 \newblock {\em Cell and Tissue Research}, 309(1):127–137.
 
-\bibitem[Guilbeault et~al., 2021]{Guilbeault2021}
-Guilbeault, N.~C., Guerguiev, J., Martin, M., Tate, I., and Thiele, T.~R. (2021).
-\newblock Bonzeb: open-source, modular software tools for high-resolution zebrafish tracking and analysis.
-\newblock {\em Scientific Reports}, 11(1).
-
 \bibitem[Hill et~al., 2026]{Hill2026}
 Hill, A.~J., Eliopoulos, O., Emtage, J., Oikonomou, G., and Prober, D.~A. (2026).
 \newblock Melatonin promotes sleep by suppressing responses to visual stimuli via mt1 receptors.
 \newblock {\em Current Biology}.
+
+\bibitem[Hsiao et~al., 2025]{Hsiao2025}
+Hsiao, A., Darvaux-Hubert, I., Hicks, D., Joux, E., De~Freitas, S., Dracos, E., Lizé, J., Perrichet, J., Baas, D., and Randlett, O. (2025).
+\newblock Estradiol promotes habituation learning via an unidentified target, bypassing the suppressive effects of established ers.
+\newblock {\em Endocrinology}, 166(8).
 
 \bibitem[Jilg et~al., 2019]{Jilg2019-oy}
 Jilg, A., Bechstein, P., Saade, A., Dick, M., Li, T.~X., Tosini, G., Rami, A., Zemmar, A., and Stehle, J.~H. (2019).
@@ -64,6 +69,11 @@ Jilg, A., Bechstein, P., Saade, A., Dick, M., Li, T.~X., Tosini, G., Rami, A., Z
 Klosen, P., Lapmanee, S., Schuster, C., Guardiola, B., Hicks, D., Pevet, P., and Felder‐Schmittbuhl, M.~P. (2019).
 \newblock Mt1 and mt2 melatonin receptors are expressed in nonoverlapping neuronal populations.
 \newblock {\em Journal of Pineal Research}, 67(1).
+
+\bibitem[Labun et~al., 2019]{Labun2019}
+Labun, K., Montague, T.~G., Krause, M., Torres~Cleuren, Y.~N., Tjeldnes, H., and Valen, E. (2019).
+\newblock Chopchop v3: expanding the crispr web toolbox beyond genome editing.
+\newblock {\em Nucleic Acids Research}, 47(W1):W171–W174.
 
 \bibitem[Lamir{\'e} et~al., 2023]{Lamire2023-he}
 Lamir{\'e}, L.~A., Haesemeyer, M., Engert, F., Granato, M., and Randlett, O. (2023).
@@ -80,11 +90,6 @@ Liu, J., Clough, S.~J., Hutchinson, A.~J., Adamah-Biassi, E.~B., Popovska-Gorevs
 \newblock Mt1 and mt2 melatonin receptors: A therapeutic perspective.
 \newblock {\em Annual Review of Pharmacology and Toxicology}, 56(1):361–383.
 
-\bibitem[Lopes et~al., 2015]{Lopes2015}
-Lopes, G., Bonacchi, N., FrazÃ£o, J., Neto, J.~P., Atallah, B.~V., Soares, S., Moreira, L., Matias, S., Itskov, P.~M., Correia, P.~A., Medina, R.~E., Calcaterra, L., Dreosti, E., Paton, J.~J., and Kampff, A.~R. (2015).
-\newblock Bonsai: an event-based framework for processing and controlling data streams.
-\newblock {\em Frontiers in Neuroinformatics}, 9.
-
 \bibitem[McDiarmid et~al., 2017]{McDiarmid2017}
 McDiarmid, T.~A., Bernardos, A.~C., and Rankin, C.~H. (2017).
 \newblock Habituation is altered in neuropsychiatric disorders---a comprehensive review with recommendations for experimental design and analysis.
@@ -98,6 +103,7 @@ McDiarmid, T.~A., Yu, A.~J., and Rankin, C.~H. (2019).
 \bibitem[Nelson et~al., 2022]{Nelson2022}
 Nelson, J.~C., Shoenhard, H.~M., and Granato, M. (2022).
 \newblock Pharmacogenetic and whole-brain activity analyses uncover integration of distinct molecular and circuit programs that drive learning.
+\newblock {\em bioRxiv}.
 
 \bibitem[Ng et~al., 2017]{Ng2017}
 Ng, K.~Y., Leong, M.~K., Liang, H., and Paxinos, G. (2017).
@@ -108,11 +114,6 @@ Ng, K.~Y., Leong, M.~K., Liang, H., and Paxinos, G. (2017).
 O’Neal-Moffitt, G., Pilli, J., Kumar, S., and Olcese, J. (2014).
 \newblock Genetic deletion of mt1/mt2 melatonin receptors enhances murine cognitive and motor performance.
 \newblock {\em Neuroscience}, 277:506–521.
-
-\bibitem[Peirce, 2007]{Peirce2007}
-Peirce, J.~W. (2007).
-\newblock Psychopy—psychophysics software in python.
-\newblock {\em Journal of Neuroscience Methods}, 162(1–2):8–13.
 
 \bibitem[Pistono et~al., 2021]{Pistono2021}
 Pistono, C., Zimmermann, A., Morel, C., Herbeaux, K., Héraud, C., Dumont-Kientzy, S., Pevet, P., Felder-Schmittbuhl, M.-P., and Mathis, C. (2021).
