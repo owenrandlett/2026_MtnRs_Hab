@@ -424,81 +424,73 @@ This is consistent with the principle, established across organisms from \emph{C
 Our data show that Melatonin engages this modular organization selectively and bidirectionally: it accelerates habituation learning for response probability and latency while slowing it for amplitude and duration, leaving displacement and reorientation largely unaffected.
 This pattern is fundamentally incompatible with a global arousal-suppressing action — if Melatonin were simply inducing sedation, all response parameters would shift in the same direction, and the acoustic startle response would also be suppressed.
 Critically, the acoustic response is indistinguishable between Melatonin-treated and control animals at the concentrations used \citep{Lamire2023-he}, confirming that Melatonin's effects are sensorimotor-circuit-specific rather than a consequence of sleep promotion \citep{Gandhi2015_NEURON, Hill2026}. 
-Recently, \citealp{Hill2026} propose that Melatonin acts to suppress visual responses, and that this mechanism may explain the sleep-promoting effects of Melatonin. 
-They found that larvae treated with Melatonin are less sensitive to a weak visual dimming stimulus, but this effect was only reported for the population of fish that similarly responded to a strong visual dimming stimulus. 
-Our data presented here, and previously \citep{Lamire2023-he}, are not consistent with this model. 
-The strongest and clearest effects are in the promotion of the habitiation learning process, and further Melatonin not only suppresses, but also potentiates aspects of these visual responses. 
-While it is clear that Melatonin affecgts visual responsivness, our analyeses indicate that the role of Melatonin on the visual system is rather more complex than a simple suppression of responsiveness. 
-
-
+Recently, \citealp{Hill2026} propose that Melatonin acts to suppress visual responses, and that this mechanism of stimulus insensitivity may explain the sleep-promoting effects of Melatonin. 
+They found that larvae treated with Melatonin are less sensitive to a weak visual dimming stimulus, but this effect was only reported for the population of fish that had similarly responded to a strong visual dimming stimulus preceeding the weak stimulus. 
+Our data are not consistent with this model. 
+Instead, we find that the primary effect of Melatonin is the promotion of the habitiation learning process. 
+Further Melatonin not only suppresses, but also potentiates aspects of these visual responses. 
+While it is clear that Melatonin affects visual responsivness, our analyeses indicate that the role of Melatonin on the visual system is rather more complex than a simple suppression of responsiveness. 
 
 The bidirectional nature of Melatonin's effects on plasticity is not without precedent.
 Exogenous Melatonin modulates multiple distinct forms of synaptic plasticity in hippocampal slices in a parameter-dependent manner, attenuating low-frequency evoked population spikes while modifying paired-pulse facilitation and inhibition in opposite directions depending on inter-stimulus interval \citep{El-Sherif2003-vt}.
-At the molecular level, Gi-coupled Melatonin receptor signaling converges on cAMP/CREB and downstream kinase pathways whose consequences for synaptic plasticity are highly state-, circuit-, and concentration-dependent \citep{ValdsTovar2018, Jilg2019-oy}.
+At the molecular level, Gi-coupled Melatonin receptor signaling converges on cAMP/CREB and downstream kinase pathways whose consequences for synaptic plasticity are highly state- and circuit-dependent \citep{ValdsTovar2018, Jilg2019-oy, MalenkaAndBear2004}.
 The specific context of habituation training — where distinct molecular programs independently regulate distinct response components — thus provides a revealing readout through which the bidirectional circuit-specificity of Melatonin can be dissected.
+
+\subsection*{The role of endogenously produced Melatonin in habituation learning} 
 
 That endogenous Melatonin deficiency (\emph{aanat1;aanat2} double mutants) produces a deficit specifically for response probability but not for amplitude or duration likely reflects the fundamental limitations of the visual assay: dark-flash stimulation requires light-adaptation, which is itself a potent suppressor of pineal and retinal Melatonin synthesis.
 The more selective deficit of endogenous deficiency compared to the bidirectional effects of pharmacological Melatonin may therefore reflect a physiological ceiling on achievable Melatonin concentrations during the assay, rather than a true mechanistic difference in the circuits that endogenous Melatonin normally modulates.
 
+A notable feature of our endogenous Melatonin experiments is that the habituation deficit requires loss of both Aanat1 and Aanat2, with neither single mutant alone producing a robust phenotype.
+This functional redundancy is interesting in light of the distinct anatomical sources of these two enzymes: Aanat2 drives Melatonin synthesis in both the pineal gland and the retina, whereas Aanat1 is expressed almost exclusively in the retina \citep{Gandhi2015_NEURON, Hill2026}.
+Previous behavioral studies of endogenous Melatonin in zebrafish have focused primarily on the pineal gland as the relevant source of systemic hormone: \citet{Gandhi2015_NEURON} found that \emph{aanat2} single mutants show disrupted sleep consolidation — consistent with a dominant pineal contribution to circulating nocturnal Melatonin — while \emph{aanat1} single mutants did not have a phenotype in this context.
+Similarly, Rawashdeh et al. attributed the night-time suppression of operant memory to pineal-derived Melatonin, based on the effects of pinealectomy \citep{Rawashdeh2007-bw}.
+In contrast, \citealt{Hill2026} demonstrated that endogenous Melatonin suppresses visual responsiveness at night through \emph{aanat2}-derived Melatonin, explicitly noting that their \emph{aanat2} mutants retain retinal Melatonin (from Aanat1), and separately confirming that \emph{aanat1} mutants do not worsen the \emph{aanat2} sleep phenotype — establishing pineal-derived Melatonin as the primary relevant source in that context.
+Our habituation data suggest a different relationship between these two Melatonin sources: the requirement for loss of \emph{both} Aanat1 and Aanat2 implies that neither source alone is sufficient to sustain normal habituation.
+Importantly, however, this redundancy may reflect two \emph{retinal} Melatonin sources rather than a retinal–pineal dichotomy.
+Since Aanat2 is expressed in the retina as well as the pineal gland, the functional overlap we observe may be between Aanat1-derived and Aanat2-derived retinal Melatonin, with the pineal contributing little in our assay conditions.
+Consistent with this interpretation, our assay requires light-adaptation, which robustly suppresses pineal Melatonin synthesis, and we observed no circadian dependence of the habituation deficit — day-tested (\autoref{fig:2}A) and night-tested (\autoref{fig:2}G) double mutants showed similarly impaired habituation, the opposite of what would be expected if pineal-derived Melatonin (which is strongly elevated only at night) were the primary relevant source.
+Together, these observations raise the possibility that retinal Melatonin — produced locally in a light-regulated, cell-autonomous manner — is the dominant endogenous source modulating habituation in this context, with the two retinal AANAT paralogs providing redundant synthetic capacity.
+Further work, including retina-specific rescue experiments and measurements of local retinal versus circulating Melatonin levels during the assay, will be required to test this hypothesis directly.
+
+An equally open question is how retinal Melatonin reaches the brain circuits where it acts.
+Retinal Melatonin is generally considered a local neuromodulator, acting in to regulate photoreceptor function and retinal signal processing,\citep{Besharse2016, Bhoi2023}, and therefore it could exert its influence on habituation via the modulation retinal ganglion cell activity.
+However, Melatonin is a small (\textasciitilde232 Da), highly lipophilic molecule that crosses membranes by passive diffusion.
+Melatonin produced in the retina could conceivably diffuse inward through the retina, and along the optic nerve towards central targets.
+Strikingly, the most prominent site of differential pERK activity in \emph{mtnr1aa} mutants are proximal to the termination zones of retinal axons in the tectum — which are in immediate anatomical proximity to the retinal source and represent the first central synaptic station for retinal output.
+Whether Mtnr1aa at this location is activated by retinal Melatonin arriving by diffusion, by systemic Melatonin, or by Melatonin modulating the retinal output signal itself remains to be determined, but the anatomical coincidence between the site of MtnR action and the termination of retinal projections makes the retina a compelling candidate source.
+
 \subsection*{Functional specialization of two cooperative MT1-type receptors}
 
 Of the six zebrafish Melatonin receptors spanning both MT1-type and MT2-type clades, only the two MT1-type paralogs Mtnr1aa and Mtnr1al contribute to Melatonin's effects on habituation.
-The dispensability of both MT2-type receptors is notable.
+The dispensability of MT2-type receptors is notable.
 In mammals, MT2 is required for normal hippocampal long-term potentiation \citep{Larson2006} and long-term recognition memory \citep{Pistono2021}, and deletion of either MT1 or MT2 alone is sufficient to abrogate methamphetamine-induced conditioned place preference \citep{Clough2014}, demonstrating functional roles for both subtypes in plasticity.
-The restricted expression of MT2-type receptors in zebrafish larvae \citep{Hill2026} likely explains their dispensability in the present context: if Mtnr1ba and Mtnr1bb are not present at sufficient levels in the circuits governing dark-flash habituation, they would contribute nothing to the Melatonin behavioral phenotype even if they are competent to modulate plasticity elsewhere.
+Therefore, it is clear that MT2-type receptors are able to influence plasticity in some contexts. While this may highlight a difference between zebrafish and mammalian MT2-type receptors, and more likely explanation for their dispensability in our assay is that they may simply not expressed in the relevant circuits implementing habituation. 
+Differential expression may also explain the dispensability of the MT1-type receptor Mtnr1ab, as well as Mtnr1c, which is homologous to the Melatonin-insensitive GPR50 receptor in mammals and may not even be a functional Melatonin receptor.
 
-Within the MT1-type clade, the dispensability of Mtnr1ab despite its close phylogenetic relationship to Mtnr1aa illustrates functional paralog divergence following gene duplication.
-Mtnr1aa and Mtnr1ab share high sequence identity yet show distinct brain expression patterns, with Mtnr1ab restricted to a subset of the areas expressing Mtnr1aa \citep{Hill2026}.
+
 The cooperative non-redundancy of Mtnr1aa and Mtnr1al adds a further layer of specialization: each single mutant loses approximately half of the Melatonin-dependent habituation enhancement across all response components, and double mutants lose it entirely.
-This strictly additive, non-redundant relationship is the behavioral signature of two receptors mediating independent, non-overlapping arms of the same modulatory signal — a conclusion the pERK mapping data confirm at the circuit level.
+This additive, non-redundant relationship is the behavioral signature of two receptors mediating independent, non-overlapping arms of the same modulatory signal — a conclusion the pERK mapping data confirm at the circuit level.
 
-\subsection*{Mtnr1aa acts in the optic tectum and primary visual areas}
+\subsection*{Mtnr1aa and Mtnr1al act in non-overlapping brain circuits}
 
-Whole-brain pERK activity mapping in Melatonin-treated \emph{mtnr1aa} mutants reveals that the optic tectum and retinal arborization fields show significantly greater activity after dark-flash training compared to Melatonin-treated sibling controls.
-Because pERK levels reflect the recent neuronal activity history of a cell, elevated tectal pERK in mutants indicates that Mtnr1aa normally reduces visually evoked activity in these areas during repeated training — a progressive reduction that constitutes the neural correlate of habituation at this circuit node.
-This is directly consistent with the optic tectum having been identified as a major site of the distributed synaptic plasticity underlying dark-flash habituation in larval zebrafish \citep{Randlett2019-fj, Lamire2023-he}.
-We propose that Melatonin, acting via Mtnr1aa expressed in tectal and/or retinal arborization-field neurons, lowers the gain of visually evoked excitatory signaling, facilitating the induction of activity-dependent homosynaptic depression at retinotectal and intratectal synapses.
-Mechanistically, Gi-coupled MT1 receptor activation reduces intracellular cAMP and can promote opening of inwardly rectifying K$^+$ channels, resulting in neuronal hyperpolarization \citep{Dubocovich2005, Cecon2017}; applied to tectal neurons or their presynaptic inputs, such hyperpolarization would directly attenuate visual response amplitude and reduce the threshold for habituation-associated long-term depression.
-The modest accompanying suppression of activity in the Torus Semicircularis in \emph{mtnr1aa} mutants, and the additional widespread changes observed in double mutants across the pallium, subpallium, habenula, and cerebellum, suggest that tectal modulation by Mtnr1aa is one primary node within a broader network whose activity is redistributed when both receptors are simultaneously absent.
+Our whole-brain pERK activity mapping revealed an anatomical dissociation between the functional footprints of the two receptors.
+In Melatonin-treated \emph{mtnr1aa} mutants, the optic tectum and retinal arborization fields show the most prominent increases in activity after dark-flash training relative to sibling controls \citep{Randlett2019-fj, Lamire2023-he}.
+In striking contrast, \emph{mtnr1al} mutants show minimal tectal modulation but instead display prominent suppression of the preoptic area (POA) and activation of the torus longitudinalis (TL).
+The POA is a conserved vertebrate hub for sleep and arousal, where galanin-expressing neurons integrate sleep pressure \citep{Reichert2019-sz} and MT1/MT2 receptors have been proposed to gate sleep onset \citep{Ng2017, Klosen2019}; in our context, Mtnr1al appears to sustain POA activity during training.
+The TL is a ray-finned fish-specific midbrain structure that provides tonic glutamatergic input to apical dendrites of tectal pyramidal neurons \citep{Folgueira2020-tl, DeMarco2021}, is required for binocularity and spatial summation of visual responses in the tectum \citep{Tesmer2022}, and participates in a dimming-selective feedback pathway from the tectum \citep{Robles2021} engaged by our dark-flash stimulus.
+The double mutants show a combined and amplified version of both individual activity maps — encompassing the tectum, retinal AFs, POA, TL, and additional distributed changes in the pallium, subpallium, habenula, and cerebellum — consistent with cooperative control of parallel arms of the habituation circuit.
 
-\subsection*{Mtnr1al acts through the preoptic area and torus longitudinalis}
-
-In striking contrast to Mtnr1aa, \emph{mtnr1al} mutants show minimal modulation of the optic tectum but instead display prominent changes in both the preoptic area and the torus longitudinalis.
-
-The POA is strongly suppressed in Melatonin-treated \emph{mtnr1al} mutants relative to Melatonin-treated sibling controls, indicating that Mtnr1al normally promotes or sustains POA activity during dark-flash training.
-The zebrafish POA is a conserved vertebrate structure with established roles in sleep and arousal regulation.
-In larval zebrafish, galanin-expressing POA neurons accumulate activity in proportion to prior wakefulness and are causally required for the subsequent homeostatic sleep rebound, establishing the POA as a key integrator of sleep pressure \citep{Reichert2019-sz}.
-In mammals, MT1 and MT2 receptors are expressed in the preoptic area and anterior hypothalamus, where Melatonin has been proposed to initiate sleep onset by suppressing wake-promoting populations \citep{Ng2017, Klosen2019}.
-In our behavioral context, Mtnr1al-dependent sustaining of POA activity during dark-flash training most likely reflects a sub-sedative-threshold modulation of arousal circuitry that gates the probability of executing a visually driven escape response.
-A parsimonious model is that Mtnr1al acts on inhibitory interneurons within the POA, disinhibiting POA output neurons whose projections progressively suppress brainstem escape circuits and thereby reduce the probability of eliciting an O-bend response.
-This would produce habituation of response probability without globally suppressing other behaviors — consistent with the preserved acoustic startle response at these Melatonin concentrations \citep{Lamire2023-he}.
-
-The TL is strongly activated in \emph{mtnr1al} mutants compared to sibling controls, indicating that Mtnr1al normally suppresses TL activity during dark-flash training — the mechanistically expected consequence of Gi-coupled receptor activation in TL neurons, which would reduce cAMP and lower neuronal excitability \citep{Dubocovich2005, Cecon2017}.
-The TL is a midbrain structure unique to ray-finned fishes with no direct mammalian homolog.
-It receives input from pretectal nuclei and projects massively and almost exclusively to the stratum marginale of the optic tectum, where TL terminals form glutamatergic synapses with the apical dendrites of tectal pyramidal neurons \citep{Folgueira2020-tl, DeMarco2021}.
-In vivo calcium imaging demonstrates that this convergent TL input is functionally required for binocularity and spatial summation of visual responses in tectal pyramidal neurons \citep{Tesmer2022}, and a dedicated dimming-selective pathway from tectal projection neurons to the TL has been identified \citep{Robles2021} that is directly engaged by the dark-flash stimulus used in our habituation paradigm.
-We propose that during repeated dark-flash stimulation, Mtnr1al-mediated suppression of TL activity reduces the tonic excitatory drive that TL neurons exert on tectal pyramidal cells via this retinotectal feedback loop, lowering the threshold for activity-dependent synaptic depression in the tectum and thereby facilitating habituation.
-In \emph{mtnr1al} mutants, the loss of TL suppression maintains excitatory input to the tectum across training, preventing the progressive attenuation of visual responses and impeding habituation — in a manner that is complementary to, and independent of, the direct tectal action of Mtnr1aa.
-
-Whether the POA and TL effects in \emph{mtnr1al} mutants reflect two independent primary circuit actions of this receptor, or whether one is secondary to the other (for example, if Mtnr1al-dependent POA activation drives inhibitory projections that in turn suppress TL activity), cannot be resolved by the present data.
-The expression of \emph{mtnr1al} is very low and its cellular distribution within the POA versus TL has not been unambiguously established \citep{Hill2026}.
-Cell-type-specific expression profiling and targeted perturbations of POA and TL neurons will be required to distinguish these possibilities.
-
-\subsection*{Contrast with the role of endogenous Melatonin in suppressing memory formation}
-
-Our finding that Melatonin promotes habituation learning stands in apparent tension with the demonstration by Rawashdeh and colleagues that endogenous Melatonin suppresses memory formation in zebrafish performing an operant conditioning task \citep{Rawashdeh2007-bw}.
-In that study, operant performance was better during the day (low Melatonin), daytime Melatonin treatment mimicked nighttime memory impairment, and pinealectomy or pharmacological receptor antagonism at night restored performance \citep{Rawashdeh2007-bw}.
-We suggest these findings are complementary rather than contradictory, and reflect the fundamentally distinct computational nature of the two learning processes.
-Habituation is a non-associative process through which animals progressively suppress responses to repeated, inconsequential stimuli \citep{Thompson1966, Rankin2009-no} — behaviorally, it is a form of adaptive stimulus filtering.
-Operant conditioning, by contrast, requires the active association of voluntary actions with outcomes, engaging associative circuits such as the habenula and reinforcement pathways that are distinct from the sensorimotor circuits governing habituation.
-Melatonin may therefore simultaneously potentiate non-associative response filtering while gating against the consolidation of new associative memories — a combination that would be ethologically coherent during high-Melatonin nocturnal periods, when filtering repetitive background stimuli could be adaptive while encoding novel contingencies might be deprioritized.
-This interpretation aligns with the broader role of Melatonin in imposing circadian time-of-day gating on hippocampal synaptic plasticity in mammals: MT1/MT2 double knockout mice lose the normal day-night difference in both hippocampal LTP and spatial learning efficiency, and exogenous nocturnal Melatonin treatment of melatonin-deficient mice restores daytime learning advantages \citep{Jilg2019-oy}.
-Melatonin thus appears to imprint a circadian template on multiple distinct plasticity systems simultaneously, favoring different forms of learning and behavioral modification at different phases of the day-night cycle.
+An important caveat is that differential pERK identifies where neural activity is altered in the mutants, not necessarily where the receptors act directly.
+The strongest pERK changes could reflect secondary consequences of receptor action upstream: for example, elevated tectal pERK in \emph{mtnr1aa} mutants could result from Mtnr1aa acting on tectal neurons, but equally from Mtnr1aa acting on presynaptic inputs to the tectum — including retinal ganglion cell terminals in the arborization fields — and thereby modulating the drive those inputs exert.
+Similarly, whether the POA and TL changes in \emph{mtnr1al} mutants reflect independent primary sites of receptor action, or whether one is a downstream consequence of the other, cannot be resolved from activity maps alone.
+Cell-type-specific expression profiling and targeted perturbations will be required to identify the direct cellular substrates of each receptor and disentangle these possibilities.
+While these experiments can not conclusively localize the site of action of the receptors, the anatomical segregation of the pERK changes in the two mutants strongly suggests that Mtnr1aa and Mtnr1al act in different parts of the circuit to promote habituation learning.
 
 \subsection*{Broader significance}
 
-These results provide a receptor-resolved and circuit-level account of how a circadianly-regulated neuroendocrine hormone shapes a fundamental form of learning.
-The identification of two MT1-type paralogs with non-overlapping circuit specificities demonstrates that the functional diversity of Melatonin's actions on habituation does not arise from a single brain region or a single signaling mechanism, but from the coordinated recruitment of at least three distinct neural structures — the optic tectum, the preoptic area, and the torus longitudinalis — each gated by a different receptor subtype.
+These results provide a receptor-resolved and circuit-level account of how a neuroendocrine hormone shapes a fundamental form of learning.
+The identification of two MT1-type paralogs with non-overlapping circuit specificities demonstrates that the functional diversity of Melatonin's actions on habituation does not arise from a single brain region or a single signaling mechanism, but from the coordinated recruitment of multiple distinct neural structures.
 This architecture implies that the evolutionary expansion of the Melatonin receptor repertoire in teleost fishes \citep{Hill2026, Falcn2009} provides a substrate for parcellating Melatonin's modulatory influence across circuits with greater precision than would be achievable through a single broadly expressed receptor, achieving behavioral specificity at the receptor-expression level rather than solely at the signaling level.
 
 Deficits in habituation are a consistent, cross-diagnostic feature of neurodevelopmental and psychiatric conditions including autism spectrum disorder, schizophrenia, and ADHD \citep{McDiarmid2017}, and altered circadian rhythms and Melatonin profiles are frequently documented in these populations; aberrant MT1-type Melatonin receptor signaling could therefore contribute to habituation impairments in these disorders.
