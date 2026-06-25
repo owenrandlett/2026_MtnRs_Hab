@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  29 MAY 2026 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  25 JUN 2026 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1573,14 +1573,14 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 <Figures/Figure_MT1Mutants.png, id=268, 975.1632pt x 923.49014pt>
 File: Figures/Figure_MT1Mutants.png Graphic file (type png)
 <use Figures/Figure_MT1Mutants.png>
-Package pdftex.def Info: Figures/Figure_MT1Mutants.png  used on input line 270.
-(pdftex.def)             Requested size: 509.01945pt x 482.03542pt.
+Package pdftex.def Info: Figures/Figure_MT1Mutants.png  used on input line 271.
+(pdftex.def)             Requested size: 432.66963pt x 409.73293pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 7.0pt on input line 285.
+(Font)              scaled to size 7.0pt on input line 286.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 285.
+(Font)              scaled to size 7.0pt on input line 286.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 297.
+(Font)              scaled to size 12.0pt on input line 298.
 
 
 [6]
@@ -1589,12 +1589,12 @@ LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 <Figures/Figure_MT2andCMutants.png, id=297, 971.42924pt x 940.35315pt>
 File: Figures/Figure_MT2andCMutants.png Graphic file (type png)
 <use Figures/Figure_MT2andCMutants.png>
-Package pdftex.def Info: Figures/Figure_MT2andCMutants.png  used on input line 310.
+Package pdftex.def Info: Figures/Figure_MT2andCMutants.png  used on input line 311.
 (pdftex.def)             Requested size: 509.01945pt x 492.74579pt.
 <Figures/Figure_AAandALMutants.png, id=301, 935.05334pt x 296.42744pt>
 File: Figures/Figure_AAandALMutants.png Graphic file (type png)
 <use Figures/Figure_AAandALMutants.png>
-Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 341.
+Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 342.
 (pdftex.def)             Requested size: 509.01945pt x 161.36656pt.
 
 
@@ -1604,14 +1604,14 @@ Package pdftex.def Info: Figures/Figure_AAandALMutants.png  used on input line 3
 <Figures/Figure_pERK.png, id=319, 668.2566pt x 572.1375pt>
 File: Figures/Figure_pERK.png Graphic file (type png)
 <use Figures/Figure_pERK.png>
-Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 378.
+Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 379.
 (pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
 
 
 [10 <./Figures/Figure_AAandALMutants.png>]
 
 [11 <./Figures/Figure_pERK.png>]
-Underfull \hbox (badness 1406) in paragraph at lines 429--440
+Underfull \hbox (badness 1406) in paragraph at lines 430--441
 \T1/opensans-TLF/m/n/10 A cen-tral con-clu-sion from stud-ies of ha-bit-u-a-tion in lar-val ze-brafish is that this be-hav-ior is in-her-ently
  []
 
@@ -1631,16 +1631,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [16{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 1152) in paragraph at lines 558--561
+Underfull \hbox (badness 1152) in paragraph at lines 559--562
 []\T1/opensans-TLF/m/n/10 Control of the LEDs, solenoid, and cam-era ac-tu-a-tor was man-aged by a Rasp-berry Pi Pico run-ning
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 562.
+(Font)              scaled to size 12.0pt on input line 563.
 
 
 [17]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 588.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 589.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1649,7 +1649,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1968) in paragraph at lines 585--592
+Underfull \hbox (badness 1968) in paragraph at lines 586--593
 \T1/opensans-TLF/m/n/10 Seaborn, scikit-posthocs), avail-able at [][]github.com/owenrandlett/2026_MtnRs_Hab/code[][]. Per-fish group-
  []
 
@@ -1668,28 +1668,58 @@ LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
 [20])
 
 [21]
-Overfull \hbox (45.97398pt too wide) in alignment at lines 613--634
- [] [] [] [] [] [] [] [] 
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 641.
+
+Overfull \hbox (24.12064pt too wide) in alignment at lines 622--643
+ [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (45.97398pt too wide) in alignment at lines 634--646
- [] [] [] [] [] [] [] [] 
+Overfull \hbox (24.12064pt too wide) in alignment at lines 643--655
+ [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (45.97398pt too wide) in alignment at lines 646--648
- [] [] [] [] [] [] [] [] 
+Overfull \hbox (24.12064pt too wide) in alignment at lines 655--657
+ [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (45.97398pt too wide) in alignment at lines 648--651
- [] [] [] [] [] [] [] [] 
+Overfull \hbox (24.12064pt too wide) in alignment at lines 657--660
+ [] [] [] [] [] [] [] 
+ []
+
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 669.
+
+Overfull \hbox (3.05717pt too wide) in paragraph at lines 696--697
+\T1/lmtt/m/n/7 AUGGUAGUGAUCAGAACGCG| 
  []
 
 
-Overfull \hbox (45.97398pt too wide) in alignment at lines 651--744
- [] [] [] [] [] [] [] [] 
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 711--712
+[]|\T1/lmtt/m/n/7 UCCCUCAUCAGGAACCGGAG 
+ []
+
+
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 711--712
+\T1/lmtt/m/n/7 CUGAUCUUCACGAGCGUGGG 
+ []
+
+
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 711--712
+\T1/lmtt/m/n/7 GUACCAUGACGACCCACGCG| 
+ []
+
+
+Overfull \hbox (3.34274pt too wide) in paragraph at lines 733--734
+[]|\T1/lmtt/m/n/7 CCACAGTGTAGGAGCTGCTGGCAGT 
+ []
+
+
+Overfull \hbox (24.12064pt too wide) in alignment at lines 660--752
+ [] [] [] [] [] [] [] 
  []
 
 (./2026_MtnRHab.suppinfo)
@@ -1705,18 +1735,18 @@ Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
 (rerunfilecheck)             Checksum: 45F268A5714A3AED21F8156AB08C817E;6412.
  ) 
 Here is how much of TeX's memory you used:
- 31086 strings out of 473330
- 570645 string characters out of 5723877
- 1079956 words of memory out of 5000000
- 53640 multiletter control sequences out of 15000+600000
- 632765 words of font info for 190 fonts, out of 8000000 for 9000
+ 31096 strings out of 473330
+ 570846 string characters out of 5723877
+ 1080938 words of memory out of 5000000
+ 53647 multiletter control sequences out of 15000+600000
+ 634698 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,11n,131p,2342b,1320s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (22 pages, 43573764 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+Output written on 2026_MtnRHab.pdf (22 pages, 43597581 bytes).
 PDF statistics:
- 590 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
+ 595 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
  99 named destinations out of 1000 (max. 500000)
- 19151 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20687 words of extra memory for PDF output out of 20736 (max. 10000000)
 

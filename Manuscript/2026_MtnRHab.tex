@@ -261,13 +261,14 @@ Therefore, for the remainder of the experiments we have focused on the strong an
 
 
 
+
 \subsection{The effects of Melatonin on habituation learning are mediated by MT1-type Melatonin Receptors}
 
 \begin{figure}
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=1\linewidth]{Figures/Figure_MT1Mutants.png}
+\includegraphics[width=0.85\linewidth]{Figures/Figure_MT1Mutants.png}
 
 \caption{\textbf{Zebrafish mutants for \emph{mtnr1aa} and \emph{mtnr1al}, but not \emph{mtnr1ab}, are less sensitive to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing mutants for \emph{mtnr1aa} (\textbf{A-F}), and \emph{mtnr1ab} (\textbf{G-L}), and \emph{mtnr1al} (\textbf{M-R}) to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
@@ -609,8 +610,16 @@ This work was supported by funding from the ATIP-Avenir program of the CNRS and 
 %% SUPPLEMENTARY TABLE 1 — Genotyping primers and allele info
 %% ============================================================
 {\scriptsize
-\setlength{\tabcolsep}{2pt}
-\begin{longtable}{@{} l l >{\ttfamily}p{3cm} >{\ttfamily}p{4.5cm} >{\ttfamily}p{3.5cm} r r >{\ttfamily}p{4.5cm} @{}}
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}
+  l                       % Col 1: Allele name
+  >{\ttfamily}p{2.5cm}     % Col 2: gRNA sequence
+  >{\ttfamily}p{4.4cm}    % Col 3: Lesion
+  >{\ttfamily}p{3.15cm}    % Col 4: Genotyping primers
+  >{\ttfamily}p{0.7cm}   % Col 5: WT amplicon size
+  >{\ttfamily}p{0.7cm}   % Col 6: Mut amplicon size
+  >{\ttfamily}p{4.5cm}    % Col 7: Predicted protein
+@{}}
 
 \caption{Genotyping primers and allele information for CRISPR mutant lines.
 Primer sequences (forward above, reverse below) and expected amplicon sizes
@@ -623,25 +632,25 @@ the 230~bp deletion removes the start codon.}
 \label{supptab:primers}\\
 
 \toprule
-Gene & Allele
-  & \normalfont gRNA sequence
-  & \normalfont Lesion
-  & \normalfont Genotyping primers 
-  & \multicolumn{2}{c}{\normalfont Amplicon Size}
-  & \normalfont Predicted protein \\
-  & & & & & \normalfont WT & \normalfont Mut & \\
+\footnotesize\textbf{Allele}
+  & \normalfont\footnotesize\textbf{gRNA sequence}
+  & \normalfont\footnotesize\textbf{Lesion}
+  & \normalfont\footnotesize\textbf{Genotyping primers}
+  & \multicolumn{2}{l}{\footnotesize\textbf{Amplicon Size}}
+  & \normalfont\footnotesize\textbf{Predicted protein} \\
+  & & & & \footnotesize\textbf{WT} & \footnotesize\textbf{Mut} & \\
 \midrule
 \endfirsthead
 
-\multicolumn{8}{l}{\textit{Supplementary Table~\ref{supptab:primers} continued}}\\[2pt]
+\multicolumn{7}{l}{\textit{Supplementary Table~\ref{supptab:primers} continued}}\\[2pt]
 \toprule
-Gene & Allele
-  & \normalfont gRNA sequence
-  & \normalfont Lesion
-  & \normalfont Genotyping primers 
-  & \multicolumn{2}{c}{\normalfont Amplicon Size}
-  & \normalfont Predicted protein \\
-  & & & & & \normalfont WT & \normalfont Mut & \\
+\footnotesize\textbf{Allele}
+  & \normalfont\footnotesize\textbf{gRNA sequence}
+  & \normalfont\footnotesize\textbf{Lesion}
+  & \normalfont\footnotesize\textbf{Genotyping primers}
+  & \multicolumn{2}{l}{\footnotesize\textbf{Amplicon Size}}
+  & \normalfont\footnotesize\textbf{Predicted protein} \\
+  & & & & \footnotesize\textbf{WT} & \footnotesize\textbf{Mut} & \\
 \midrule
 \endhead
 
@@ -657,12 +666,12 @@ Gene & Allele
 %   & CGAAGAGATGAGATCCCACCG\newline CGGTGTAGAAATGTCGACGC
 %   & 490 & 464
 %   & \seqsplit{MFMNGSSLNSSALDPSDHYYSRVFPRIHYSGGYFGKPAGDFLRLQKQETSERR*} \\
-  \emph{mtnr1aa} & aa~2
+  \emph{mtnr1aa}\textsuperscript{\emph{ly1}}
   & GAGUAGUAGUGACCCAGGG
-  & \seqsplit{CAGCGGCCGCCC}{\normalfont~(44\,del)~}\seqsplit{GATGGATATTTT}
+  & \seqsplit{CAGCGGCCGCCC}{\normalfont~\textcolor{red}{(44\,del)}~}\seqsplit{GATGGATATTTT}
   & CGAAGAGATGAGATCCCACCG\newline CGGTGTAGAAATGTCGACGC
   & 490 & 446
-  & \seqsplit{MFMNGSSLNSSALDPSEQALQRPPDGYFGKPAGDFLRLQKQETSERR*} \\
+  & \seqsplit{MFMNGSSLNSSALDPSEQALQRPP}\textcolor{red}{\seqsplit{DGYFGKPAGDFLRLQKQETSERR*}} \\
 \midrule
 
 %% Mtnr1ab
@@ -672,23 +681,23 @@ Gene & Allele
 %   & AGCCACTGTGTGTTCTATGAACT\newline GCGGCTTGATGAACAGTTCT
 %   & 304 & 253
 %   & \seqsplit{MKINGSGLMNSSSLSPHDENTLNRPPWVATTLGSFLIFTIVVDILGNLFAFKRIWQAVSTYFCLSIAINLVFLLLLSFTFTCNSS*} \\
-  \emph{mtnr1ab} & ab~2
+  \emph{mtnr1ab}\textsuperscript{\emph{ly2}}
   & GACGGAGAAGAUCACCAAG
-  & \seqsplit{TATATTGGGGAA}{\normalfont~(17\,del)~}\seqsplit{CCATCTACAGAA}
+  & \seqsplit{TATATTGGGGAA}{\normalfont~\textcolor{red}{(17\,del)}~}\seqsplit{CC}\textcolor{red}{A}\seqsplit{TCTACAGAA}
   & AGCCACTGTGTGTTCTATGAACT\newline GCGGCTTGATGAACAGTTCT
   & 304 & 287
-  & \seqsplit{MKINGSGLMNSSSLSPHDENTLNRPPWVATTLGSFLIFTIVVDILGNHLQKQET*} \\
+
+  & \seqsplit{MKINGSGLMNSSSLSPHDENTLNRPPWVATTLGSFLIFTIVVDILGN}\textcolor{red}{\seqsplit{HLQKQET*}} \\
 \midrule
 
 %% Mtnr1al
 % \multirow{2}{*}{\emph{Mtnr1al}}
-\emph{mtnr1al}
-  & al~2
+\emph{mtnr1al}\textsuperscript{\emph{ly3}}
   & GAGUAAAGUCACCACCCAG\newline AUGGUAGUGAUCAGAACGCG
-  & \seqsplit{GTACCTCTCCTT}{\normalfont~(65\,del)~}\seqsplit{ACCTGTTGGTCA}
+  & \seqsplit{GTACCTCTCCTT}{\normalfont~\textcolor{red}{(65\,del)}~}\seqsplit{ACCTGTTGGTCA}
   & TACCTGCCTTCCTGAGCTTT\newline ATGGTGGAGGGAACAGACG
   & 189 & 124
-  & \seqsplit{MVEGTDAPLKNISTGNRDIKYLSLPVGHCVSLQKQKAQEGR*} \\
+  & \seqsplit{MVEGTDAPLKNISTGNRDIKYLS}\textcolor{red}{\seqsplit{LPVGHCVSLQKQKAQEGR*}} \\
 %   & al~4
 %   & \seqsplit{TGGTGGAGGGAACAGACG}{\normalfont~(+14\,ins)~}\seqsplit{GCCCATAAAGAACATTTCGACAGGAAATCGC}
 %   & TACCTGCCTTCCTGAGCTTT\newline ATGGTGGAGGGAACAGACG
@@ -698,13 +707,12 @@ Gene & Allele
 
 %% Mtnr1ba
 % \multirow{2}{*}{\emph{Mtnr1ba}}
-\emph{mtnr1ba}
-  & ba~1
+\emph{mtnr1ba}\textsuperscript{\emph{ly4}}
   & UCCCUCAUCAGGAACCGGAG\newline CUGAUCUUCACGAGCGUGGG\newline GUACCAUGACGACCCACGCG
-  & \seqsplit{CCTCATCAGGAA}{\normalfont~(65\,del)~}\seqsplit{GGACGTGCTCGG}
+  & \seqsplit{CCTCATCAGGAA}{\normalfont~\textcolor{red}{(65\,del)}~}\seqsplit{GGACGTGCTCGG}
   & TGCCCTCCGTAAACATTCTAA\newline TTCCCAAGGCTTGCTGAGAA
   & 406 & 341
-  & \seqsplit{MPENVSLIRKAF*} \\
+  & \seqsplit{MPENVSLIR}\textcolor{red}{\seqsplit{KAF*}} \\
 %   & ba~2
 %   & \seqsplit{GGGTGAAGTTTATTCGACATGCCCGAGA}{\normalfont~(127\,del)~}\seqsplit{CGTGCTCGGTAACGTGCTGGTGATCA}
 %   & TGCCCTCCGTAAACATTCTAA\newline TTCCCAAGGCTTGCTGAGAA
@@ -719,12 +727,12 @@ Gene & Allele
 %   & CCACAGTGTAGGAGCTGCTGGCAGT\newline CGTGTTTGTGGTCAGTCTGG
 %   & 379 & 294
 %   & \seqsplit{MPENIAFLTNSTDLGHVGRALGSSARPAWAIAVLASVLIFTTVVDVLGNLLVIISVFRNRKLRNAGNVFVVSLAFADLVVAFYPYP*} \\
-  \emph{mtnr1bb} & bb~5
+  \emph{mtnr1bb}\textsuperscript{\emph{ly5}}
   & UACAGAGCCGAUCACACUC\newline AGAUGGCGUACAGCACCAG
-  & \seqsplit{CTGGTGGTGGCT}{\normalfont~(50\,del)~}\seqsplit{TGTGATCGGCTC}
+  & \seqsplit{CTGGTGGTGGCT}{\normalfont~\textcolor{red}{(50\,del)}~}\seqsplit{TGTGATCGGCTC}
   & CCACAGTGTAGGAGCTGCTGGCAGT\newline CGTGTTTGTGGTCAGTCTGG
   & 379 & 329
-  & \seqsplit{MPENIAFLTNSTDLGHVGRALGSSARPAWAIAVLASVLIFTTVVDVLGNLLVIISVFRNRKLRNAGNVFVVSLAFADLVVAGLWGKRSVKSAA*} \\
+  & \seqsplit{MPENIAFLTNSTDLGHVGRALGSSARPAWAIAVLASVLIFTTVVDVLGNLLVIISVFRNRKLRNAGNVFVVSLAFADLVVA}\textcolor{red}{\seqsplit{GLWGKRSVKSAA*}} \\
 \midrule
 
 %% Mtnr1c
@@ -734,12 +742,12 @@ Gene & Allele
 %   & TGCCAAACTGACAACAACAGC\newline GATGAGTGTGGCGTTTGAGC
 %   & 790 & 727
 %   & \seqsplit{MAMTKANLSCLDSLSQGNNCLTADIVGNLLVILSVYRNKKLRNAGVKSSWER*} \\
-  \emph{mtnr1c} & c~4
+  \emph{mtnr1c}\textsuperscript{\emph{ly6}}
   & CCAACGAUAUCAGCCACGG\newline CCGGGAGACGUGCUCCUGG
-  & \seqsplit{TTTGTTTTCGGG}{\normalfont~(230\,del)~}\seqsplit{CTGATATCGTTG}
+  & \seqsplit{TTTGTTTTCGGG}{\normalfont~\textcolor{red}{(230\,del)}~}\seqsplit{CTGATATCGTTG}
   & TGCCAAACTGACAACAACAGC\newline GATGAGTGTGGCGTTTGAGC
   & 790 & 560
-  & {\normalfont N/A (deletion of start codon)} \\
+  & {\normalfont \textcolor{red}{N/A (deletion of start codon)}} \\
 
 \end{longtable}
 }% end scriptsize
