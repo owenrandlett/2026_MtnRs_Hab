@@ -58,19 +58,35 @@
 \author[1] 
 {Dominique Baas}
 
+\author[1]
+{Isabelle Darvaux-Hubert}
+
+\author[1]
+{Romane Dorado-Doncel}
+
+\author[1]
+{Andrew Hsiao}
+
+\author[1]
+{Lisa Broisin}
+
+\author[1]
+{Abdel Rahman el Hassan}
+
+\author[1]
+{Julien Perrichet}
 
 \author[1, @] 
 {Owen Randlett}
-
 
 \affil[1]{
 Laboratoire MeLiS, Université Claude Bernard Lyon 1 - CNRS UMR5284 - Inserm U1314, Faculté de Médecine et de Pharmacie, 8 avenue Rockefeller, 69008 Lyon, France
 }
 
 
-\affil[!]{equal contribution}
+% \affil[!]{equal contribution}
 
-\affil[*]{equal contribution}
+% \affil[*]{equal contribution}
 
 
 \affil[@]{correspondence: \href{mailto:owen.randlett@univ-lyon1.fr}{owen.randlett@univ-lyon1.fr}, ORCID: \href{https://orcid.org/0000-0003-0181-5239}{0000-0003-0181-5239}}
@@ -88,9 +104,9 @@ Laboratoire MeLiS, Université Claude Bernard Lyon 1 - CNRS UMR5284 - Inserm U13
 
 % The authors have nothing to disclose.
 
-\section{Keywords}
+% \section{Keywords}
 
-Melatonin, Melatonin Receptors, Habituation, Learning, Zebrafish, Larva, Sensorimotor Gating, Startle Response
+% Melatonin, Melatonin Receptors, Habituation, Learning, Zebrafish, Plasticity
 
 % \section{Corresponding Author}
 % Owen Randlett
@@ -104,51 +120,49 @@ Melatonin, Melatonin Receptors, Habituation, Learning, Zebrafish, Larva, Sensori
 % \newpage
 \begin{abstract}
 
-Melatonin is a circadianly-regulated hormone produced by the pineal gland and retina, with roles in sleep and circadian rhythms as well as other neuronal processes such as neuronal plasticity and learning.
-Melatonin signals mostly via the G-protein coupled receptors MT1 (Mtnr1a) and MT2 (Mtnr1b), which show distinct expression patterns and functional roles.
+Melatonin is a circadianly-regulated hormone produced by the pineal gland and retina, with roles in sleep and circadian rhythms as well as other neuronal processes.
 Using larval zebrafish, we previously identified Melatonin as a potent modulator of habituation learning and -- the progressive suppression of responses to a repeated stimulus.
 Here we have extended these analyses and have found that Melatonin has strong bidirectional effects on habituation: it potentiates habituation of response probability and latency, while actually inhibiting habituation of movement amplitude and duration. 
-Through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors, we found that only two MT1-type receptors (Mtnr1aa and Mtnr1al) are required, while the MT2-type receptors and Mtnr1c are dispensable for Melatonin's effects on habituation.
-Individual \emph{mtnr1aa} and \emph{mtnr1al} mutants show partial insensitivity to Melatonin, while \emph{mtnr1aa;mtnr1al} double mutants show complete insensitivity, demonstrating they act in a cooperative and non-redundant manner.
-Finally, expression pattern analyeses confirm that \emph{mtnr1aa} is more widely and highly expressed than \emph{mtnr1al}, and functional analyses using whole-brain activity mapping indicate that Mtnr1aa acts primarily the optic tectum and other visual areas, while Mtnr1al exerts its effects most prominently in the preoptic area.
-Together, these results show that Melatonin promotes habituation learning through the independent action of two MT1-type receptors, which act in different brain regions. 
+Melatonin signals via G-protein coupled receptors, and we performed a systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors. 
+We found that only two MT1-type receptors (Mtnr1aa and Mtnr1al) are required for Melatonin's effects on habituation, with each showing partial insensitivity to Melatonin, and \emph{mtnr1aa;mtnr1al} double mutants showing complete insensitivity.
+Similarly, functional analyses using whole-brain activity mapping found that each receptor modulates distinct brain regions individually, and that \emph{mtnr1aa;mtnr1al} double mutants show the strongest collective effects. 
+Together, these results indicate that Melatonin promotes habituation through the independent action of two MT1-type receptors, which act cooperatively but in different locations in the brain. 
 These findings provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning, revealing a functional subdivision between closely related receptor paralogs.
 
 \end{abstract}
 
 \section{Introduction}
 
-Habituation is an evolutionarily conserved forms of learning, defined as a progressive and reversible decrease in responsiveness to a repeatedly presented stimulus \citep{Rankin2009-no}.
-First systematically characterized by Thompson and Spencer, habituation displays a well-defined set of parametric properties: it is stimulus-specific, recovers spontaneously after a rest period, is accelerated by high-frequency stimulus presentation, and can be disrupted by the introduction of a novel stimulus \citep{Thompson1966}.
-Far from being a passive consequence of neural fatigue or sensory adaptation, habituation is now recognized as an active form of synaptic plasticity \citep{McDiarmid2019-td}, involving persistent changes at multiple synapses within sensory-motor circuits \citep{Randlett2019-fj, ramaswami2014network, Cooke2020, Nelson2022}.
-Deficits in habituation are associated with neurodevelopmental and psychiatric conditions including autism spectrum disorder, schizophrenia, and ADHD \citep{McDiarmid2017}, underscoring its relevance to normal cognitive function and its potential as a tractable behavioral readout of circuit-level plasticity.
+Habituation is an evolutionarily conserved form of learning, defined as a progressive decrease in responsiveness to a repeatedly presented stimulus \citep{Rankin2009-no}.
+Habituation displays a well-defined set of parametric properties: it is stimulus-specific, recovers spontaneously after a rest period, is accelerated by high-frequency stimulus presentation, and can be disrupted by the introduction of a novel stimulus \citep{Thompson1966}.
+Far from being a passive consequence of neural fatigue or sensory adaptation, habituation is an active form of neural plasticity, involving persistent changes at multiple synapses within sensory-motor circuits \citep{Randlett2019-fj, McDiarmid2019-td, ramaswami2014network,  Cooke2020, Nelson2022}.
+Deficits in habituation are associated with neurodevelopmental and psychiatric conditions including autism spectrum disorder, schizophrenia, and ADHD \citep{McDiarmid2017}, underscoring its relevance to normal cognitive function and its potential as a tractable behavioral readout of circuit-level pathology.
 
 Larval zebrafish have emerged as a powerful system for dissecting the neural and molecular substrates of habituation learning.
-When exposed to a sudden transition to whole-field darkness (a dark flash, DF), larvae execute a stereotyped escape maneuver called the O-bend \citep{Burgess2007-2}, which habituates robustly with repeated stimulation \citep{wolman_chemical_2011, Randlett2019-fj}.
+When exposed to a sudden transition to darkness (a dark flash, DF), larvae execute a stereotyped escape maneuver called the O-bend \citep{Burgess2007-2}, which habituates robustly with repeated stimulation \citep{wolman_chemical_2011, Randlett2019-fj}.
 The transparency and genetic tractability of larvae, combined with whole-brain activity mapping and calcium imaging approaches, have enabled identification of distributed plasticity across multiple brain regions that collectively drive DF habituation learning \citep{Randlett2019-fj, Lamire2023-he}. 
 Furthermore, the accessibility of larval zebrafish to high-throughput pharmacological and genetic screening has allowed systematic identification of neuromodulatory pathways that regulate habituation performance \citep{wolman_chemical_2011, Wolman2015}.
-Through such a screen, we previously identified Melatonin as one of the most potent modulators of dark-flash habituation learning, with acute exposure causing a dramatic enhancement of habituation for the probability of executing an O-bend response \citep{Lamire2023-he}.
+Through such a screen, we previously identified Melatonin as one of the most potent modulators of habituation learning, with acute exposure causing a dramatic enhancement of habituation for the probability of executing an O-bend response to DFs \citep{Lamire2023-he}.
 
 Melatonin is a neuroendocrine hormone synthesized from tryptophan via serotonin, with the rate-limiting step catalyzed by arylalkylamine N-acetyltransferase (AANAT) \citep{Ganguly2002}.
-Its production is under tight circadian control, driven by the sympathetic innervation of the pineal gland and suppressed by light, resulting in high nocturnal concentrations in the blood and cerebrospinal fluid across vertebrate species, including zebrafish \citep{Falcn2009, Cahill1996, Gandhi2015_NEURON}.
+Its production is under tight circadian control, resulting in high nocturnal concentrations in the blood and cerebrospinal fluid across vertebrate species, including zebrafish \citep{Falcn2009, Cahill1996, Gandhi2015_NEURON}.
 In zebrafish, two AANAT paralogs contribute to Melatonin synthesis: Aanat1, expressed primarily in the retina, and Aanat2, expressed in both the retina and the pineal gland \citep{Gandhi2015_NEURON, Hill2026}.
 This positions Melatonin as a key hormonal signal coupling the external light/dark cycle to internal physiological state.
 
-Melatonin acts primarily through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which signal through Gi proteins to reduce intracellular cAMP, though they exhibit distinct binding kinetics, signaling properties, and expression patterns \citep{Dubocovich2005, Liu2016, Cecon2017}.
+Melatonin acts primarily through two G-protein coupled receptors in the mammalian brain, MT1 (Mtnr1a) and MT2 (Mtnr1b), which signal through Gi proteins to reduce intracellular cAMP, though they exhibit distinct binding kinetics, signaling properties, and expression patterns \citep{Dubocovich2005, Liu2016, Cecon2017}.
 Both receptors are broadly expressed in the brain, including regions implicated in circadian regulation, sleep, and plasticity \citep{Ng2017, Klosen2019}.
 Zebrafish possess an expanded repertoire of six Melatonin receptors: three MT1-type (Mtnr1aa, Mtnr1ab, Mtnr1al), two MT2-type (Mtnr1ba, Mtnr1bb), and Mtnr1c, an ortholog of the mammalian Melatonin-insensitive GPR50 \citep{Hill2026}.
 This expanded repertoire provides a unique genetic handle for dissecting the functional contributions of individual receptor subtypes \emph{in vivo}.
 
-Beyond its canonical roles in sleep and circadian entrainment, Melatonin has been increasingly implicated in synaptic plasticity and cognitive function.
+Beyond its canonical roles in sleep and circadian entrainment, Melatonin has been increasingly implicated in other cognitive functions, including learning and memory.
 In rodents, MT1/MT2 signaling shapes time-of-day-dependent hippocampal synaptic plasticity and learning efficiency \citep{Jilg2019-oy}, and genetic deletion of both receptors alters cognitive and motor performance \citep{ONealMoffitt2014}.
 Individual receptor knockouts reveal distinct functional roles: MT2-deficient mice show impaired hippocampal long-term potentiation \citep{Larson2006} and reduced long-term recognition memory \citep{Pistono2021}, while deletion of either MT1 or MT2 alone is sufficient to abrogate reward-associated conditioned place preference \citep{Clough2014}.
-Melatonin more broadly supports neuroplasticity through modulation of cAMP/CREB signaling \citep{ValdsTovar2018}.
 These findings argue that Melatonin receptor signaling has important functions in learning that are separable from its role in sleep promotion, but the circuit mechanisms and specific receptor subtypes responsible have not been well defined.
 
 Here we leverage the zebrafish system to address this gap.
-Using a large behavioral dataset, we first show that Melatonin has complex, bidirectional effects on multiple independently regulated components of dark-flash habituation, potentiating learning for response probability and latency while inhibiting habituation of movement amplitude and duration.
+Using a large behavioral dataset, we first show that Melatonin has complex, bidirectional effects on multiple independently regulated components of habituation behaviour.
 We then demonstrate through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors that two MT1-type receptors, Mtnr1aa and Mtnr1al, cooperatively and non-redundantly mediate these effects.
-Finally, using whole-brain pERK activity mapping, we show that these two receptors appear to act in largely non-overlapping neural circuits.
+Finally, using whole-brain activity mapping, we show that these two receptors appear to act in largely non-overlapping neural circuits.
 Together, these data provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning through the independent action of receptor paralogs in distinct brain regions.
 
 
@@ -161,20 +175,20 @@ Together, these data provide a molecular and circuit-level dissection of how Mel
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=1\linewidth]{Figures/Figure_MelatoninBehaviourPhenotype_graphs.png}
+\includegraphics[width=0.7\linewidth]{Figures/Figure_MelatoninBehaviourPhenotype_graphs.png}
 
 \caption{\textbf{Melatonin has bidirectional effects on different components of habituation learning}\\
-\textbf{A)} Treatment with \SI{1}{\micro\Molar} Melatonin (red) results in more rapid and profound decreases in the Probability of response to DF stimuli during habituation training relative to vehicle controls (0.1\% DMSO black). 
+\textbf{A)} Treatment with \SI{1}{\micro\Molar} Melatonin (red) results in more rapid and profound decreases in the probability of response to DF stimuli during habituation training relative to vehicle controls (0.1\% DMSO black). 
 DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
 Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). 
 Quantification of the average.
-\textbf{B-F)} Same as A, but for the kinematic components of the O-bend response: 
-\\ \textbf{B} the response latency,
-\\ \textbf{C} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{D} the duration of the movement, 
-\\ \textbf{E} the displacement as achieved, and 
-\\ \textbf{F} the reorientation achieved by the larvae.
+\\ \textbf{B-F)} Same as A, but for the kinematic components of the O-bend response: 
+\textbf{B)} the response latency,
+\textbf{C)} the maximum tail-bend amplitude achieved during the movement,
+\textbf{D)} the duration of the movement, 
+\textbf{E)} the displacement as achieved, and 
+\textbf{F)} the reorientation achieved by the larvae.
 }
 
 \label{fig:1}
@@ -188,67 +202,68 @@ Statistical significance was calculated using the Kruskal-Wallis test followed b
 \\ \textbf{B)} the response latency,
 \\ \textbf{C)} the maximum tail-bend amplitude achieved during the movement,
 \\ \textbf{D)} the duration of the movement,
-\\ \textbf{E)} the displacement as achieved, and
+\\ \textbf{E)} the displacement of the movement, and
 \\ \textbf{F)} the reorientation achieved by the larvae. 
 }
-{\includegraphics[width=0.9\linewidth]{Figures/Figure_MelatoninBehaviourPhenotype_stats.png}}
-
+{\includegraphics[width=0.7\linewidth]{Figures/Figure_MelatoninBehaviourPhenotype_stats.png}}
+\label{fig:S1}
 \end{center}
 % \endinternallinenumbers
 \end{figure}
 
 
-Through a high-throughput drug screen, we previously identified Melatonin as a potent modulator of habituation learning in larval zebrafish \citep{Lamire2023-he}.
-Based on this previous dataset, we concluded that Melatonin potently enhances habituation learning for the probability of executing an O-bend response to repeated dark-flash stimuli. 
+We previously identified Melatonin as a potent modulator of habituation learning in larval zebrafish \citep{Lamire2023-he}.
+Based on this previous dataset, we concluded that Melatonin potently enhances habituation learning for the probability of executing an O-bend response to repeated DF stimuli.
 Importantly, we found that Melatonin had little effect on the habituation of the magnitude of the O-bend response, which is governed by a distinct plasticity mechanisms \citep{Randlett2019-fj}, and that Melatonin did not affect the response of the larvae to acoutsic or optomotor stimuli \citep{Lamire2023-he}. 
 This demonstrates that Melatonin does not have a generalized effect on sensory processing or motor output (e.g. by simply inducing sleep \citealp{Gandhi2015_NEURON, Hill2026}). 
 
-We have extended these analyses using a larger dataset, and confirmed that acute exposure to \SI{1}{\micro\Molar} Melatonin potently enhances habituation learning for the Probability of Response (\autoref{fig:1}A). The response to the first 3 dark-flash stimuli are not dramatically altered by the treatment ("Naive Response": \autoref{fig:1}Aii), but the effect is pronounced during the remaining 57 flashes of the first training block ("Block 1" \autoref{fig:1}Aii), the 180 flashes in the subsequent 3 training blocks ("Trained Response": \autoref{fig:1}Aiii), and the re-test block 5 hours after the last training session ("Block 5": \autoref{fig:1}Avi). Consistent with our previous data, the response of the larvae to the acoustic stimuli was indistinguishable from controls ("Acoustic Response": \autoref{fig:1}Ai,v, Bi,v ; \citealp{Lamire2023-he}), confirming that effect of Melatonin is not one of generalized sedation. 
-From these data we can conclude that Melatonin potentiates habituation learning for the Probability component of behaviour. 
+Here, we have extended these analyses using a larger dataset, and confirmed that acute exposure to \SI{1}{\micro\Molar} Melatonin potently enhances habituation learning for the probability of response (\autoref{fig:1}A). The response to the first 3 dark-flash stimuli are not dramatically altered by the treatment ("Naive Response": \autoref{fig:S1}Aii), but the effect is pronounced during the remaining 57 flashes of the first training block ("Block 1" \autoref{fig:S1}Aiii), the 180 flashes in the subsequent 3 training blocks ("Trained Response": \autoref{fig:S1}Aiv), and the re-test block 5 hours after the last training session ("Block 5": \autoref{fig:S1}Avi). Consistent with our previous data, the response of the larvae to the acoustic stimuli was indistinguishable from controls ("Acoustic Response": \autoref{fig:1}Ai,\autoref{fig:S1}Av; \citealp{Lamire2023-he}), confirming that effect of Melatonin is not one of generalized sedation. 
+From these data we can conclude that Melatonin potentiates habituation learning for the probability or response. 
 
-This larger dataset now also allowed us to more carefully examine the effects of Melatonin on the behavioural components related to the magnitude of the O-bend response. Indeed, a significant enhancement of habituation was also observed for the response Latency, which increases by ~50-100 msec over habituation training (\autoref{fig:1}B). 
-This effect was also visible in our original datasets \citep{Lamire2023-he}, but was not previously clear and significant, likely due to the higher degree of variability in these kinematic behavioural measure relative to the Probability component, as well as the fact that the strong suppression of responses by Melatonin results in little data for the kinematic measures, which can only be observed when fish respond to the stimuli. 
+This larger dataset now also allowed us to more carefully examine the effects of Melatonin on the behavioural components related to the magnitude of the O-bend response. Indeed, a significant enhancement of habituation was also observed for the response latency, which increases by ~50-100 msec over habituation training (\autoref{fig:1}B, \autoref{fig:S1}B). 
+This effect was also visible in our original datasets \citep{Lamire2023-he}, but was not previously clear and significant, likely due to the higher degree of variability in these kinematic behavioural measure relative to the probability component, as well as the fact that the strong suppression of responses by Melatonin results in little data for the kinematic measures, as these can only be observed when fish respond to the stimuli. 
 
-Interestingly, while the habituation of the Latency component was potentiated by Melatonin, the opposite was observed for Bend Amplitude (the maximum tail-angle bending achieved during the O-bend movement) (\autoref{fig:1}C), as well as the Movement Duration (the time taken from the intiation of the movement until its termination) (\autoref{fig:1}D). 
-Both of these measures normally decrease with training, resulting in movements with reduced amplitudes, and this effect was significantly inhibited by Melatonin, with the response of the Melatonin-treated larvae showing a much weaker modulation of these components during habituation training. 
-As with Probability and Latency, the naive response is much less affected than the response seen during training, indicating that the primary effect is on the modulation of the response rather than their innate sensitivity.
-
-
-Finally, while Melatonin inhibits habituation of Bend Amplitude and Movement Duration, we did not observe any substantial changes when analyzing the habituation performance curves for Displacement (the distance traveled by the larvae during the O-bend movement) (\autoref{fig:1}E) or Reorientation (the change in heading direction achieved by the larvae during the O-bend movement) (\autoref{fig:1}F), indicating that Melatonin does not have a substantial effect on these aspects of habituation.
-However, in these two components, the response is subtly but consistently increased in the Melatonin-treated group, primarily in the Naive and Block 1 response, indicating that Melatonin has a weak stimulatory effect on these aspects of the movements, but does not have a substantial effect on the overall learning process.
-
-Collectively, these analyses of habituation learning reveal that Melatonin has a complex and bidirectional effect on different components of habituation learning, potentiating some aspects of learning while inhibiting others, and leaving others unaffected. 
-This is consistent with a model in which Melatonin acts primarily in this context on specific neural circuits that govern distinct components of behaviour and habituation learning, rather than having a generalized effect, like modulating sleep or arousal state.
+Interestingly, while the probability and latency components of habituation learning were enhanced by Melatonin, the opposite was observed for bend amplitude (the maximum tail-angle bending achieved during the O-bend movement) (\autoref{fig:1}C, \autoref{fig:S1}C), as well as the movement duration (the time taken from the initiation of the movement until its termination) (\autoref{fig:1}D, \autoref{fig:S1}D). 
+Both of these components normally decrease with training, resulting in movements with reduced amplitudes. 
+This effect was significantly inhibited by Melatonin, with Melatonin-treated larvae showing a weaker modulation of these components across stimulus presentations. 
+As with probability and latency, the naive response is much less affected than the response seen during training, indicating that the primary effect is on the modulation of the response rather than their innate sensitivity.
 
 
+Finally, while Melatonin inhibits habituation of bend amplitude and movement duration, we did not observe any substantial changes when analyzing the habituation performance curves for displacement (the displacement of the larvae during the O-bend movement) (\autoref{fig:1}E, \autoref{fig:S1}E) or reorientation (the change in heading direction achieved by the larvae during the O-bend movement) (\autoref{fig:1}F, \autoref{fig:S1}F), indicating that Melatonin does affect these aspects of habituation learning.
+However, in these two components, the response is subtly but consistently increased in the Melatonin-treated group, primarily in the "Naive" and "Block 1" response, indicating that Melatonin has a weak stimulatory effect on these aspects of the movements, but does not have a substantial effect on the overall learning process.
 
-\subsection{Zebrafish larvae lacking Melatonin production show habituation deficits for the Probability of response}
+Collectively, these detailed analyses of habituation learning reveal that Melatonin has a complex and bidirectional effect on different components of habituation learning, potentiating some aspects of learning while inhibiting others, and leaving others unaffected. 
+This is consistent with a model in which Melatonin acts on specific neural circuits that govern distinct components of habituation learning, and can not be explained by a generalized effect, like modulating arousal state or inducing sleep.
+
+
+
+\subsection{Zebrafish larvae lacking Melatonin production show habituation deficits for the probability of response}
 
 \begin{figure}
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=1\linewidth]{Figures/Figure_AANATMutants_graphs.png}
+\includegraphics[width=0.7\linewidth]{Figures/Figure_AANATMutants_graphs.png}
 
 \caption{\textbf{Zebrafish larvae lacking Melatonin production show habituation deficits for the probability of response}\\
-\textbf{A)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the Probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls. 
-Testing was performed during the circadian day, beginning at approximately ZT4, where ZT0 is entrained time of lights on and ZT12 is the time of lights off.
+\textbf{A)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls. 
+Testing was performed during the circadian day, beginning at ZT4, where ZT0 is the time of lights "on" and ZT12 is the time of lights "off".
 DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
 Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2).
-\textbf{B-F)} Same as A, but for the kinematic components of the O-bend response: 
-\\ \textbf{B} the response latency,
-\\ \textbf{C} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{D} the duration of the movement, 
-\\ \textbf{E} the displacement as achieved, and 
-\\ \textbf{F} the reorientation achieved by the larvae.
-\textbf{G)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the Probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls. 
-\textbf{H-L)} Same as G, but for the kinematic components of the O-bend response: 
-\\ \textbf{H} the response latency,
-\\ \textbf{I} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{J} the duration of the movement, 
-\\ \textbf{K} the displacement as achieved, and 
-\\ \textbf{L} the reorientation achieved by the larvae.
+\\ \textbf{B-F)} Same as A, but for the kinematic components of the O-bend response: 
+\textbf{B)} the response latency,
+\textbf{C)} the maximum tail-bend amplitude achieved during the movement,
+\textbf{D)} the duration of the movement, 
+\textbf{E)} the displacement of the movement, and 
+\textbf{F)} the reorientation achieved by the larvae.
+\textbf{G)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls. Testing was performed during the circadian night, beginning at ZT14.
+\\ \textbf{H-L)} Same as G, but for the kinematic components of the O-bend response: 
+\textbf{H)} the response latency,
+\textbf{I)} the maximum tail-bend amplitude achieved during the movement,
+\textbf{J)} the duration of the movement, 
+\textbf{K)} the displacement of the movement, and 
+\textbf{L)} the reorientation achieved by the larvae.
 }
 
 \label{fig:2}
@@ -257,31 +272,33 @@ Each dot is the probability of response to one DF. Lines are smoothed in time wi
 {Quantification of epoch-level behavioural responses from \autoref{fig:2}.
 \\ Distributions of responsiveness for different epochs of the experiment \textbf{ii)-vi)}: \textbf{ii)} Naive Response (first 3 dark-flash stimuli), \textbf{iii)} Block 1 (remaining 57 stimuli of the first training block), \textbf{iv)} Trained Response (training blocks 2--4), \textbf{v)} Acoustic Response (30 vibration stimuli), and \textbf{vi)} Re-test Block (Block 5, 5 hours after the final training block). Each dot is the per-fish average of the epoch.
 Statistical significance was calculated using the Kruskal-Wallis test followed by Dunn's test for post-hoc pairwise comparisons, * = p < 0.05, ** = p < 0.01, *** = p < 0.001.
-\\ \textbf{A-F)} Day-tested cohort (ZT4), with \textbf{A} the probability of response, \textbf{B} the response latency, \textbf{C} the maximum tail-bend amplitude, \textbf{D} the duration, \textbf{E} the displacement, and \textbf{F} the reorientation.
-\\ \textbf{G-L)} Night-tested cohort (shifted light cycle), with \textbf{G} the probability of response, \textbf{H} the response latency, \textbf{I} the maximum tail-bend amplitude, \textbf{J} the duration, \textbf{K} the displacement, and \textbf{L} the reorientation.
+\\ \textbf{A-F)} Day-tested cohort (ZT4), with \textbf{A)} the probability of response, \textbf{B)} the response latency, \textbf{C)} the maximum tail-bend amplitude, \textbf{D)} the duration, \textbf{E)} the displacement, and \textbf{F)} the reorientation.
+\\ \textbf{G-L)} Night-tested cohort (shifted light cycle), with \textbf{G)} the probability of response, \textbf{H)} the response latency, \textbf{I)} the maximum tail-bend amplitude, \textbf{J)} the duration, \textbf{K)} the displacement, and \textbf{L)} the reorientation.
 }
-{\includegraphics[width=0.9\linewidth]{Figures/Figure_AANATMutants_stats.png}}
+{\includegraphics[width=0.7\linewidth]{Figures/Figure_AANATMutants_stats.png}}
 
 \end{center}
 % \endinternallinenumbers
 \end{figure}
 
-Our pharmacological experiments have shown that exogenously applied Melatonin has a potent effect on habituation learning, but the relevance of endogenous Melatonin on learning is not clear. To address this question, we tested zebrafish mutants that are unable to produce Melatonin due to mutations in the Arylalkylamine N-acetyltransferase 1 (Aanat1) and Arylalkylamine N-acetyltransferase 2 (Aanat2) enzymes, which are expressed in the retina, and the retina and pineal gland, respectively \citep{Gandhi2015_NEURON, Hill2026}. If endogenously produced Melatonin influences habituation in the same ways as exogenous Melatonin, we would expect these Melatonin-deficient mutants to exhibit learning deficits for Probability and Latency, and increased learning performance for Bend Amplitude and Movement Duration. Consistent with this hypothesis, we found that  double mutants (\emph{aanat1\textsubscript{-/-}}; \emph{aanat2\textsubscript{-/-}}) show a significant impairment in habituation learning for the Probability of response to repeated dark-flash stimuli (\autoref{fig:2}A). Similarly to the effect of exogenous Melatonin, this effect is most pronounced during the later stages of training, and is not significant for the naive response to the first 3 dark-flash stimuli. Notably, a  effect was also only observed in the double mutants, indicating both Aanat1 and Aanat2 contribute to the production of Melatonin that promotes habituation learning, and that there is some degree of functional redundancy between these enzymes.
+Our pharmacological experiments have shown that exogenously applied Melatonin has a potent effect on habituation learning, but the relevance of endogenous Melatonin is not clear. 
+To address this question, we tested zebrafish mutants that are unable to produce Melatonin due to mutations in the Arylalkylamine N-acetyltransferase 1 (Aanat1) and Arylalkylamine N-acetyltransferase 2 (Aanat2) enzymes, which are expressed in the retina, and the retina and pineal gland, respectively \citep{Gandhi2015_NEURON, Hill2026}. 
+If endogenously produced Melatonin influences habituation in the same ways as exogenous Melatonin, we would expect these Melatonin-deficient mutants to exhibit learning deficits for probability and latency, and increased learning performance for bend amplitude and movement duration. 
+Consistent with this hypothesis, we found that double mutants (\emph{aanat1\textsubscript{-/-}}; \emph{aanat2\textsubscript{-/-}}) show a significant impairment in habituation learning for the probability of response to repeated dark-flash stimuli (\autoref{fig:2}A, \autoref{fig:S2}A). 
+Similarly to the effect of exogenous Melatonin, this effect is most pronounced during the later stages of training, and is not significant for the naive response to the first 3 dark-flash stimuli. 
+Notably, an effect was also only observed in the double mutants, indicating both Aanat1 and Aanat2 contribute to the production of Melatonin that promotes habituation learning, and that there is some degree of functional redundancy between these enzymes.
 
-Contrary to our expectations, habituation-dependent modulation of the Latency component of the O-bend response, as well as the other kinmatic parameters, were not strongly affected in the double mutants (\autoref{fig:2}B-F). However, movement Duration did show a significantly more strongly suppressed response in double mutants, consistent with a role for Melatonin in inhibiting this learning effect (\autoref{fig:2}C-F).
+Contrary to our expectations, habituation-dependent modulation of the latency component of the O-bend response, as well as the other kinmatic parameters, were not strongly affected in the double mutants (\autoref{fig:2}B-F, \autoref{fig:S2}B-F). However, movement duration did show a significantly more strongly suppressed response in double mutants, consistent with a role for Melatonin in inhibiting this learning effect (\autoref{fig:S2}D).
 
-These experiments demonstrate that endogenous Melatonin production is required for normal habituation, but this effect is only strong and robust for the Probability of response. 
-This is consistent with a model in which Melatonin most strongly affects this aspect of learning. 
+These experiments demonstrate that endogenous Melatonin production does influence habituation, but this effect is only observed for the probability of response. 
 However, these experiments were performed beginning in the morning, when Melatonin production is naturally low, and therefore the effect of endogenous Melatonin on learning may be artificially limited in this context.
 Also, Melatonin synthesis is suppressed by light. 
-Since our Dark Flash stimulus paradigm requires the animals to be light-adapted, little endogenous Melatonin is expected to be produced during these experiments. 
+Since our stimulus paradigm requires the animals to be light-adapted, endogenous Melatonin production is expected to be low during our experiments. 
 To try and overcome these limitations, we also performed experiments in which the larvae were raised in a shifted light cycle, such that they were tested during the circadian night when Melatonin production is naturally high. 
-In these experiments, we observed a similar pattern of results, with the only robust effect again observed for the Probability of response (\autoref{fig:2}G), and no significant effect on Latency (\autoref{fig:2}H) or the kinematic parameters (\autoref{fig:2}I-L). 
-From these data we can conclude that endogenous Melatonin production is required for normal habituation learning for the Probability of response, but that its role in regulating the other learning parameters is unclear.
-This is likely due to the limitations of our visual assay, which are not ideal for testing the role of endogenous Melatonin as they require light-adaptation which is known to suppress Melatonin production.
-Therefore, for the remainder of the experiments we have focused on the strong and robust effect of exogenous Melatonin on habituation learning in order to test the genetic and circuit roles of Melatonin receptors (Mtnrs). 
+However, we observed a similar pattern of results (\autoref{fig:2}G-L, \autoref{fig:S2}G-L), with the only robust effect again observed for the probability of response, and no significant effect on latency or the kinematic parameters. 
 
-
+From these data we conclude that endogenous Melatonin does influence habituation learning for the probability of response, but that its role in regulating the other learning parameters is unclear.
+This may be due to the limitations of our visual assay, which requires light-adaptation, limiting the effects of endogenous Melatonin, or it may be that the effects of Melatonin on these other components of habituation learning are only observed when exogenous Melatonin is applied, achieving supra-normal levels of the hormone.
 
 
 \subsection{The effects of Melatonin on habituation learning are mediated by MT1-type Melatonin Receptors}
@@ -290,19 +307,19 @@ Therefore, for the remainder of the experiments we have focused on the strong an
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=0.85\linewidth]{Figures/Figure_MT1Mutants_graphs.png}
+\includegraphics[width=0.7\linewidth]{Figures/Figure_MT1Mutants_graphs.png}
 
 \caption{\textbf{Zebrafish mutants for \emph{mtnr1aa} and \emph{mtnr1al}, but not \emph{mtnr1ab}, are less sensitive to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing mutants for \emph{mtnr1aa} (\textbf{A-F}), and \emph{mtnr1ab} (\textbf{G-L}), and \emph{mtnr1al} (\textbf{M-R}) to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
 DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
 Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
-\\ \textbf{A, G, M} the probability of response to the stimulus: 
-\\ \textbf{B, H, N} the response latency,
-\\ \textbf{C, I, O} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{D, J, P} the duration of the movement, 
-\\ \textbf{E, K, Q} the displacement as achieved, and 
-\\ \textbf{F, L, R} the reorientation achieved by the larvae.
+\\ \textbf{A), G), M)} the probability of response to the stimulus: 
+\\ \textbf{B), H), N)} the response latency,
+\\ \textbf{C), I), O)} the maximum tail-bend amplitude achieved during the movement,
+\\ \textbf{D), J), P)} the duration of the movement, 
+\\ \textbf{E), K), Q)} the displacement of the movement, and 
+\\ \textbf{F), L), R)} the reorientation achieved by the larvae.
 }
 
 \label{fig:3}
@@ -311,26 +328,36 @@ Each dot is the probability of response to one DF. Lines are smoothed in time wi
 {Quantification of epoch-level behavioural responses from \autoref{fig:3}.
 \\ Distributions of responsiveness for different epochs of the experiment \textbf{ii)-v)}: \textbf{ii)} Naive Response (first 3 dark-flash stimuli), \textbf{iii)} Block 1 (remaining 57 stimuli of the first training block), \textbf{iv)} Trained Response (training blocks 2--4), and \textbf{v)} Acoustic Response (30 vibration stimuli). Each dot is the per-fish average of the epoch.
 Statistical significance was calculated using the Kruskal-Wallis test followed by Dunn's test for post-hoc pairwise comparisons, * = p < 0.05, ** = p < 0.01, *** = p < 0.001.
-\\ \textbf{A-F)} \emph{mtnr1aa} cohort, with \textbf{A} probability of response, \textbf{B} response latency, \textbf{C} maximum tail-bend amplitude, \textbf{D} duration, \textbf{E} displacement, and \textbf{F} reorientation.
-\\ \textbf{G-L)} \emph{mtnr1ab} cohort, with \textbf{G} probability of response, \textbf{H} response latency, \textbf{I} maximum tail-bend amplitude, \textbf{J} duration, \textbf{K} displacement, and \textbf{L} reorientation.
-\\ \textbf{M-R)} \emph{mtnr1al} cohort, with \textbf{M} probability of response, \textbf{N} response latency, \textbf{O} maximum tail-bend amplitude, \textbf{P} duration, \textbf{Q} displacement, and \textbf{R} reorientation.
+\\ \textbf{A-F)} \emph{mtnr1aa} cohort, with \textbf{A)} probability of response, \textbf{B)} response latency, \textbf{C)} maximum tail-bend amplitude, \textbf{D)} duration, \textbf{E)} displacement, and \textbf{F)} reorientation.
+\\ \textbf{G-L)} \emph{mtnr1ab} cohort, with \textbf{G)} probability of response, \textbf{H)} response latency, \textbf{I)} maximum tail-bend amplitude, \textbf{J)} duration, \textbf{K)} displacement, and \textbf{L)} reorientation.
+\\ \textbf{M-R)} \emph{mtnr1al} cohort, with \textbf{M)} probability of response, \textbf{N)} response latency, \textbf{O)} maximum tail-bend amplitude, \textbf{P)} duration, \textbf{Q)} displacement, and \textbf{R)} reorientation.
 }
-{\includegraphics[width=0.9\linewidth]{Figures/Figure_MT1Mutants_stats.png}}
+{\includegraphics[width=0.7\linewidth]{Figures/Figure_MT1Mutants_stats.png}}
 
 \end{center}
 % \endinternallinenumbers
 \end{figure}
 
 In mammals, Melatonin signals through two G-protein coupled receptors, MT1 (Mtnr1a) and MT2 (Mtnr1b), which are expressed in the brain and other tissues.
-Zebrafish have 6 identified MtnRs, including 3 MT1-type receptors (Mtnr1aa, Mtnr1ab, Mtnr1al), 2 MT2-type receptors (Mtnr1ba, Mtnr1bb), and the additional Mtnr1c, which is homologous to the Melatonin-insensitive GPR50 receptor in mammals \citep{Hill2026}. '
-To identify which of these receptors mediate the effects of Melatonin on habituation learning, we generated CRISPR mutants for each of the 6 Mtnrs, and tested their effect on the modulation of habituation learning by exogenous Melatonin, to determine if we could identify mutants that are insensitive to the effects of Melatonin on habituation. 
-Since the endogenous effects of Melatonin are subtle (\autoref{fig:2}), we focused our analyses of mutants on the effects of endogenous Melatonin, reasoning that mutants for the relevant receptor(s) should show a significant change in habituation relative to their sibling controls in the presence of Melatonin, behaving more similarly to untreated larvae. 
+Zebrafish have 6 identified Melatonin receptors, including 3 MT1-type receptors (Mtnr1aa, Mtnr1ab, Mtnr1al), 2 MT2-type receptors (Mtnr1ba, Mtnr1bb), and the additional Mtnr1c, which is homologous to the Melatonin-insensitive GPR50 receptor in mammals \citep{Hill2026}.
+To identify which of these receptors mediate the effects of Melatonin on habituation learning, we generated CRISPR mutants for each, and tested their effect on the modulation of habituation learning by exogenous Melatonin.
+Since the endogenous effects of Melatonin are subtle (\autoref{fig:2}), we focused our analyses of mutants on the effects of exogenous Melatonin, reasoning that mutants for the relevant receptor(s) should be insensitive to Melatonin.
+
 
 \subsubsection{Mtnr1aa and Mtnr1al are each partially required for the effects of Melatonin on habituation learning}
 
-Mtnr1aa is the most broadly expressed MtnR in the zebrafish brain, and is expressed in many brain regions that are implicated in habituation learning, including the forebrain, midbrain and hindbrain \citep{Hill2026}, making them the strongest candidate for mediating the effects of Melatonin on habituation learning. Consistent with this hypothesis, we found that \emph{mtnr1aa} mutants exibit reduced responsiveness to  the effect of Melatonin on habituation learning for the Probability of response (\autoref{fig:3}A). The effects were less clear for Latency (\autoref{fig:3}B), and the kinemtaic components of the response  (\autoref{fig:3}D-F), but we consistently observed a trend towards less Melatonin response, but this did not always reach statistical significance. From these results we conclude that Mtnr1aa does mediate the effects of Melatonin on habituation learning, but that other receptors likely also contribute to this effect as some Melatonin sensitivity remains. 
+Mtnr1aa has been reported as the most broadly expressed Melatonin receptor in the larval zebrafish brain \citep{Hill2026}, making it the top candidate for mediating the behavioural effects of Melatonin. 
+Consistent with this hypothesis, we found that \emph{mtnr1aa} mutants are less sensitive to Melatonin than their WT and heterozygous sibling controls (\autoref{fig:3}A-F,\autoref{fig:S3}A-F). 
+This was clearest for the probability of response, where Melatonin-treated mutants habituated less strongly than Melatonin-treated sibling controls (\autoref{fig:3}A).
+However, they still showed a significant effect of Melatonin relative to vehicle controls, indicating that Mtnr1aa does not fully mediate the effects of Melatonin on habituation learning.
+The mutant-dependent effects were less clear for latency (\autoref{fig:3}B), and the kinematic components of the response  (\autoref{fig:3}D-F), but we consistently observed a trend towards less Melatonin responsiveness, but this did not always reach statistical significance. 
+From these results we conclude that Mtnr1aa is partially required for the effects of Melatonin on habituation learning, but that another receptor likely also contribute. 
 
-Mtnr1ab is the most closely related paralog to Mtnr1aa, and is expressed in a more restricted pattern in the brain, including in the forebrain and midbrain, but not the hindbrain \citep{Hill2026}. We found no evidence that \emph{mtnr1ab} mutants show deficits in the effects of Melatonin on habituation learning (\autoref{fig:3}G-L), indicating that this receptor does not play a major role in mediating the effects of Melatonin on habituation learning. Therefore, we turned our attention to the other MT1-type receptor, Mtnr1al, whose expression pattern is less clear as the gene appears to be very weakly expressed \citep{Hill2026}. Desipite this restricted pattern, We found that \emph{mtnr1al} mutants also show a significant reduction in the effects of Melatonin on habituation learning for the Probability of response (\autoref{fig:3}M), and a similar trend for the other behavioural components (\autoref{fig:3}N-R). From these data we can conclude that Mtnr1al also contributes to mediating the effects of Melatonin on habituation learning.
+Therefore, we next turned our attention to the other MT1-type receptors, Mtnr1ab and Mtnr1al.
+Mtnr1ab is the most closely related paralog to Mtnr1aa, but we found no evidence that \emph{mtnr1ab} was necessary for the effect of Melatonin on habutuation (\autoref{fig:3}G-L, \autoref{fig:S3}G-L). 
+Melatonin-treated \emph{mtnr1ab} mutants were indistinguishable from Melatonin-treated sibling controls for all behavioural components, indicating that Mtnr1ab is not required for the effects of Melatonin on habituation learning.
+
+Mtnr1al is therefore the last remaining MT1-type receptor, and our next candidate. Indeed, we found that \emph{mtnr1al} mutants showed a very similar phenotype to \emph{mtnr1aa} mutants (\autoref{fig:3}M-R, \autoref{fig:S3}M-R), also showing a significant reduction in the effects of Melatonin on habituation learning for the probability of response (\autoref{fig:3}M), and a similar trend for the other behavioural components (\autoref{fig:3}N-R). From these data we can conclude that both Mtnr1aa and Mtnr1al contribute to mediating the effects of Melatonin on habituation learning.
 
 \subsubsection{Mtnr1ba, Mtnr1bb, and Mtnr1c are dispensible for the effects of Melatonin on habituation learning}
 
@@ -339,19 +366,19 @@ Mtnr1ab is the most closely related paralog to Mtnr1aa, and is expressed in a mo
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=1\linewidth]{Figures/Figure_MT2andCMutants_graphs.png}
+\includegraphics[width=0.7\linewidth]{Figures/Figure_MT2andCMutants_graphs.png}
 
 \caption{\textbf{Zebrafish mutants for \emph{mtnr1ba}, \emph{mtnr1bb}, and \emph{mtnr1c} show normal responsiveness to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing mutants for \emph{mtnr1ba} (\textbf{A-F}), and \emph{mtnr1bb} (\textbf{G-L}), and \emph{mtnr1c} (\textbf{M-R}) to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
 DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
 Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
-\\ \textbf{A, G, M} the probability of response to the stimulus: 
-\\ \textbf{B, H, N} the response latency,
-\\ \textbf{C, I, O} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{D, J, P} the duration of the movement, 
-\\ \textbf{E, K, Q} the displacement as achieved, and 
-\\ \textbf{F, L, R} the reorientation achieved by the larvae.
+\\ \textbf{A), G), M)} the probability of response to the stimulus: 
+\\ \textbf{B), H), N)} the response latency,
+\\ \textbf{C), I), O)} the maximum tail-bend amplitude achieved during the movement,
+\\ \textbf{D), J), P)} the duration of the movement, 
+\\ \textbf{E), K), Q)} the displacement of the movement, and 
+\\ \textbf{F), L), R)} the reorientation achieved by the larvae.
 }
 
 \label{fig:4}
@@ -360,11 +387,11 @@ Each dot is the probability of response to one DF. Lines are smoothed in time wi
 {Quantification of epoch-level behavioural responses from \autoref{fig:4}.
 \\ Distributions of responsiveness for different epochs of the experiment \textbf{ii)-v)}: \textbf{ii)} Naive Response (first 3 dark-flash stimuli), \textbf{iii)} Block 1 (remaining 57 stimuli of the first training block), \textbf{iv)} Trained Response (training blocks 2--4), and \textbf{v)} Acoustic Response (30 vibration stimuli). Each dot is the per-fish average of the epoch.
 Statistical significance was calculated using the Kruskal-Wallis test followed by Dunn's test for post-hoc pairwise comparisons, * = p < 0.05, ** = p < 0.01, *** = p < 0.001.
-\\ \textbf{A-F)} \emph{mtnr1ba} cohort, with \textbf{A} probability of response, \textbf{B} response latency, \textbf{C} maximum tail-bend amplitude, \textbf{D} duration, \textbf{E} displacement, and \textbf{F} reorientation.
-\\ \textbf{G-L)} \emph{mtnr1bb} cohort, with \textbf{G} probability of response, \textbf{H} response latency, \textbf{I} maximum tail-bend amplitude, \textbf{J} duration, \textbf{K} displacement, and \textbf{L} reorientation.
-\\ \textbf{M-R)} \emph{mtnr1c} cohort, with \textbf{M} probability of response, \textbf{N} response latency, \textbf{O} maximum tail-bend amplitude, \textbf{P} duration, \textbf{Q} displacement, and \textbf{R} reorientation.
+\\ \textbf{A-F)} \emph{mtnr1ba} cohort, with \textbf{A)} probability of response, \textbf{B)} response latency, \textbf{C)} maximum tail-bend amplitude, \textbf{D)} duration, \textbf{E)} displacement, and \textbf{F)} reorientation.
+\\ \textbf{G-L)} \emph{mtnr1bb} cohort, with \textbf{G)} probability of response, \textbf{H)} response latency, \textbf{I)} maximum tail-bend amplitude, \textbf{J)} duration, \textbf{K)} displacement, and \textbf{L)} reorientation.
+\\ \textbf{M-R)} \emph{mtnr1c} cohort, with \textbf{M)} probability of response, \textbf{N)} response latency, \textbf{O)} maximum tail-bend amplitude, \textbf{P)} duration, \textbf{Q)} displacement, and \textbf{R)} reorientation.
 }
-{\includegraphics[width=0.9\linewidth]{Figures/Figure_MT2andCMutants_stats.png}}
+{\includegraphics[width=0.7\linewidth]{Figures/Figure_MT2andCMutants_stats.png}}
 
 \end{center}
 % \endinternallinenumbers
@@ -379,19 +406,20 @@ Having identified Mtnr1aa and Mtnr1al as two receptors that contribute to mediat
 % \internallinenumbers
 
 \begin{center}
-\includegraphics[width=1\linewidth]{Figures/Figure_AAandALMutants_graphs.png}
+\includegraphics[width=0.7\linewidth]{Figures/Figure_AAandALMutants_graphs.png}
 
 \caption{\textbf{Zebrafish larvae lacking both \emph{mtnr1aa} and \emph{mtnr1al} are insensitive to Melatonin's effects on habituation learning}\\
-Habituation behaviour comparing double mutants for \emph{mtnr1aa} and \emph{mtnr1al} to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). Due to the rarity of the double mutants, we did not have enough double mutant larvae to test the vehicle treated group for analyses. 
+Habituation behaviour comparing double mutants for \emph{mtnr1aa} and \emph{mtnr1al} to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
+Due to the rarity of the double mutants, we did not have enough double mutant larvae to test the vehicle treated group for analyses. 
 DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
 Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
-\\ \textbf{A} the probability of response to the stimulus: 
-\\ \textbf{B} the response latency,
-\\ \textbf{C} the maximum tail-bend amplitude achieved during the movement,
-\\ \textbf{D} the duration of the movement, 
-\\ \textbf{E} the displacement as achieved, and 
-\\ \textbf{F} the reorientation achieved by the larvae.
+\\ \textbf{A)} the probability of response to the stimulus: 
+\\ \textbf{B)} the response latency,
+\\ \textbf{C)} the maximum tail-bend amplitude achieved during the movement,
+\\ \textbf{D)} the duration of the movement, 
+\\ \textbf{E)} the displacement of the movement, and 
+\\ \textbf{F)} the reorientation achieved by the larvae.
 }
 
 \label{fig:5}
@@ -402,7 +430,7 @@ Each dot is the probability of response to one DF. Lines are smoothed in time wi
 Statistical significance was calculated using the Kruskal-Wallis test followed by Dunn's test for post-hoc pairwise comparisons, * = p < 0.05, ** = p < 0.01, *** = p < 0.001.
 \\ \textbf{A-F)} \emph{mtnr1aa;mtnr1al} double-mutant experiment, with \textbf{A} probability of response, \textbf{B} response latency, \textbf{C} maximum tail-bend amplitude, \textbf{D} duration, \textbf{E} displacement, and \textbf{F} reorientation.
 }
-{\includegraphics[width=0.9\linewidth]{Figures/Figure_AAandALMutants_stats_stats.png}}
+{\includegraphics[width=0.7\linewidth]{Figures/Figure_AAandALMutants_stats_stats.png}}
 
 \end{center}
 % \endinternallinenumbers
@@ -411,9 +439,9 @@ Statistical significance was calculated using the Kruskal-Wallis test followed b
 Our experiments with the individual mutants found that both Mtnr1aa and Mtnr1al contribute to mediating the effects of Melatonin on habituation learning, but that each contributes only partially, approximately half of the effect. 
 Therefore, we wanted to determine if these receptors act in a cooperative manner to mediate these effects. 
 To test this hypothesis, we generated double mutants for \emph{mtnr1aa} and \emph{mtnr1al}, and tested their effect on the modulation of habituation learning by exogenous Melatonin. 
-We found that the double mutants show a much more robust reduction in the effects of Melatonin on habituation learning for the Probability of response (\autoref{fig:5}A), where double mutants treated with Melatonin are significantly more responsive than Melatonin-treated sibling controls in during all the habituation phases, and are indistinguishable from vehicle-treated sibling controls. 
-This is broadly also true for Latency, Bend Amplitude and Movement Duration, where this statistical relationship is observed in most epochs we analyze statistically and always in the "Trained Response" epoch of training blocks 2-4 (\autoref{fig:5}Biv-Div), representing the period where the Melatonin-dependent phenotype is the most robust (\autoref{fig:1}).
-These results indicate that the double mutants show a complete loss of sensitivity to the effects of Melatonin on habituation learning, and that this is true for both the components of habituation potentiated by Melatonin (Probability and Latency), and those that are inhibited (Bend Amplitude and Movement Duration).  
+We found that the double mutants show a much more robust reduction in the effects of Melatonin on habituation learning for the probability of response (\autoref{fig:5}A), where double mutants treated with Melatonin are significantly more responsive than Melatonin-treated sibling controls in during all the habituation phases, and are indistinguishable from vehicle-treated sibling controls. 
+This is broadly also true for latency, bend amplitude and movement duration, where this statistical relationship is observed in most epochs we analyze statistically and always in the "Trained Response" epoch of training blocks 2-4 (\autoref{fig:5}Biv-Div), representing the period where the Melatonin-dependent phenotype is the most robust (\autoref{fig:1}).
+These results indicate that the double mutants show a complete loss of sensitivity to the effects of Melatonin on habituation learning, and that this is true for both the components of habituation potentiated by Melatonin (probability and latency), and those that are inhibited (bend amplitude and movement duration).  
 From these data we can conclude that Mtnr1aa and Mtnr1al cooperatively mediate the effects of Melatonin on habituation learning.
 
 
@@ -425,9 +453,14 @@ From these data we can conclude that Mtnr1aa and Mtnr1al cooperatively mediate t
 \begin{center}
 \includegraphics[width=0.65\linewidth]{Figures/Figure_pERK.png}
 
-\caption{\textbf{Differential activity of \emph{mtnr1aa} and \emph{mtnr1al} in response to dark flash training}
-\\ \textbf{A)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1aa} in the brain of 5dpf larval zebrafish. 3 planes of the brain are shown moving from dorsal (top) to ventral (bottom). Tec = Tectum, Cb = Cerebellum, Teg = Tegmentum, POA = Preoptic Area,  PT = Posterior Tuberculum, mHB = Medial Hindbrain.
+\caption{\textbf{Circuit-level effects of \emph{mtnr1aa} and \emph{mtnr1al} during habituation learning}
+\\ \textbf{A)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1aa} in the brain of 5dpf larval zebrafish. 3 planes of the brain are shown moving from dorsal (top) to ventral (bottom). Data are the average of 4 animals co-registered to the same coordinate space. Tec = Tectum, Cb = Cerebellum, Teg = Tegmentum, POA = Preoptic Area,  PT = Posterior Tuberculum, mHB = Medial Hindbrain.
+\\\textbf{B)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1al}. Data are the average of 4 animals co-registered to the same coordinate space.
+\\ \textbf{C-E)} pERK-based MAP-mapping of differential activity in mutants relative to sibling controls, both treated with Melatonin (\SI{1}{\micro\Molar}) and stimuluated with 60 DFs, in order to highlight mutation-dependent differences in neural activity during habituation, for: \textbf{C)} \emph{mtnr1aa} mutants, \textbf{D)} \emph{mtnr1al} mutants, and \textbf{E)} \emph{mtnr1aa;mtnr1al} double mutants. 
+Significant increases in the ratio of pERK/tERK staining in mutants relative to siblings is shown in green, while decreases are shown in magenta.
+\\ \textbf{F)} Heatmap depicting the mean differential pERK/tERK in the different mutants from \textbf{(C-E)} in different brain areas of the Z-Brain atlas (MECE regions, see \citealp{Vohra2025_bioRxiv}). 
 }
+
 
 \label{fig:6}
 \end{center}
@@ -614,7 +647,7 @@ Stained brains were mounted in 2\% LMP agarose () and imaged from the dorsal suf
 
 \subsection{MAP-Mapping Analyses of Brain-Wide Activity Patterns}
 Whole-brain pERK activity mapping was performed using the MAP-mapping approach \citep{Randlett2019-fj}.
-Larvae (5dpf) from crosses of heterozygous Melatonin receptor double mutants were treated with \SI{1}{\micro\Molar} Melatonin and .
+Larvae (5dpf) from crosses of heterozygous Melatonin receptor double mutants were treated with \SI{1}{\micro\Molar} Melatonin.
 Approximately one hour after treatment onset, larvae were transferred in groups to 10 cm petri dishes in the dark flash behavior setup and allowed to acclimatize for 20 minutes.
 Larvae were then subjected to a block of 60 dark flashes (1 second light-off, 1 minute inter-stimulus interval) prior to immediate fixation in 4\% paraformaldehyde in PBS.
 Control (na\"ive) cohorts were transferred to the same setup and acclimatized for the equivalent duration without receiving dark flashes before fixation.
@@ -798,5 +831,7 @@ the 230~bp deletion removes the start codon.}
 
 \end{longtable}
 }% end scriptsize
+
+\newpage
 
 \end{document}

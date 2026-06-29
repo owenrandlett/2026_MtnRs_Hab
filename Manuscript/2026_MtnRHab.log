@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  25 JUN 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  29 JUN 2026 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,12 +1270,12 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 ) (c:/texlive/2024/texmf-dist/tex/latex/seqsplit/seqsplit.sty
 Package: seqsplit 2006/08/07 v0.1 Splitting long sequences (DNA, RNA, proteins, etc.) 
 )
-LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on input line 82.
+LaTeX Font Info:    Trying to load font information for T1+opensans-TLF on input line 98.
  (c:/texlive/2024/texmf-dist/tex/latex/opensans/T1opensans-TLF.fd
 File: T1opensans-TLF.fd 2019/06/24 Font definitions for T1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 98.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1284,44 +1284,44 @@ LaTeX Warning: Unused global option(s):
 (./2026_MtnRHab.aux)
 \openout1 = `2026_MtnRHab.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 82.
-LaTeX Font Info:    Trying to load font information for LS1+stix on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 98.
+LaTeX Font Info:    Trying to load font information for LS1+stix on input line 98.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 82.
-LaTeX Font Info:    Trying to load font information for LS2+stix on input line 82.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 98.
+LaTeX Font Info:    Trying to load font information for LS2+stix on input line 98.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 82.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 82.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 98.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 98.
  (c:/texlive/2024/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Info: Command `\dddot' is already robust on input line 82.
-LaTeX Info: Command `\ddddot' is already robust on input line 82.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Info: Command `\dddot' is already robust on input line 98.
+LaTeX Info: Command `\ddddot' is already robust on input line 98.
  (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count402
@@ -1343,23 +1343,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@mv@tabular=\count408
 \c@mv@boldtabular=\count409
-LaTeX Info: Redefining \microtypecontext on input line 82.
-Package microtype Info: Applying patch `item' on input line 82.
-Package microtype Info: Applying patch `toc' on input line 82.
-Package microtype Info: Applying patch `eqnum' on input line 82.
+LaTeX Info: Redefining \microtypecontext on input line 98.
+Package microtype Info: Applying patch `item' on input line 98.
+Package microtype Info: Applying patch `toc' on input line 98.
+Package microtype Info: Applying patch `eqnum' on input line 98.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 82.
+Package microtype Warning: Unable to apply patch `footnote' on input line 98.
 
-Package microtype Info: Applying patch `verbatim' on input line 82.
-LaTeX Info: Redefining \microtypesetup on input line 82.
+Package microtype Info: Applying patch `verbatim' on input line 98.
+LaTeX Info: Redefining \microtypesetup on input line 98.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 82.
+LaTeX Info: Redefining \showhyphens on input line 98.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1411,192 +1411,213 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `wrapfig' package detected.
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 98.
  (./2026_MtnRHab.out) (./2026_MtnRHab.out)
 \@outlinefile=\write4
 \openout4 = `2026_MtnRHab.out'.
 
 \c@lstlisting=\count410
 
-Package chemgreek Info: Activating mapping `textgreek' on line 82.
+Package chemgreek Info: Activating mapping `textgreek' on line 98.
 
  (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 82.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 98.
 \symgns@font=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input line 82.
-Package gensymb Info: Math companion symbols declared on input line 82.
-LaTeX Info: Redefining \degree on input line 82.
-LaTeX Info: Redefining \celsius on input line 82.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 82.
-LaTeX Info: Redefining \ohm on input line 82.
-Package gensymb Info: Using \textohm for \ohm on input line 82.
-LaTeX Info: Redefining \micro on input line 82.
-Package gensymb Info: Using \textmu for \micro on input line 82.
+(Font)                  TS1/opensans-TLF/m/n --> TS1/opensans-TLF/b/n on input line 98.
+Package gensymb Info: Math companion symbols declared on input line 98.
+LaTeX Info: Redefining \degree on input line 98.
+LaTeX Info: Redefining \celsius on input line 98.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 98.
+LaTeX Info: Redefining \ohm on input line 98.
+Package gensymb Info: Using \textohm for \ohm on input line 98.
+LaTeX Info: Redefining \micro on input line 98.
+Package gensymb Info: Using \textmu for \micro on input line 98.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 86.
+(Font)              scaled to size 10.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 24.0pt on input line 86.
+(Font)              scaled to size 24.0pt on input line 102.
 
-Overfull \hbox (8.95554pt too wide) in paragraph at lines 86--86
+Overfull \hbox (8.95554pt too wide) in paragraph at lines 102--102
 []\T1/opensans-TLF/b/n/24 Melatonin mod-u-lates learn-ing per-for-mance
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 86--86
+Underfull \hbox (badness 1297) in paragraph at lines 102--102
 \T1/opensans-TLF/b/n/24 via the in-de-pen-dent ac-tion of two MT1-
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 102.
 (c:/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 86.
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 86.
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 86.
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 86.
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 86.
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 86.
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 86.
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on input line 86.
+LaTeX Font Info:    Trying to load font information for TS1+opensans-TLF on input line 102.
  (c:/texlive/2024/texmf-dist/tex/latex/opensans/TS1opensans-TLF.fd
 File: TS1opensans-TLF.fd 2019/06/24 Font definitions for TS1/opensans-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 102.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `opensans-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 86.
+(Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 86.
+(Font)              scaled to size 6.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 86.
+(Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 86.
+(Font)              scaled to size 8.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 102.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 86.
+(Font)              scaled to size 5.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 86.
+(Font)              scaled to size 6.0pt on input line 102.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 91.
+(Font)              scaled to size 20.74pt on input line 121.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 91.
+(Font)              scaled to size 20.74pt on input line 121.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 127.
 
-Underfull \hbox (badness 2005) in paragraph at lines 93--94
-\T1/opensans-TLF/m/n/10 Melatonin, Mela-tonin Re-cep-tors, Ha-bit-u-a-tion, Learn-ing, Ze-brafish, Larva, Sen-so-ri-mo-tor Gat-ing, Star-tle
+Underfull \hbox (badness 4366) in paragraph at lines 136--140
+\T1/opensans-TLF/m/n/10 Habituation is an evo-lu-tion-ar-ily con-served form of learn-ing, de-fined as a pro-gres-sive de-crease in
  []
 
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 112.
 
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 141.
 [1
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc}]
 
 [2]
-<Figures/Figure_MelatoninBehaviourPhenotype_graphs.png, id=202, 630.6762pt x 287.1528pt>
+<Figures/Figure_MelatoninBehaviourPhenotype_graphs.png, id=201, 630.6762pt x 287.1528pt>
 File: Figures/Figure_MelatoninBehaviourPhenotype_graphs.png Graphic file (type png)
 <use Figures/Figure_MelatoninBehaviourPhenotype_graphs.png>
-Package pdftex.def Info: Figures/Figure_MelatoninBehaviourPhenotype_graphs.png  used on input line 164.
-(pdftex.def)             Requested size: 509.01945pt x 231.76436pt.
+Package pdftex.def Info: Figures/Figure_MelatoninBehaviourPhenotype_graphs.png  used on input line 178.
+(pdftex.def)             Requested size: 356.31206pt x 162.23286pt.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 178.
+(Font)              scaled to size 7.0pt on input line 192.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 178.
+(Font)              scaled to size 7.0pt on input line 192.
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 178.
+(Font)              scaled to size 7.0pt on input line 192.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 178.
+(Font)              scaled to size 5.0pt on input line 192.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.0pt on input line 194.
+(Font)              scaled to size 7.0pt on input line 208.
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 7.0pt on input line 194.
+(Font)              scaled to size 7.0pt on input line 208.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 220.
+LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.5pt on input line 220.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
+(Font)              scaled to size 7.5pt on input line 220.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 220.
 
-Underfull \hbox (badness 1270) in paragraph at lines 201--205
-\T1/opensans-TLF/m/n/10 Through a high-throughput drug screen, we pre-vi-ously iden-ti-fied Mela-tonin as a po-tent mod-u-la-tor of
- []
+Overfull \vbox (3.20369pt too high) has occurred while \output is active []
 
 
 
 [3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_nvvucy.enc} <./Figures/Figure_MelatoninBehaviourPhenotype_graphs.png>]
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 206.
-LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 206.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/n' will be
-(Font)              scaled to size 7.5pt on input line 206.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 10.0pt on input line 206.
+<Figures/Figure_AANATMutants_graphs.png, id=249, 661.63185pt x 615.7404pt>
+File: Figures/Figure_AANATMutants_graphs.png Graphic file (type png)
+<use Figures/Figure_AANATMutants_graphs.png>
+Package pdftex.def Info: Figures/Figure_AANATMutants_graphs.png  used on input line 246.
+(pdftex.def)             Requested size: 356.31206pt x 331.5929pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 7.5pt on input line 287.
+
+
+LaTeX Warning: Reference `fig:S2' on page 4 undefined on input line 287.
+
+
+LaTeX Warning: Reference `fig:S2' on page 4 undefined on input line 291.
+
+
+LaTeX Warning: Reference `fig:S2' on page 4 undefined on input line 291.
+
 
 
 [4]
-<Figures/Figure_AANATMutants_graphs.png, id=250, 661.63185pt x 615.7404pt>
-File: Figures/Figure_AANATMutants_graphs.png Graphic file (type png)
-<use Figures/Figure_AANATMutants_graphs.png>
-Package pdftex.def Info: Figures/Figure_AANATMutants_graphs.png  used on input line 231.
-(pdftex.def)             Requested size: 509.01945pt x 473.70818pt.
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 7.5pt on input line 269.
-<Figures/Figure_MT1Mutants_graphs.png, id=262, 995.8806pt x 1138.13205pt>
+
+[5 <./Figures/Figure_AANATMutants_graphs.png>]
+
+LaTeX Warning: Reference `fig:S2' on page 6 undefined on input line 298.
+
+<Figures/Figure_MT1Mutants_graphs.png, id=272, 682.4697pt x 923.49014pt>
 File: Figures/Figure_MT1Mutants_graphs.png Graphic file (type png)
 <use Figures/Figure_MT1Mutants_graphs.png>
-Package pdftex.def Info: Figures/Figure_MT1Mutants_graphs.png  used on input line 293.
-(pdftex.def)             Requested size: 432.66963pt x 494.45825pt.
+Package pdftex.def Info: Figures/Figure_MT1Mutants_graphs.png  used on input line 310.
+(pdftex.def)             Requested size: 356.31206pt x 482.16223pt.
+LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 347.
+
+LaTeX Warning: Reference `fig:S3' on page 6 undefined on input line 350.
 
 
-[5]
+LaTeX Warning: Reference `fig:S3' on page 6 undefined on input line 357.
 
-[6 <./Figures/Figure_AANATMutants_graphs.png>]
+
+
+[6]
 
 [7 <./Figures/Figure_MT1Mutants_graphs.png>]
-LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 329.
-<Figures/Figure_MT2andCMutants_graphs.png, id=301, 696.32146pt x 924.69466pt>
+
+LaTeX Warning: Reference `fig:S3' on page 8 undefined on input line 360.
+
+<Figures/Figure_MT2andCMutants_graphs.png, id=303, 696.32146pt x 924.69466pt>
 File: Figures/Figure_MT2andCMutants_graphs.png Graphic file (type png)
 <use Figures/Figure_MT2andCMutants_graphs.png>
-Package pdftex.def Info: Figures/Figure_MT2andCMutants_graphs.png  used on input line 342.
-(pdftex.def)             Requested size: 509.01945pt x 675.96684pt.
-
-
-LaTeX Warning: Float too large for page by 128.3226pt on input line 371.
-
-<Figures/Figure_AAandALMutants_graphs.png, id=306, 625.49686pt x 296.18655pt>
+Package pdftex.def Info: Figures/Figure_MT2andCMutants_graphs.png  used on input line 369.
+(pdftex.def)             Requested size: 356.31206pt x 473.16832pt.
+<Figures/Figure_AAandALMutants_graphs.png, id=308, 625.49686pt x 296.18655pt>
 File: Figures/Figure_AAandALMutants_graphs.png Graphic file (type png)
 <use Figures/Figure_AAandALMutants_graphs.png>
-Package pdftex.def Info: Figures/Figure_AAandALMutants_graphs.png  used on input line 382.
-(pdftex.def)             Requested size: 509.01945pt x 241.03964pt.
+Package pdftex.def Info: Figures/Figure_AAandALMutants_graphs.png  used on input line 409.
+(pdftex.def)             Requested size: 356.31206pt x 168.72865pt.
+<Figures/Figure_pERK.png, id=313, 668.2566pt x 572.1375pt>
+File: Figures/Figure_pERK.png Graphic file (type png)
+<use Figures/Figure_pERK.png>
+Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 454.
+(pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
 
 
 [8]
@@ -1604,44 +1625,39 @@ Package pdftex.def Info: Figures/Figure_AAandALMutants_graphs.png  used on input
 [9 <./Figures/Figure_MT2andCMutants_graphs.png>]
 
 [10 <./Figures/Figure_AAandALMutants_graphs.png>]
-<Figures/Figure_pERK.png, id=333, 668.2566pt x 572.1375pt>
-File: Figures/Figure_pERK.png Graphic file (type png)
-<use Figures/Figure_pERK.png>
-Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 426.
-(pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
-
 
 [11 <./Figures/Figure_pERK.png>]
-
-[12]
-Underfull \hbox (badness 1406) in paragraph at lines 477--488
+Underfull \hbox (badness 1406) in paragraph at lines 510--521
 \T1/opensans-TLF/m/n/10 A cen-tral con-clu-sion from stud-ies of ha-bit-u-a-tion in lar-val ze-brafish is that this be-hav-ior is in-her-ently
  []
 
 
+
+[12]
 
 [13]
 
 [14]
 
 [15]
-
-[16]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
-[17{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 1152) in paragraph at lines 606--609
+[16{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+Underfull \hbox (badness 1152) in paragraph at lines 639--642
 []\T1/opensans-TLF/m/n/10 Control of the LEDs, solenoid, and cam-era ac-tu-a-tor was man-aged by a Rasp-berry Pi Pico run-ning
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/b/it' will be
-(Font)              scaled to size 12.0pt on input line 610.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 636.
-(c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+(Font)              scaled to size 12.0pt on input line 643.
+
+
+[17]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 669.
+ (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
@@ -1649,129 +1665,128 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1968) in paragraph at lines 633--640
+Underfull \hbox (badness 1968) in paragraph at lines 666--673
 \T1/opensans-TLF/m/n/10 Seaborn, scikit-posthocs), avail-able at [][]github.com/owenrandlett/2026_MtnRs_Hab/code[][]. Per-fish group-
  []
 
-
-
-[18] (./2026_MtnRHab.bbl
+(./2026_MtnRHab.bbl
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 6.
 
 
-[19{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+[18{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
 LaTeX Font Info:    Font shape `TS1/opensans-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 50.
 
+
+[19]
 
 [20])
 
 [21]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 688.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 721.
 
-Overfull \hbox (24.12064pt too wide) in alignment at lines 669--690
+Overfull \hbox (24.12064pt too wide) in alignment at lines 702--723
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (24.12064pt too wide) in alignment at lines 690--702
+Overfull \hbox (24.12064pt too wide) in alignment at lines 723--735
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (24.12064pt too wide) in alignment at lines 702--704
+Overfull \hbox (24.12064pt too wide) in alignment at lines 735--737
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (24.12064pt too wide) in alignment at lines 704--707
+Overfull \hbox (24.12064pt too wide) in alignment at lines 737--740
  [] [] [] [] [] [] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/opensans-TLF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 716.
+(Font)              scaled to size 5.0pt on input line 749.
 
-Overfull \hbox (3.05717pt too wide) in paragraph at lines 743--744
+Overfull \hbox (3.05717pt too wide) in paragraph at lines 776--777
 \T1/lmtt/m/n/7 AUGGUAGUGAUCAGAACGCG| 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 758--759
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 791--792
 []|\T1/lmtt/m/n/7 UCCCUCAUCAGGAACCGGAG 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 758--759
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 791--792
 \T1/lmtt/m/n/7 CUGAUCUUCACGAGCGUGGG 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 758--759
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 791--792
 \T1/lmtt/m/n/7 GUACCAUGACGACCCACGCG| 
  []
 
 
-Overfull \hbox (3.34274pt too wide) in paragraph at lines 780--781
+Overfull \hbox (3.34274pt too wide) in paragraph at lines 813--814
 []|\T1/lmtt/m/n/7 CCACAGTGTAGGAGCTGCTGGCAGT 
  []
 
 
-Overfull \hbox (24.12064pt too wide) in alignment at lines 707--799
+Overfull \hbox (24.12064pt too wide) in alignment at lines 740--832
  [] [] [] [] [] [] [] 
  []
 
-(./2026_MtnRHab.suppinfo
-<Figures/Figure_MelatoninBehaviourPhenotype_stats.png, id=523, 384.7173pt x 295.70474pt>
+
+
+[22] (./2026_MtnRHab.suppinfo
+<Figures/Figure_MelatoninBehaviourPhenotype_stats.png, id=535, 468.43005pt x 295.70474pt>
 File: Figures/Figure_MelatoninBehaviourPhenotype_stats.png Graphic file (type png)
 <use Figures/Figure_MelatoninBehaviourPhenotype_stats.png>
 Package pdftex.def Info: Figures/Figure_MelatoninBehaviourPhenotype_stats.png  used on input line 4.
-(pdftex.def)             Requested size: 458.1144pt x 352.14568pt.
-
-
-[22]
-<Figures/Figure_AANATMutants_stats.png, id=531, 526.72784pt x 593.21625pt>
+(pdftex.def)             Requested size: 356.31206pt x 224.93646pt.
+<Figures/Figure_AANATMutants_stats.png, id=537, 526.72784pt x 593.21625pt>
 File: Figures/Figure_AANATMutants_stats.png Graphic file (type png)
 <use Figures/Figure_AANATMutants_stats.png>
 Package pdftex.def Info: Figures/Figure_AANATMutants_stats.png  used on input line 7.
-(pdftex.def)             Requested size: 458.1144pt x 515.94914pt.
+(pdftex.def)             Requested size: 356.31206pt x 401.29076pt.
 
 
 [23 <./Figures/Figure_MelatoninBehaviourPhenotype_stats.png>]
-<Figures/Figure_MT1Mutants_stats.png, id=540, 525.8847pt x 910.24065pt>
+<Figures/Figure_MT1Mutants_stats.png, id=546, 525.8847pt x 910.24065pt>
 File: Figures/Figure_MT1Mutants_stats.png Graphic file (type png)
 <use Figures/Figure_MT1Mutants_stats.png>
 Package pdftex.def Info: Figures/Figure_MT1Mutants_stats.png  used on input line 10.
-(pdftex.def)             Requested size: 458.1144pt x 792.94467pt.
+(pdftex.def)             Requested size: 356.31206pt x 616.7332pt.
 
 
 [24 <./Figures/Figure_AANATMutants_stats.png>]
 
 [25]
-Overfull \vbox (199.50026pt too high) has occurred while \output is active []
+Overfull \vbox (31.29977pt too high) has occurred while \output is active []
 
 
 
 [26 <./Figures/Figure_MT1Mutants_stats.png>]
-<Figures/Figure_MT2andCMutants_stats.png, id=561, 512.99655pt x 913.85416pt>
+<Figures/Figure_MT2andCMutants_stats.png, id=567, 512.99655pt x 913.85416pt>
 File: Figures/Figure_MT2andCMutants_stats.png Graphic file (type png)
 <use Figures/Figure_MT2andCMutants_stats.png>
 Package pdftex.def Info: Figures/Figure_MT2andCMutants_stats.png  used on input line 13.
-(pdftex.def)             Requested size: 458.1144pt x 816.1165pt.
+(pdftex.def)             Requested size: 356.31206pt x 634.75728pt.
 
 
 [27]
-Overfull \vbox (222.67209pt too high) has occurred while \output is active []
+Overfull \vbox (41.31287pt too high) has occurred while \output is active []
 
 
 
 [28 <./Figures/Figure_MT2andCMutants_stats.png>]
-<Figures/Figure_AAandALMutants_stats_stats.png, id=574, 517.09184pt x 298.2342pt>
+<Figures/Figure_AAandALMutants_stats_stats.png, id=580, 517.09184pt x 298.2342pt>
 File: Figures/Figure_AAandALMutants_stats_stats.png Graphic file (type png)
 <use Figures/Figure_AAandALMutants_stats_stats.png>
 Package pdftex.def Info: Figures/Figure_AAandALMutants_stats_stats.png  used on input line 16.
-(pdftex.def)             Requested size: 458.1144pt x 264.23077pt.
+(pdftex.def)             Requested size: 356.31206pt x 205.51332pt.
 )
 
 [29 <./Figures/Figure_AAandALMutants_stats_stats.png>] 
@@ -1781,22 +1796,26 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2021/03/21>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
-(rerunfilecheck)             Checksum: BD6B7BE3A5E7C8FB2B80CF8F1EB84E21;6416.
+(rerunfilecheck)             Checksum: 110E34E603F82E15CF959E2A42FC78A8;6327.
  ) 
 Here is how much of TeX's memory you used:
- 31150 strings out of 473330
- 572997 string characters out of 5723877
- 1071989 words of memory out of 5000000
- 53684 multiletter control sequences out of 15000+600000
- 634698 words of font info for 195 fonts, out of 8000000 for 9000
+ 31162 strings out of 473330
+ 573150 string characters out of 5723877
+ 1080888 words of memory out of 5000000
+ 53695 multiletter control sequences out of 15000+600000
+ 635093 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,11n,131p,2031b,1290s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,12n,131p,2086b,1314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (29 pages, 45017747 bytes).
+Output written on 2026_MtnRHab.pdf (29 pages, 44831548 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
- 577 compressed objects within 6 object streams
+ 662 PDF objects out of 1000 (max. 8388607)
+ 583 compressed objects within 6 object streams
  116 named destinations out of 1000 (max. 500000)
- 20712 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20704 words of extra memory for PDF output out of 20736 (max. 10000000)
 
