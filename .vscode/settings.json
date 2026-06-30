@@ -1,0 +1,10 @@
+{
+  "ltex.language": "en-US",
+  "ltex.enabled": [
+    "latex",
+    "bibtex",
+    "markdown"
+  ],
+  "ltex.additionalRules.enablePickyRules": false,
+  "ltex.additionalRules.motherTongue": "fr"
+}
