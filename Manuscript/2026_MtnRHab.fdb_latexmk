@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex 2026_MtnRHab"] 1782805261.74692 "2026_MtnRHab.aux" "2026_MtnRHab.bbl" "2026_MtnRHab" 1782805285.03442 0
+["bibtex 2026_MtnRHab"] 1782808734.20954 "2026_MtnRHab.aux" "2026_MtnRHab.bbl" "2026_MtnRHab" 1782808757.15483 0
   "./References_MtnRHab.bib" 1782482233 203086 3e5fb355998e399f9b9aed4442be5da5 ""
-  "2026_MtnRHab.aux" 1782805284 27524 7f34a5f65f5bdf426449d5e7575b861e "pdflatex"
+  "2026_MtnRHab.aux" 1782808756 32301 032352e7f3a8a1174728b093236ed69a "pdflatex"
   "c:/texlive/2024/texmf-dist/bibtex/bst/base/apalike.bst" 1734437443 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   (generated)
   "2026_MtnRHab.bbl"
   "2026_MtnRHab.blg"
   (rewritten before read)
-["pdflatex"] 1782805262.12963 "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" "2026_MtnRHab.pdf" "2026_MtnRHab" 1782805285.03485 0
-  "2026_MtnRHab.aux" 1782805284 27524 7f34a5f65f5bdf426449d5e7575b861e "pdflatex"
-  "2026_MtnRHab.bbl" 1782805262 11921 55cd12cc827b74fbe0e97e932911a4f3 "bibtex 2026_MtnRHab"
-  "2026_MtnRHab.out" 1782805284 6327 110e34e603f82e15cf959e2a42fc78a8 "pdflatex"
-  "2026_MtnRHab.suppinfo" 1782805276 7847 5250cd9f6fbc14ad8b26d8ffbf9cca75 "pdflatex"
-  "2026_MtnRHab.tex" 1782805237 81994 74845b41fcc6f0d30fc4c8fe932884dc ""
+["pdflatex"] 1782808734.60706 "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" "2026_MtnRHab.pdf" "2026_MtnRHab" 1782808757.15538 0
+  "2026_MtnRHab.aux" 1782808756 32301 032352e7f3a8a1174728b093236ed69a "pdflatex"
+  "2026_MtnRHab.bbl" 1782808734 11921 55cd12cc827b74fbe0e97e932911a4f3 "bibtex 2026_MtnRHab"
+  "2026_MtnRHab.out" 1782808756 6327 110e34e603f82e15cf959e2a42fc78a8 "pdflatex"
+  "2026_MtnRHab.suppinfo" 1782808748 7847 5250cd9f6fbc14ad8b26d8ffbf9cca75 "pdflatex"
+  "2026_MtnRHab.tex" 1782808691 84162 7f4f444d5d0a011b52adb16a95848097 ""
   "Figures/Figure_AANATMutants_graphs.png" 1782383635 3654429 a381069e2ede0c6f85e336fa2f69a2c4 ""
   "Figures/Figure_AANATMutants_stats.png" 1782385955 3962359 7c33fd77b2e5057a05e1d139a0ce1869 ""
   "Figures/Figure_AAandALMutants_graphs.png" 1782394218 1659946 39b34b04e2f30105011f3561fa14e207 ""
@@ -25,7 +25,7 @@
   "Figures/Figure_MelatoninBehaviourPhenotype_stats.png" 1782395969 2444239 5cb33e60fa1f0483b028c5e1a0fd1169 ""
   "Figures/Figure_pERK.png" 1779276508 11926410 5c3f8cd526f554dedc37d2e43fdafbb6 ""
   "RandlettLab_elife.cls" 1772530852 16982 d530601baa1745318ee06ffa160c0bda ""
-  "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" 1782805237 81994 74845b41fcc6f0d30fc4c8fe932884dc ""
+  "c:/Users/owen.randlett/Documents/GitHub/2026_MtnRs_Hab/Manuscript/2026_MtnRHab.tex" 1782808691 84162 7f4f444d5d0a011b52adb16a95848097 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1734437800 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1734438974 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/opensans/a_jg4h6q.enc" 1734439404 2952 84fda6c8ae8be17712e9d998ffe48bad ""

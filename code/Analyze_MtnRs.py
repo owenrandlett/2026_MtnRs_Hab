@@ -74,7 +74,7 @@ if not os.path.exists(graph_dir):
 #% % Scan through raw data files and extract responses, etc. Does not need to be run if data has already been analyzed and saved. This will only work if the computer has access to the google sheet with the ROIs via gspread
 # parameters:
 big_rig3 = False # set to true if analyzing data from big rig 3, which has a different google sheet with ROIs than big rig 2. If false, will use big rig 2 sheet. If you have access to both sheets, you can analyze both sets of data and combine them in the end, since the same ROIs are used across sheets for the same experiments.
-re_analyze = False  # set to true to re-analyze raw data files.
+re_analyze = True  # set to true to re-analyze raw data files.
 
 if re_analyze:
     for exp_dir in tqdm(exp_dirs):
@@ -219,7 +219,7 @@ if re_analyze:
                 # calculate speed
 
                 x_coors = tail_coords[0, :, 0, :].T
-                y_coors = tail_coords[1, :, 1, :].T
+                y_coors = tail_coords[1, :, 0, :].T
 
                 # diff_x = np.diff(savgol_filter(HabTrackFunctions.ffill_cols(x_coors), sav_sz, sav_ord, axis=0), axis=0)
                 # diff_y = np.diff(savgol_filter(HabTrackFunctions.ffill_cols(y_coors), sav_sz, sav_ord, axis=0), axis=0)
@@ -234,7 +234,7 @@ if re_analyze:
                 )
 
                 speed = savgol_filter(
-                    np.sqrt(np.square(diff_x) + np.square(diff_x)), sav_sz, sav_ord, axis=0
+                    np.sqrt(np.square(diff_x) + np.square(diff_y)), sav_sz, sav_ord, axis=0
                 )
                 speed = np.vstack((np.zeros(n_fish), speed))
 
@@ -676,7 +676,7 @@ group_names = np.array(
         ["c4 WT/Het 0.1% DMSO_20220203_plate0", "c4 WT/Het melatonin 1µM_20220203_plate0",],  
         ["ab1 WT 0.1% DMSO_20220704_plate0", "ab1 WT 1µM Melatonin_20220704_plate0",],  
         ["ab1 Het 0.1% DMSO_20220704_plate0", "ab1 Het 1µM Melatonin_20220704_plate0",],  
-        ["ba2/C4 WT/Het 0.1% DMSO_20220707_plate0", "ba2/C4 WT/Het 0.1% DMSO_20220707_plate0",],  
+        ["ba2/C4 WT/Het 0.1% DMSO_20220707_plate0", "ba2/C4 WT/Het 1µM Melatonin_20220707_plate0",],  
         ["aa2+/?; al2+/? ; DMSO_20221129_plate0", "aa2+/?; al2+/? ; Mel_20221129_plate0",],  
         ["aa2+/?; al2+/? ; DMSO_20221129_plate1", "aa2+/?; al2+/? ; Mel_20221129_plate1",],  
         ["aa2+/?; ab2+/? ; DMSO_20221130_plate0", "aa2+/?; ab2+/? ; Mel_20221130_plate0",],  
@@ -1321,7 +1321,7 @@ group_names = np.array(
         'Shifted aanat 1 -/- 2 -/-_20230321_plate0'
         ],
         
-        ['Shifted aanat 1 +/? 2 -/-_20230418_plate0', 
+        ['Shifted aanat 1 +/? 2 +/?_20230418_plate0', 
         'Shifted aanat 1 -/- 2 +/?_20230418_plate0',
         'Shifted aanat 1 +/? 2 -/-_20230418_plate0',
         'Shifted aanat 1 -/- 2 -/-_20230418_plate0'
@@ -1380,7 +1380,7 @@ group_names = np.array(
         'Normal aanat 1 -/- 2 -/-_20230321_plate0'
         ],
         
-        ['Normal aanat 1 +/? 2 -/-_20230418_plate0', 
+        ['Normal aanat 1 +/? 2 +/?_20230418_plate0', 
         'Normal aanat 1 -/- 2 +/?_20230418_plate0',
         'Normal aanat 1 +/? 2 -/-_20230418_plate0',
         'Normal aanat 1 -/- 2 -/-_20230418_plate0'
