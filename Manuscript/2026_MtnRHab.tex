@@ -48,7 +48,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ARTICLE SETUP
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Melatonin modulates learning performance via the non-redundant action of two MT1-type receptors. 
+\title{Melatonin modulates learning performance via the convergent action of two MT1-type receptors. 
 }
 
 \author[1] 
@@ -57,13 +57,13 @@
 \author[1]
 {Isabelle Darvaux-Hubert}
 
-\author[1]
+\author[1, 2]
 {Romane Dorado-Doncel}
 
 \author[1]
 {Andrew Hsiao}
 
-\author[1]
+\author[1, 3]
 {Lisa Broisin}
 
 \author[1]
@@ -77,6 +77,14 @@
 
 \affil[1]{
 Laboratoire MeLiS, Université Claude Bernard Lyon 1 - CNRS UMR5284 - Inserm U1314, Faculté de Médecine et de Pharmacie, 8 avenue Rockefeller, 69008 Lyon, France
+}
+
+\affil[2]{
+Master program: Bioscience, Ecole Normale Supérieure de Lyon, France
+}
+
+\affil[3]{
+Licence program: Science de la Vie, Université Claude Bernard Lyon 1, Lyon, France
 }
 
 
@@ -122,7 +130,7 @@ Here we have extended these analyses and have found that Melatonin has strong bi
 Melatonin signals via G-protein coupled receptors, and we performed a systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors. 
 We found that only two MT1-type receptors (Mtnr1aa and Mtnr1al) are required for Melatonin's effects on habituation, with each showing reduced sensitivity to Melatonin, and \emph{mtnr1aa;mtnr1al} double mutants showing complete insensitivity.
 Similarly, functional analyses using whole-brain activity mapping found that each receptor modulates distinct brain regions individually, and that \emph{mtnr1aa;mtnr1al} double mutants show the strongest collective effects. 
-Rather than acting redundantly within the same circuit, these two receptors modulate activity in largely distinct brain regions yet converge on the same behavioral outcome, indicating that Melatonin promotes habituation through a distributed circuit architecture that reinforces its action on learning.
+Rather than acting redundantly within the same circuit, these two receptors modulate activity in largely distinct brain regions yet converge on the same full set of behavioural outcomes (both those Melatonin potentiates and those it inhibits) indicating that Melatonin promotes habituation through a distributed circuit architecture that reinforces, rather than duplicates, its action on learning.
 
 \end{abstract}
 
@@ -148,6 +156,7 @@ Melatonin acts primarily through two G-protein coupled receptors in the mammalia
 Both receptors are broadly expressed in the brain, including regions implicated in circadian regulation, sleep, and plasticity \citep{Ng2017, Klosen2019}.
 Zebrafish possess an expanded repertoire of six Melatonin receptors: three MT1-type (Mtnr1aa, Mtnr1ab, Mtnr1al), two MT2-type (Mtnr1ba, Mtnr1bb), and Mtnr1c, an ortholog of the mammalian Melatonin-insensitive GPR50 \citep{Hill2026}.
 This expanded repertoire provides a unique genetic handle for dissecting the functional contributions of individual receptor subtypes \emph{in vivo}.
+A concurrent study exploiting this genetic handle found that MT1-type paralogs mediate Melatonin's sleep-promoting effects in zebrafish by suppressing behavioural responses to visual stimuli, with Mtnr1aa accounting for most of this effect \citep{Hill2026}.
 
 Beyond its canonical roles in sleep and circadian entrainment, Melatonin has been increasingly implicated in other cognitive functions, including learning and memory.
 In rodents, MT1/MT2 signaling shapes time-of-day-dependent hippocampal synaptic plasticity and learning efficiency \citep{Jilg2019-oy}.
@@ -160,9 +169,8 @@ Here we leverage the zebrafish system to address this gap.
 Using a large behavioral dataset, we first show that Melatonin has complex, bidirectional effects on multiple independently regulated components of habituation behaviour.
 We then demonstrate through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors that two MT1-type receptors, Mtnr1aa and Mtnr1al, cooperatively and non-redundantly mediate these effects.
 Finally, using whole-brain activity mapping, we show that these two receptors appear to act in largely non-overlapping neural circuits.
-Together, these data provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning through the independent action of receptor paralogs in distinct brain regions.
-
-A concurrent, independent study similarly generated CRISPR mutants for all six zebrafish Melatonin receptors and found that MT1-type paralogs mediate Melatonin's role in promoting sleep by suppressing behavioural responses to visual stimuli, with Mtnr1aa accounting for most of this effect and Mtnr1al and Mtnr1ab contributing only a partially redundant, compensatory role \citep{Hill2026}. Habituation learning is a conceptually distinct process from this sleep/arousal phenotype: rather than a single-trial change in responsiveness or arousal state, habituation is a progressive, use-dependent form of plasticity that only emerges across repeated stimulation. Here we ask whether the same receptors also govern this distinct learning process, and find a markedly different genetic architecture: Mtnr1aa and Mtnr1al each contribute equally and non-redundantly to Melatonin's effects on habituation, while Mtnr1ab is fully dispensable. This contrast indicates that the same small family of receptors can be deployed with distinct combinatorial logic depending on the behaviour being modulated.
+This contrasts with their role in sleep, where Mtnr1aa predominates and Mtnr1ab and Mtnr1al instead act redundantly, partially compensating for its loss \citep{Hill2026}, indicating that the same small family of receptors can be deployed with contrasting genetic logic — redundant in one context, non-redundant and convergent in another — depending on the behaviour being modulated.
+Together, these data provide a molecular and circuit-level dissection of how Melatonin modulates a fundamental form of learning through the convergent action of receptor paralogs in distinct brain regions.
 
 
 \section{Results}
@@ -177,11 +185,11 @@ A concurrent, independent study similarly generated CRISPR mutants for all six z
 \includegraphics[width=0.7\linewidth]{Figures/Figure_MelatoninBehaviourPhenotype_graphs.png}
 
 \caption{\textbf{Melatonin has bidirectional effects on different components of habituation learning}\\
-	\textbf{A)} Treatment with \SI{1}{\micro\Molar} Melatonin (red) results in more rapid and profound decreases in the probability of response to DF stimuli during habituation training relative to vehicle controls (0.1\% DMSO black; n~=~664 vehicle and n~=~2188 Melatonin larvae, 18 independent experiments). 
-DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
+\textbf{A)} Treatment with \SI{1}{\micro\Molar} Melatonin (red) results in more rapid and profound decreases in the probability of response to DF stimuli during habituation training relative to vehicle controls (0.1\% DMSO black; n~=~664 vehicle and n~=~2188 Melatonin larvae, 18 independent experiments). 
+DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1 hour of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
-Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). 
-Quantification of the average.
+Each dot is the mean response across larvae to each DF, while 'X's mark mean responses to vibration stimuli. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). 
+\\ \textbf{B-F)} Same as A, but for the kinematic components of the response: 
 \textbf{B)} the response latency,
 \textbf{C)} the maximum tail-bend amplitude achieved during the movement,
 \textbf{D)} the duration of the movement, 
@@ -246,17 +254,17 @@ This is consistent with a model in which Melatonin acts on specific neural circu
 \caption{\textbf{Zebrafish larvae lacking Melatonin production show habituation deficits for the probability of response}\\
 \textbf{A)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls (day-tested cohort, 4 independent experiments: \emph{aanat1\textsuperscript{+/?};aanat2\textsuperscript{+/?}}, n~=~168; \emph{aanat1\textsuperscript{-/-};aanat2\textsuperscript{+/?}}, n~=~121; \emph{aanat1\textsuperscript{+/?};aanat2\textsuperscript{-/-}}, n~=~70; \emph{aanat1\textsuperscript{-/-};aanat2\textsuperscript{-/-}}, n~=~100). 
 Testing was performed during the circadian day, beginning at ZT4, where ZT0 is the time of lights "on" and ZT12 is the time of lights "off".
-DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
+DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1 hour of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
-Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2).
-\\ \textbf{B-F)} Same as A, but for the kinematic components of the O-bend response: 
+Each dot is the mean response across larvae to each DF, while 'X's mark mean responses to vibration stimuli. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2).
+\\ \textbf{B-F)} Same as A, but for the kinematic components of the response: 
 \textbf{B)} the response latency,
 \textbf{C)} the maximum tail-bend amplitude achieved during the movement,
 \textbf{D)} the duration of the movement, 
 \textbf{E)} the displacement of the movement, and 
 \textbf{F)} the reorientation achieved by the larvae.
 \textbf{G)} Double mutants for the melatonin-synthesizing enzymes Aanat1 and Aanat2 show a decreased modulation of the probability of response to DF stimuli during habituation training relative to heterozygous and WT sibling controls (night-tested cohort, shifted light cycle, 4 independent experiments: \emph{aanat1\textsuperscript{+/?};aanat2\textsuperscript{+/?}}, n~=~175; \emph{aanat1\textsuperscript{-/-};aanat2\textsuperscript{+/?}}, n~=~123; \emph{aanat1\textsuperscript{+/?};aanat2\textsuperscript{-/-}}, n~=~93; \emph{aanat1\textsuperscript{-/-};aanat2\textsuperscript{-/-}}, n~=~92).
-\\ \textbf{H-L)} Same as G, but for the kinematic components of the O-bend response: 
+\\ \textbf{H-L)} Same as G, but for the kinematic components of the response: 
 \textbf{H)} the response latency,
 \textbf{I)} the maximum tail-bend amplitude achieved during the movement,
 \textbf{J)} the duration of the movement, 
@@ -309,9 +317,9 @@ This may be due to the limitations of our visual assay, which requires light-ada
 
 \caption{\textbf{Zebrafish mutants for \emph{mtnr1aa} and \emph{mtnr1al}, but not \emph{mtnr1ab}, are less sensitive to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing mutants for \emph{mtnr1aa} (\textbf{A-F}; 9 independent experiments: DMSO \emph{mtnr1aa\textsuperscript{+/?}} n~=~394, Melatonin \emph{mtnr1aa\textsuperscript{+/?}} n~=~1169, DMSO \emph{mtnr1aa\textsuperscript{-/-}} n~=~149, Melatonin \emph{mtnr1aa\textsuperscript{-/-}} n~=~305), \emph{mtnr1ab} (\textbf{G-L}; 2 independent experiments: DMSO \emph{mtnr1ab\textsuperscript{+/?}} n~=~37, Melatonin \emph{mtnr1ab\textsuperscript{+/?}} n~=~115, DMSO \emph{mtnr1ab\textsuperscript{-/-}} n~=~10, Melatonin \emph{mtnr1ab\textsuperscript{-/-}} n~=~42), and \emph{mtnr1al} (\textbf{M-R}; 4 independent experiments: DMSO \emph{mtnr1al\textsuperscript{+/?}} n~=~108, Melatonin \emph{mtnr1al\textsuperscript{+/?}} n~=~467, DMSO \emph{mtnr1al\textsuperscript{-/-}} n~=~64, Melatonin \emph{mtnr1al\textsuperscript{-/-}} n~=~211) to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
-DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
+DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1 hour of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
-Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
+Each dot is the mean response across larvae to each DF, while 'X's mark mean responses to vibration stimuli. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
 \\ \textbf{A), G), M)} the probability of response to the stimulus: 
 \\ \textbf{B), H), N)} the response latency,
 \\ \textbf{C), I), O)} the maximum tail-bend amplitude achieved during the movement,
@@ -366,9 +374,9 @@ This leaves Mtnr1al as our next candidate. Indeed, we found that \emph{mtnr1al} 
 
 \caption{\textbf{Zebrafish mutants for \emph{mtnr1ba}, \emph{mtnr1bb}, and \emph{mtnr1c} show normal responsiveness to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing mutants for \emph{mtnr1ba} (\textbf{A-F}; 4 independent experiments: DMSO \emph{mtnr1ba\textsuperscript{+/?}} n~=~84, Melatonin \emph{mtnr1ba\textsuperscript{+/?}} n~=~366, DMSO \emph{mtnr1ba\textsuperscript{-/-}} n~=~26, Melatonin \emph{mtnr1ba\textsuperscript{-/-}} n~=~103), \emph{mtnr1bb} (\textbf{G-L}; 1 independent experiment: DMSO \emph{mtnr1bb\textsuperscript{+/?}} n~=~66, Melatonin \emph{mtnr1bb\textsuperscript{+/?}} n~=~171, DMSO \emph{mtnr1bb\textsuperscript{-/-}} n~=~9, Melatonin \emph{mtnr1bb\textsuperscript{-/-}} n~=~53), and \emph{mtnr1c} (\textbf{M-R}; 2 independent experiments: DMSO \emph{mtnr1c\textsuperscript{+/?}} n~=~91, Melatonin \emph{mtnr1c\textsuperscript{+/?}} n~=~347, DMSO \emph{mtnr1c\textsuperscript{-/-}} n~=~20, Melatonin \emph{mtnr1c\textsuperscript{-/-}} n~=~70) to their WT and heterozygous sibling controls. Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
-DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
+DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1 hour of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
-Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
+Each dot is the mean response across larvae to each DF, while 'X's mark mean responses to vibration stimuli. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
 \\ \textbf{A), G), M)} the probability of response to the stimulus: 
 \\ \textbf{B), H), N)} the response latency,
 \\ \textbf{C), I), O)} the maximum tail-bend amplitude achieved during the movement,
@@ -409,9 +417,9 @@ In each case, Melatonin-treated mutants were indistinguishable from Melatonin-tr
 \caption{\textbf{Zebrafish larvae lacking both \emph{mtnr1aa} and \emph{mtnr1al} are insensitive to Melatonin's effects on habituation learning}\\
 Habituation behaviour comparing double mutants for \emph{mtnr1aa} and \emph{mtnr1al} to their WT and heterozygous sibling controls (\textbf{A-F}; 3 independent experiments: sibling controls \emph{mtnr1aa\textsuperscript{+/?};mtnr1al\textsuperscript{+/?}} with DMSO n~=~93 and Melatonin n~=~377; double mutants \emph{mtnr1aa\textsuperscript{-/-};mtnr1al\textsuperscript{-/-}} with Melatonin n~=~42). Larvae are treated with either \SI{1}{\micro\Molar} Melatonin, or vehicle (0.1% DMSO). 
 Due to the rarity of the double mutants, we did not have enough double mutant larvae to test the vehicle treated group for analyses. 
-DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1hr of rest (from 0:00-7:00). 
+DF stimuli are delivered at 1-minute intervals, in 4 blocks of 60 stimuli, separated by 1 hour of rest (from 0:00-7:00). 
 1.5 hours later a block of 30 vibration stimuli are delivered at 1-minute intervals (\textbf{i}). 
-Each dot is the probability of response to one DF. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
+Each dot is the mean response across larvae to each DF, while 'X's mark mean responses to vibration stimuli. Lines are smoothed in time with a Savitzky–Golay filter (window = 15 stimuli, order = 2). Data is shown for the following behavioural components:
 \\ \textbf{A)} the probability of response to the stimulus: 
 \\ \textbf{B)} the response latency,
 \\ \textbf{C)} the maximum tail-bend amplitude achieved during the movement,
@@ -441,6 +449,7 @@ This was also broadly true for the kinematic parameters modulated by Melatonin: 
 A significant statistical relationship was observed in most epochs we analyzed, and importantly always in the "Trained Response" epoch representing the period of training blocks 2-4 (\autoref{fig:5}Biv-Div), where the Melatonin-dependent phenotype is the most robust (\autoref{fig:1}).
 These results are consistent with a model in which the effects of Melatonin on habituation learning are mediated by Mtnr1aa and Mtnr1al, leading to a complete loss of sensitivity to the effects of Melatonin on habituation learning in double mutants. 
 Our data indicate that this is true for both the components of habituation potentiated by Melatonin (probability and latency), and those that are inhibited (bend amplitude and movement duration).  
+
 
 
 \subsection{Mtnr1aa and Mtnr1al act in different parts of the circuit to promote learning}
