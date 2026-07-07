@@ -696,7 +696,7 @@ plot_bursts_and_epochs(
     group_categories,
     group_names,
     col_vec[: group_names.shape[1]],
-    plot_cumdiff=True,
+    plot_cumdiff=False,
     cum_diff_components=[0, 1, 2, 3, 4, 5, 6, 7],
 )
 #%%

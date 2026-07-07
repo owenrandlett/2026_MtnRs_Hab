@@ -9,6 +9,7 @@ from scipy import stats
 import scikit_posthocs as sp
 import seaborn as sns
 import os
+from matplotlib.patches import Patch
 from pylatexenc.latex2text import LatexNodes2Text
 
 
@@ -451,6 +452,9 @@ def plot_means_epoch(
 
     n_gr = len(fish_ids)
     mpl.rcParams['svg.fonttype'] = 'none'
+    epoch_title_fontsize = 28
+    y_axis_fontsize = 20
+    y_ticks_fontsize = 14
 
     all_rois = []
     group_labels = []
@@ -482,6 +486,13 @@ def plot_means_epoch(
         n_high = np.ceil(len(epoch_names) / 2)
         n_wide = np.floor(len(epoch_names) / 2)
         plt.figure(figsize=(n_wide*5, n_high*5))
+        violin_alpha = 0.5
+
+        legend_handles = []
+        for i, group_name in enumerate(fish_names):
+            legend_handles.append(
+                Patch(facecolor=col_vec[i], edgecolor="black", alpha=violin_alpha, label=f"{group_name}, n={len(fish_ids[i])}")
+            )
 
 
         # Function to add significance annotations
@@ -572,7 +583,7 @@ def plot_means_epoch(
                 inner=None,  # Remove the fill color
                 palette=col_vec,  # Use the defined color palette
                 linewidth=1,  # Set the line width
-                alpha=0.5,
+                alpha=violin_alpha,
                 cut=0,  # Do not extend the violin plot beyond the data range
                 zorder = 3,
             )
@@ -595,6 +606,9 @@ def plot_means_epoch(
                 markersize=15,  # Increase the size of the markers
                 zorder=10,  # Increase zorder to make it more prominent
             )
+
+            if ax.get_legend() is not None:
+                ax.get_legend().remove()
             
 
             # Add significance annotations
@@ -629,10 +643,12 @@ def plot_means_epoch(
                         dunn_results.loc[group1, group2],
                     )
                 k += 1
-            plt.title(epoch, fontsize=19, weight='bold', pad=-20)
-            plt.ylabel(dtype.replace("_", " "), fontsize=16)
+            plt.title(epoch, fontsize=epoch_title_fontsize, weight='bold', pad=-20)
+            plt.ylabel(dtype.replace("_", " "), fontsize=y_axis_fontsize)
             plt.xlabel("")  # Remove the x-axis label
-            plt.xticks(rotation=9, fontsize=12, weight='bold')
+            ax.set_xticks([])
+            ax.set_xticklabels([])
+            ax.tick_params(axis="y", labelsize=y_ticks_fontsize)
             # Remove top and right spines
             ax.spines["top"].set_visible(False)
             ax.spines["right"].set_visible(False)
@@ -648,6 +664,22 @@ def plot_means_epoch(
             #     ax.hlines(y=value, xmin=x_min, xmax=mean_ind, color=col_vec[mean_ind], linestyle='--',linewidth=0.85, alpha=1, zorder=0)
             
             # ax.set_xlim(x_min, x_max)
+
+        n_rows = int(n_high)
+        n_cols = int(n_wide)
+        n_total_slots = n_rows * n_cols
+        if n_total_slots > len(epoch_names):
+            legend_ax = plt.subplot(n_rows, n_cols, n_total_slots)
+            legend_ax.axis("off")
+            legend = legend_ax.legend(
+                handles=legend_handles,
+                loc="lower right",
+                fontsize=20,
+            )
+            for handle in legend.legend_handles:
+                handle.set_alpha(violin_alpha)
+                handle.set_width(28)
+                handle.set_height(14)
             
         plt.tight_layout()
         plt.subplots_adjust(wspace=0.4, hspace=0.3)
