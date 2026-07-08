@@ -129,9 +129,7 @@ Using larval zebrafish, we previously identified Melatonin as a potent modulator
 Here we have extended these analyses and have found that Melatonin has strong and diverse effects on separate aspects of habituation learning: it potentiates habituation of response probability and latency, while simultaneously inhibiting habituation of movement amplitude and duration. 
 We performed a systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors, and found that only two MT1-type receptors (Mtnr1aa and Mtnr1al) are required for Melatonin's effects on habituation.
 These receptors showed a cooperative interaction, with each individual mutant showing reduced sensitivity to Melatonin across all aspects of habituation, and \emph{mtnr1aa;mtnr1al} double mutants showing complete insensitivity.
-We used whole-brain activity mapping to ask where each receptor shapes neural activity during learning, and found that loss of Mtnr1aa and Mtnr1al alters activity in largely non-overlapping sets of brain regions.
-While these maps localize altered activity rather than the receptors themselves, they indicate that the two receptors are unlikely to act redundantly within a single shared circuit.
-Instead, they modulate activity in distinct brain regions that cooperatively contribute to the regulation of the same full set of behavioural outcomes, indicating that Melatonin modulates habituation through a convergent circuit architecture that reinforces, rather than duplicates, its bidirectional actions on learning.
+To map where these receptors act, we used whole-brain activity mapping. Despite distinct footprints, both converged on two shared nodes — the preoptic area and torus longitudinalis — where activity was most disrupted in double mutants. Thus two MT1-type receptors act at shared circuit nodes to reinforce, rather than duplicate, Melatonin's bidirectional control of learning.
 
 \end{abstract}
 
@@ -169,7 +167,7 @@ Therefore, Melatonin receptor signaling appears to have important roles in plast
 Here we leverage the zebrafish system to address this gap.
 Using a large behavioral dataset, we first show that Melatonin has complex, bidirectional effects on multiple independently regulated components of habituation behaviour.
 We then demonstrate through systematic CRISPR mutagenesis of all six zebrafish Melatonin receptors that two MT1-type receptors, Mtnr1aa and Mtnr1al, cooperatively and non-redundantly mediate these effects.
-Finally, using whole-brain activity mapping, we show that these two receptors appear to act in largely non-overlapping neural circuits.
+Finally, using whole-brain activity mapping, we find that although each receptor has a distinct functional footprint, both converge on a shared set of circuit nodes — providing a candidate anatomical basis for their non-redundant, cooperative action.
 This contrasts with their role in sleep, where Mtnr1aa predominates and Mtnr1ab and Mtnr1al instead act redundantly, partially compensating for its loss \citep{Hill2026}, indicating that the same small family of receptors can be deployed with contrasting genetic logic — redundant in one context, non-redundant and convergent in another — depending on the behaviour being modulated.
 Together, these data provide a molecular and functional dissection of how Melatonin modulates a fundamental form of learning through the convergent action of receptor paralogs.
 
@@ -460,7 +458,7 @@ Our data further indicate that this is true not only for the components of habit
 
 
 
-\subsection{Mtnr1aa and Mtnr1al distinctly shape brain-wide activity during learning}
+\subsection{Whole-brain activity mapping reveals distinct but partially overlapping activity patterns in \emph{mtnr1aa} and \emph{mtnr1al} mutants}
 
 \begin{figure}
 % \internallinenumbers
@@ -493,7 +491,8 @@ We also observed clear \emph{mtnr1aa} expression in the torus longitudinalis (TL
 
 Previous \emph{in situ} hybridization data for \emph{mtnr1al}  \citep{Hill2026} did not detect a clear signal for Mtnr1al, but did see faint signal in the tectum. 
 We did observe some very sparse staining in the tectum for \emph{mtnr1al}, but it was unclear to us if this staining might represent background signals. 
-Therefore, these experiments were inconclusive, but strong expression of \emph{mtnr1aa} in the tectum, and potential tectal expression of \emph{mtnr1al}, would be consistent with a model in which these receptors act in the same brain areas or even the same neurons to modulate habituation learning.
+Therefore, while our expression data place Mtnr1aa at several candidate sites, they could not shed much light on where Mtnr1al might act.
+
 
 Since the expression data was inconclusive, we turned to a whole-brain functional mapping approach to try and identify the functional sites of action for these receptors.
 We used the pERK-based MAP-mapping method \citep{Randlett2019-fj} which maps  differential activity comparing across different conditions (e.g. Mutant vs. WT). 
@@ -503,17 +502,17 @@ This analysis revealed that the most prominent changes in the \emph{mtnr1aa} mut
 In contrast, \emph{mtnr1al} mutants showed very little modulation of the tectum, indicating that this is likely not the primary site of action for this receptor. 
 However, they showed very strong suppression of the preoptic area (POA) (\autoref{fig:6}C, F). 
 The POA was also suppressed in the \emph{mtnr1aa} mutants, but to a much lesser extent.
-In contrast, the torus longitudinalis (TL) showed little modulation in the \emph{mtnr1aa} mutants, but strong activation in the \emph{mtnr1al} mutants, indicating that this may be a key site of action for Mtnr1al. 
+The torus longitudinalis (TL) was strongly activated in the \emph{mtnr1al} mutants and, like the POA, showed weaker but consistent modulation in the \emph{mtnr1aa} mutants — identifying the TL, alongside the POA, as a region perturbed by loss of either receptor.
 The \emph{mtnr1al} mutants also showed sparse alterations in activity in distributed hindbrain regions.
-Therefore, despite the similar behavioural phenotype of \emph{mtnr1aa} and \emph{mtnr1al} mutants, these activity mapping data reveal a largely differential pattern of activity.
+Thus, although each receptor also has a distinct functiona effects — most prominently the tectum and retinal AFs for Mtnr1aa — the POA and TL stand out as shared nodes perturbed by loss of either receptor.
+Mtnr1aa is expressed at both of these nodes (\autoref{fig:6}A); Mtnr1al expression could not be resolved by HCR, but its functional footprint concentrates at these same sites, suggesting that both receptors act there.
 
 To identify how these receptors function cooperatively, we analyzed double mutants for both \emph{mtnr1aa} and \emph{mtnr1al}. 
 These double mutants showed the strongest differential activity pattern, consistent with the stronger behavioural effects observed in these mutants (\autoref{fig:5}) and a cooperative role for these receptors. 
-Indeed, the activity map observed for double-mutants appears to be: 
-1) a combination of the more localized effects seen in the individual mutants (including the activation of the tectum, retinal AFs, and TL, as well as suppression of the POA), and
-2) additional alterations in activity (including areas of the pallium and subpallium, habenula, and cerebellum) (\autoref{fig:6}E, F). 
-Collectively, these data are consistent with a model in which Mtnr1aa and Mtnr1al act in different cell types in different parts of the circuit to promote habituation learning, with Mtnr1aa acting primarily in the tectum and other primary visual areas, and Mtnr1al acting primarily in the POA, TL and hindbrain.
-When lost collectively, these effects combine to yield a much more robust and widespread alteration in brain activity patterns during habituation learning. 
+Indeed, the double-mutant map combined the more localized effects seen in the individual mutants — activation of the tectum, retinal AFs, and TL, and suppression of the POA — together with additional changes in the pallium, subpallium, habenula, and cerebellum (\autoref{fig:6}E, F).
+Critically, the POA and TL were disrupted more strongly in the double mutants than in either single mutant, the signature expected if these two nodes are shared points of convergence for both receptors.
+Collectively, these data support a model in which Mtnr1aa and Mtnr1al have unique effects across the brain, with Mtnr1aa having the more widespread effects, consistent with its more broad expression pattern. 
+However, the functional effects overlap and reinforce in some areas, providing a candidate anatomical basis for their non-redundant, cooperative control of habituation learning.
 
 
 \section{Discussion}
@@ -574,38 +573,42 @@ This cooperative relationship between two receptors that reinforce a common outc
 
 \subsection*{Circuit-level action of Melatonin receptors during habituation}
 
-Our whole-brain pERK activity mapping revealed an anatomical dissociation between the functional footprints of the two receptors.
+Our whole-brain pERK activity mapping revealed that the two receptors have very distinct functional effects on brain activity, that nonetheless converge on a shared pair of nodes: the preoptic area (POA) and torus longitudinalis (TL).
 In Melatonin-treated \emph{mtnr1aa} mutants, the optic tectum and retinal arborization fields show the most prominent increases in activity after dark-flash training relative to sibling controls \citep{Randlett2019-fj, Lamire2023-he}.
-In striking contrast, \emph{mtnr1al} mutants show minimal tectal modulation but instead display prominent suppression of the preoptic area (POA) and activation of the torus longitudinalis (TL).
-The POA is a conserved vertebrate hub for sleep and arousal, where galanin-expressing neurons integrate sleep pressure \citep{Reichert2019-sz} and MT1/MT2 receptors have been proposed to gate sleep onset \citep{Ng2017, Klosen2019}; in our context, Mtnr1al (and to a lesser extent, Mtnr1aa) appears to sustain POA activity during training.
+Mtnr1al mutants, by comparison, show minimal tectal modulation, but the POA and TL are perturbed in both single mutants — the POA suppressed and the TL activated — strongly in \emph{mtnr1al} mutants and more weakly in \emph{mtnr1aa} mutants.
+In double mutants these changes are combined, and some areas show clear amplification of the single-mutant effects, including the POA and TL, consistent with these two nodes being shared points of convergence for both receptors.
+
+The POA is a conserved vertebrate hub for sleep and arousal, where galanin-expressing neurons integrate sleep pressure \citep{Reichert2019-sz} and MT1/MT2 receptors have been proposed to gate sleep onset \citep{Ng2017, Klosen2019}; in our context, Mtnr1aa/l appear to sustain POA activity during training.
+Beyond its role in state control, the POA is itself a modifiable node: its neurons can undergo synaptic changes in association with shifts in behavioural state \citep{Horrell2019}, positioning the POA to translate a hormonal signal into a change in how readily visual responses are expressed.
 The TL is a midbrain structure that provides tonic glutamatergic input to apical dendrites of tectal pyramidal neurons \citep{Folgueira2020-tl, DeMarco2021}, is required for binocularity and spatial summation of visual responses in the tectum \citep{Tesmer2022}, and participates in a dimming-selective feedback pathway from the tectum \citep{Robles2021} engaged by our dark-flash stimulus.
-The double mutants show a combined and amplified version of both individual activity maps — encompassing the tectum, retinal AFs, POA, TL, and additional distributed changes in the pallium, subpallium, habenula, and cerebellum — consistent with cooperative control of parallel arms of the habituation circuit.
+Consistent with a role in this stimulus regime, TL projection neurons respond most strongly to dimming when it follows low ambient light \citep{Robles2021}, and sustained TL activity is evoked by dark stimuli \citep{Northmore2017}; the TL has further been proposed to prime tectal pyramidal-cell responses through connections that could be shaped by experience \citep{Northmore2017}.
+It is therefore well-placed for a modulator like Melatonin to bias the responses to dark flashes and, in turn, the trajectory of their habituation.
+
 
 
 A notable feature of this relationship is that both Mtnr1aa and Mtnr1al appear to contribute equivalently to all behavioural components modulated by Melatonin — probability, latency, amplitude, and duration — rather than each selectively modulating a distinct subset of habituation parameters.
 This is perhaps surprising given the model in which each response component is governed by largely independent plasticity mechanisms operating in parallel \citep{Randlett2019-fj, Nelson2022}.
-One possible explanation comes from the circuit-level data: the most prominent pERK changes in both single mutants map to regions at or near the early stages of the visual sensorimotor pathway — the optic tectum and retinal arborization fields for Mtnr1aa, and the torus longitudinalis for Mtnr1al — rather than to the downstream hindbrain circuits where the distinct plasticity streams may ultimately diverge and separately set each response parameter \citep{Randlett2019-fj}.
-If both receptors act upstream of the point at which habituation of different response components becomes mechanistically distinct, each could exert a broad modulatory influence over all downstream plasticity streams, naturally producing phenotypes that are equivalent across behavioural parameters.
-This contrasts with a scenario in which each receptor acts selectively within a specific plasticity-stream circuit, which would be expected to produce component-selective phenotypes — as would likely be the case if the primary sites of action were exclusively in the hindbrain.
+One possible explanation comes from the circuit-level data: the most prominent pERK changes map to regions at or near the early stages of the visual sensorimotor pathway, rather than to the downstream hindbrain circuits where the distinct plasticity streams may ultimately diverge and separately set each response parameter \citep{Randlett2019-fj}.
+
 
 
 An important caveat for these analyses is that differential pERK identifies where neural activity is altered in the mutants, not necessarily where the receptors act directly.
 The strongest pERK changes could reflect secondary consequences of receptor action upstream: for example, elevated tectal pERK in \emph{mtnr1aa} mutants could result from Mtnr1aa acting on tectal neurons, but equally from Mtnr1aa acting upstream in the retina, or on presynaptic inputs to the tectum — including retinal ganglion cell terminals in the arborization fields — and thereby modulating the drive those inputs exert.
-Similarly, whether the POA and TL changes in \emph{mtnr1al} mutants reflect independent primary sites of receptor action, or whether one is a downstream consequence of the other, cannot be resolved from these activity maps alone.
+Similarly, whether the POA and TL changes in mutants reflect independent primary sites of receptor action, or whether one is a downstream consequence of the other, or somehwere else, cannot be resolved from these activity maps alone.
 
 
-It is also true that while the overarching pattern is one of differential activity, there are some overlapping features. 
-For example, both single mutants show some degree of POA suppression.
-It is possible, therefore, that such an overlapping site of action governs the effects of both receptors on habituation, and that the other differential activity relates to other roles of these receptors in the brain. 
-While these experiments can not conclusively localize the site of action of the receptors, the anatomical segregation of the majority of the activity changes in the two mutants indicates that Mtnr1aa and Mtnr1al act in largely different ways in the brain, and then converge on same aspects of habituation learning.
+Taken together, our data support a model in which Melatonin acts through shared nodes of convergence, including perhaps POA and TL, while the receptor-specific changes represent additional, parallel sites of action rather than the basis of the shared behavioural phenotype.
+Although the POA is a canonical sleep and arousal hub, the behavioural specificity of the phenotype — bidirectional across components and sparing acoustic responses (\autoref{fig:1}) — argues that Melatonin tunes an arousal-linked node that gates learning rather than driving generalized sedation.
+These two nodes, moreover, map onto complementary axes of control — the TL onto the visual gain of the dark-flash response, and the POA onto the arousal state that gates its expression — such that a single darkness signal acting at both could coordinately bias the circuit toward reduced, more rapidly habituating responses.
+
 
 
 \subsection*{Conclusions}
 
-We have found that two MT1-type paralogs cooperatively regulate habituation learning, and propose that this occurs via their actions in different areas of the brain. 
+We have found that two MT1-type paralogs cooperatively regulate habituation learning, and propose that they do so by acting at partly distinct sites that converge on shared circuit nodes, including the POA and TL.
 The evolutionary expansion of the receptor repertoire in teleost fishes provides a substrate for parcellating modulatory influence across circuits with greater precision or finer control. 
 In this case, this expansion has led to the adoption of two receptors acting in a non-redundant,  cooperative manner. 
-Surprisingly, this function appears to manifest via differential modulation of neural circuits.
+Surprisingly, rather than acting redundantly within one circuit, the two receptors converge on shared nodes while retaining distinct activity footprints elsewhere.
 Future experiments combining cell-type-specific imaging and chemogenetic or optogenetic perturbations of POA, TL, and tectal neurons in animals expressing or lacking Mtnr1aa or Mtnr1al will be required to resolve the synaptic mechanisms through which these receptors  modulate the multiple plasticity streams that together control visual habituation learning in the larval zebrafish.
 
 
