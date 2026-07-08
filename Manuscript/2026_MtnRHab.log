@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  8 JUL 2026 14:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  8 JUL 2026 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1602,6 +1602,9 @@ File: Figures/Figure_pERK.png Graphic file (type png)
 Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 469.
 (pdftex.def)             Requested size: 330.85953pt x 283.26567pt.
 
+Overfull \vbox (1.05211pt too high) has occurred while \output is active []
+
+
 
 [10 <./Figures/Figure_AAandALMutants_graphs.png>]
 
@@ -1758,13 +1761,13 @@ Package rerunfilecheck Info: File `2026_MtnRHab.out' has not changed.
 Here is how much of TeX's memory you used:
  31170 strings out of 473330
  573266 string characters out of 5723877
- 1094078 words of memory out of 5000000
+ 1093798 words of memory out of 5000000
  53701 multiletter control sequences out of 15000+600000
  636016 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,11n,131p,2810b,1318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,11n,131p,2796b,1322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (27 pages, 45266650 bytes).
+Output written on 2026_MtnRHab.pdf (27 pages, 45266648 bytes).
 PDF statistics:
  682 PDF objects out of 1000 (max. 8388607)
  602 compressed objects within 7 object streams
