@@ -469,10 +469,11 @@ Our data further indicate that this is true not only for the components of habit
 \includegraphics[width=0.65\linewidth]{Figures/Figure_pERK.png}
 
 \caption{\textbf{Circuit-level effects of \emph{mtnr1aa} and \emph{mtnr1al} during habituation learning}
-\\ \textbf{A)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1aa} in the brain of 5dpf larval zebrafish. 3 planes of the brain are shown moving from dorsal (top) to ventral (bottom). Data are the average of 4 animals co-registered to the same coordinate space. Tec = tectum, Cb = Cerebellum, Teg = Tegmentum, POA = Preoptic Area,  PT = Posterior Tuberculum, mHB = Medial Hindbrain.
+\\ \textbf{A)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1aa} in the brain of 5dpf larval zebrafish. 3 planes of the brain are shown moving from dorsal (top) to ventral (bottom). Data are the average of 4 animals co-registered to the same coordinate space. Tec = tectum, Cb = Cerebellum, Teg = Tegmentum, TL = Torus Longitudinalis, POA = Preoptic Area, PT = Posterior Tuberculum, mHB = Medial Hindbrain.
 \\\textbf{B)} Fluorescent \emph{in situ} hybridization for \emph{mtnr1al}. Data are the average of 4 animals co-registered to the same coordinate space.
 \\ \textbf{C-E)} pERK-based MAP-mapping of differential activity in mutants relative to sibling controls, both treated with Melatonin (\SI{1}{\micro\Molar}) and stimulated with 60 DFs, in order to highlight mutation-dependent differences in neural activity during habituation, for: \textbf{C)} \emph{mtnr1aa} mutants, \textbf{D)} \emph{mtnr1al} mutants, and \textbf{E)} \emph{mtnr1aa;mtnr1al} double mutants. 
 Significant increases in the ratio of pERK/tERK staining in mutants relative to siblings is shown in green, while decreases are shown in magenta.
+All larvae were siblings from \emph{mtnr1aa\textsuperscript{+/-}};\emph{mtnr1al\textsuperscript{+/-}} double-heterozygous incrosses, genotyped post-hoc, with each mutant class compared to the shared sibling control group (\emph{mtnr1aa\textsuperscript{+/?};mtnr1al\textsuperscript{+/?}}, n~=~38): \emph{mtnr1aa\textsuperscript{-/-};mtnr1al\textsuperscript{+/?}} n~=~19 (\textbf{C}), \emph{mtnr1aa\textsuperscript{+/?};mtnr1al\textsuperscript{-/-}} n~=~20 (\textbf{D}), and \emph{mtnr1aa\textsuperscript{-/-};mtnr1al\textsuperscript{-/-}} n~=~27 (\textbf{E}).
 \\ \textbf{F)} Heatmap depicting the mean differential pERK/tERK in the different mutants from \textbf{(C-E)} in different brain areas of the Z-Brain atlas (MECE regions, see \citealp{Vohra2025_bioRxiv}). 
 }
 
@@ -488,6 +489,7 @@ In the first model, Mtnr1aa and Mtnr1al could be expressed in the same neurons, 
 In the second model, Mtnr1aa and Mtnr1al could be expressed in different neurons, and therefore could act across different parts of the circuit to mediate the effects of Melatonin on habituation learning.
 To distinguish between these models, we first examined the expression pattern of Mtnr1aa and Mtnr1al in the brain using fluorescent in situ hybridization (HCR) for each of these receptors. 
 This confirmed that Mtnr1aa is broadly expressed across the brain (\citealp{Hill2026}, \autoref{fig:6}A), including in many brain regions that we have previously implicated in habituation learning using Ca\textsuperscript{2+} imaging \citep{Lamire2023-he}, such as the tectum, tegmentum and cerebellum, as well as a cluster of neurons in the medial hindbrain, which appears to be a hotspot for MtnR-expression \citep{Hill2026}.
+We also observed clear \emph{mtnr1aa} expression in the torus longitudinalis (TL) and preoptic area (POA) (\autoref{fig:6}A), consistent with the \emph{mtnr1aa} expression pattern reported by \citet{Hill2026}.
 
 Previous \emph{in situ} hybridization data for \emph{mtnr1al}  \citep{Hill2026} did not detect a clear signal for Mtnr1al, but did see faint signal in the tectum. 
 We did observe some very sparse staining in the tectum for \emph{mtnr1al}, but it was unclear to us if this staining might represent background signals. 
@@ -676,6 +678,7 @@ The tERK channel was used as an anatomical reference for nonlinear registration 
 Registered image volumes were subsequently down-sampled to 300 \texttimes{} 679 \texttimes{} 80 voxels (x, y, z) and spatially smoothed using a two-dimensional Gaussian filter.
 To account for inter-individual variability in staining intensity, voxel-wise pERK signals were normalized to corresponding tERK values prior to statistical comparison across experimental groups.
 Each mutant genotype was analyzed independently, comparing homozygous mutant larvae to pooled sibling controls (heterozygotes and wild-type) within the same Melatonin treatment condition.
+Larvae were derived from \emph{mtnr1aa\textsuperscript{+/-}};\emph{mtnr1al\textsuperscript{+/-}} double-heterozygous incrosses and sorted post-hoc into genotype classes, such that all groups shared the same clutches, plates, and control cohort: \emph{mtnr1aa\textsuperscript{-/-};mtnr1al\textsuperscript{+/?}} (n~=~19), \emph{mtnr1aa\textsuperscript{+/?};mtnr1al\textsuperscript{-/-}} (n~=~20), \emph{mtnr1aa\textsuperscript{-/-};mtnr1al\textsuperscript{-/-}} (n~=~27), and \emph{mtnr1aa\textsuperscript{+/?};mtnr1al\textsuperscript{+/?}} sibling controls (n~=~38).
 Genotypes were confirmed post-hoc from tissue collected after brain imaging. 
 These analyses were performed using custom Python scripts, available at \href{https://github.com/owenrandlett/2026_MtnRs_Hab/tree/main/code/MAPMapping}{github.com/owenrandlett/2026\_MtnRs\_Hab/code/MAPMapping}.
 
