@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Ahrens et~al., 2012]{Ahrens2012}
+Ahrens, M.~B., Li, J.~M., Orger, M.~B., Robson, D.~N., Schier, A.~F., Engert, F., and Portugues, R. (2012).
+\newblock Brain-wide neuronal dynamics during motor adaptation in zebrafish.
+\newblock {\em Nature}, 485:471--477.
+\newblock \doi{10.1038/nature11057}.
+
 \bibitem[Besharse and McMahon, 2016]{Besharse2016}
 Besharse, J.~C. and McMahon, D.~G. (2016).
 \newblock The retina and other light-sensitive ocular clocks.
@@ -102,12 +108,6 @@ Hill, A.~J., Eliopoulos, O., Emtage, J., Oikonomou, G., and Prober, D.~A. (2026)
 \newblock {\em Current Biology}.
 \newblock \doi{10.1016/j.cub.2026.03.059}.
 
-\bibitem[Horrell et~al., 2019]{Horrell2019}
-Horrell, N.~D., Saltzman, W., and Hickmott, P.~W. (2019).
-\newblock Plasticity of paternity: Effects of fatherhood on synaptic, intrinsic and morphological characteristics of neurons in the medial preoptic area of male california mice.
-\newblock {\em Behavioural Brain Research}, 365:89--102.
-\newblock \doi{10.1016/j.bbr.2019.02.029}.
-
 \bibitem[Hsiao et~al., 2025]{Hsiao2025}
 Hsiao, A., Darvaux-Hubert, I., Hicks, D., Joux, E., De~Freitas, S., Dracos, E., Lizé, J., Perrichet, J., Baas, D., and Randlett, O. (2025).
 \newblock Estradiol promotes habituation learning via an unidentified target, bypassing the suppressive effects of established ers.
@@ -156,6 +156,12 @@ Li, J., Somers, V.~K., Xu, H., Lopez-Jimenez, F., and Covassin, N. (2022).
 \newblock {\em JAMA}, 327(5):483--485.
 \newblock \doi{10.1001/jama.2021.23652}.
 
+\bibitem[Lin et~al., 2020]{Lin2020}
+Lin, Q., Manley, J., Helmreich, M., Schlumm, F., Li, J.~M., Robson, D.~N., Engert, F., Schier, A.~F., N{\"o}bauer, T., and Vaziri, A. (2020).
+\newblock Cerebellar neurodynamics predict decision timing and outcome on the single-trial level.
+\newblock {\em Cell}, 180:536--551.
+\newblock \doi{10.1016/j.cell.2019.12.018}.
+
 \bibitem[Liu et~al., 2016]{Liu2016}
 Liu, J., Clough, S.~J., Hutchinson, A.~J., Adamah-Biassi, E.~B., Popovska-Gorevski, M., and Dubocovich, M.~L. (2016).
 \newblock Mt1 and mt2 melatonin receptors: A therapeutic perspective.
@@ -167,6 +173,12 @@ Malenka, R.~C. and Bear, M.~F. (2004).
 \newblock {LTP} and {LTD}: an embarrassment of riches.
 \newblock {\em Neuron}, 44(1):5--21.
 \newblock \doi{10.1016/j.neuron.2004.09.012}.
+
+\bibitem[Markov et~al., 2021]{Markov2021}
+Markov, D.~A., Petrucco, L., Kist, A.~M., and Portugues, R. (2021).
+\newblock A cerebellar internal model calibrates a feedback controller involved in sensorimotor control.
+\newblock {\em Nature Communications}, 12:6694.
+\newblock \doi{10.1038/s41467-021-26988-0}.
 
 \bibitem[McDiarmid et~al., 2017]{McDiarmid2017}
 McDiarmid, T.~A., Bernardos, A.~C., and Rankin, C.~H. (2017).
