@@ -107,7 +107,9 @@
 \renewcommand{\bibfont}{\small}
 
 % author--year citation style
-\bibliographystyle{apalike}
+% Note: bibliography style is set in the main .tex file (\bibliographystyle{apalikedoi}).
+% Do not set it here as well -- a second \bibstyle in the .aux makes BibTeX abort.
+% \bibliographystyle{apalike}
 
 
 
