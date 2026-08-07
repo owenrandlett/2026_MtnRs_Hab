@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  7 AUG 2026 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.17)  7 AUG 2026 15:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1620,14 +1620,14 @@ Package pdftex.def Info: Figures/Figure_pERK.png  used on input line 522.
 [16]
 
 [17]
-Underfull \hbox (badness 1152) in paragraph at lines 718--721
+Underfull \hbox (badness 1152) in paragraph at lines 719--722
 []\T1/opensans-TLF/m/n/10 Control of the LEDs, solenoid, and cam-era ac-tu-a-tor was man-aged by a Rasp-berry Pi Pico run-ning
  []
 
 
 
 [18]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 747.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 748.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1636,7 +1636,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 1968) in paragraph at lines 744--751
+Underfull \hbox (badness 1968) in paragraph at lines 745--752
 \T1/opensans-TLF/m/n/10 Seaborn, scikit-posthocs), avail-able at [][]github.com/owenrandlett/2026_MtnRs_Hab/code[][]. Per-fish group-
  []
 
@@ -1661,29 +1661,29 @@ Underfull \hbox (badness 4832) in paragraph at lines 172--176
 
 [22]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 800.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 801.
 
-Overfull \hbox (3.05717pt too wide) in paragraph at lines 855--856
+Overfull \hbox (3.05717pt too wide) in paragraph at lines 856--857
 \T1/lmtt/m/n/7 AUGGUAGUGAUCAGAACGCG| 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 870--871
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 871--872
 []|\T1/lmtt/m/n/7 UCCCUCAUCAGGAACCGGAG 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 870--871
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 871--872
 \T1/lmtt/m/n/7 CUGAUCUUCACGAGCGUGGG 
  []
 
 
-Overfull \hbox (3.24312pt too wide) in paragraph at lines 870--871
+Overfull \hbox (3.24312pt too wide) in paragraph at lines 871--872
 \T1/lmtt/m/n/7 GUACCAUGACGACCCACGCG| 
  []
 
 
-Overfull \hbox (3.34274pt too wide) in paragraph at lines 892--893
+Overfull \hbox (3.34274pt too wide) in paragraph at lines 893--894
 []|\T1/lmtt/m/n/7 CCACAGTGTAGGAGCTGCTGGCAGT 
  []
 
@@ -1745,9 +1745,9 @@ Here is how much of TeX's memory you used:
  53444 multiletter control sequences out of 15000+600000
  650357 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,11n,131p,2796b,1320s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 91i,11n,131p,2796b,1326s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-BoldItalic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb><c:/texlive/2024/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
-Output written on 2026_MtnRHab.pdf (28 pages, 45276789 bytes).
+Output written on 2026_MtnRHab.pdf (28 pages, 45276728 bytes).
 PDF statistics:
  842 PDF objects out of 1000 (max. 8388607)
  760 compressed objects within 8 object streams
