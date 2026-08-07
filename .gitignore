@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------------------
+# LaTeX build artefacts
+# Regenerated on every compile. The .tex, .bib, .bbl, .cls, .bst and the built
+# .pdf stay tracked -- co-authors download the PDF straight from this repo.
+# ---------------------------------------------------------------------------
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.blg
+*.suppinfo
+*.toc
+*.lof
+*.lot
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# LaTeX editor / tool backups
+*.bak
+*.tmp
+*~
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Compiled binaries
+# ---------------------------------------------------------------------------
+a.out
+*.o
+*.so
+
+# ---------------------------------------------------------------------------
+# OS cruft
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
