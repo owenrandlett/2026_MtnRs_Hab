@@ -326,6 +326,13 @@
 
 \newcounter{figsupp}
 \setcounter{figsupp}{0}
+%% House style: supplements are numbered S<parent figure> ("Figure S3") rather
+%% than eLife's "Figure 3---figure supplement 1".  The figsupp counter resets at
+%% every figure, so on its own it is always 1 and \label would be ambiguous;
+%% keying off \thefigure makes the label unique.  Assumes one supplement per
+%% figure -- if a figure ever needs two, revisit this (e.g. S3a/S3b).
+%% \thefigsupp is the single source of truth for both captions and \label.
+\renewcommand{\thefigsupp}{S\thefigure}
 \newcounter{data}
 \setcounter{data}{0}
 %% Added videos 2021/03/07
@@ -369,11 +376,11 @@
 % Added fig supp source data and code 2022/06
 \DeclareRobustCommand{\figsuppsrccode}[1]{%
   \protect\refstepcounter{fssrccode}%
-  \par\scriptsize\textbf{\figurename~\thefigure---figure supplement \arabic{figsupp}---source code~\arabic{fssrccode}. } #1\par
+  \par\scriptsize\textbf{\figurename~\thefigsupp---source code~\arabic{fssrccode}. } #1\par
 }
 \DeclareRobustCommand{\figsuppdata}[1]{%
   \protect\refstepcounter{fsdata}%
-  \par\scriptsize\textbf{\figurename~\thefigure---figure supplement \arabic{figsupp}---source data~\arabic{fsdata}. } #1\par
+  \par\scriptsize\textbf{\figurename~\thefigsupp---source data~\arabic{fsdata}. } #1\par
 }
 
 
@@ -409,7 +416,7 @@
   }%
   {%
   \ifstrequal{#1}{none}{}{%
-    \scriptsize\textbf{\figurename~\thefigure---figure supplement \arabic{figsupp}.} 
+    \scriptsize\textbf{\figurename~\thefigsupp.} 
     \ifstrempty{#1}{%
       \renewcommand\figsuppdata[1]{}%
       \renewcommand\figsuppsrccode[1]{}%
@@ -421,7 +428,7 @@
     \noindent\protect\begin{minipage}{\linewidth}
     \protect\scriptsize
     \protect #3\noexpand\par
-    \textbf{\figurename~\thefigure---figure supplement \arabic{figsupp}.} #2\noexpand\par
+    \textbf{\figurename~\thefigsupp.} #2\noexpand\par
     \vskip8pt
     \protect\end{minipage}
     \vskip16pt
@@ -497,7 +504,7 @@
 \renewcommand{\equationautorefname}{Eq.}
 %% Added autoref support for \figsupp, \figdata, \video, \videosupp, (2021-03-04) \figsrccode
 % Added support for figsupp, video source data and code 2022/06
-\newcommand{\figsuppautorefname}{figure Supplement}
+\newcommand{\figsuppautorefname}{Figure} % with \thefigsupp="S3" gives "Figure S3"
 \newcommand{\dataautorefname}{source data}
 \newcommand{\videoautorefname}{Video}
 \newcommand{\videosuppautorefname}{video}
@@ -535,5 +542,11 @@
 \newcommand{\BOX}[1]{\autoref{box:#1}}
 \let\oldautoref\autoref
 \renewcommand{\autoref}[1]{\emph{\textbf{\oldautoref{#1}}}}
+%% Panel-aware cross-reference: \autorefp{fig:1}{A} -> "Figure 1A", with the panel
+%% letter styled and hyperlinked to match the figure reference.
+%% NB: the \renewcommand above makes \autoref a plain 1-arg macro, which destroys
+%% hyperref's starred \autoref*.  So the panel letter cannot be nested inside a
+%% single \hyperref -- it gets its own, pointing at the same target.
+\newcommand{\autorefp}[2]{\autoref{#1}\emph{\textbf{\hyperref[#1]{#2}}}}
 
 \endinput

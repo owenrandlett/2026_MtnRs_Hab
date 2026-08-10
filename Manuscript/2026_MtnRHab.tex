@@ -19,54 +19,8 @@
 \usepackage{seqsplit}
 \usepackage{doi}
 \renewcommand{\doitext}{} % show bare DOI as the hyperlinked text (no "doi:" prefix)
-% Panel-aware cross-reference: \autorefp{fig:1}{A} -> "Figure 1A", with the panel
-% letter matching the figure reference (bold italic + linkcolor) and linking to it.
-% NB: the class renewcommands \autoref as a 1-arg macro (see .cls ~line 537), which
-% removes hyperref's starred \autoref*, so the panel letter gets its own \hyperref
-% rather than being nested inside one link.
-\newcommand{\autorefp}[2]{\autoref{#1}\emph{\textbf{\hyperref[#1]{#2}}}}
-
-%%% Supplementary figures numbered S1..S5 --------------------------------------
-% The class numbers supplements eLife-style ("Figure 3---figure supplement 1")
-% and resets the figsupp counter at every figure, so \label always captured "1"
-% and references were ambiguous. Each of our figures has exactly one supplement,
-% so we identify it as S<parent figure>. \thefigsupp is the single source of
-% truth for both the caption and the label.
-\renewcommand{\thefigsupp}{S\thefigure}    % \label/\ref capture -> "S3"
-\renewcommand{\figsuppautorefname}{Figure} % \autoref{fig:S3}   -> "Figure S3"
-% \figsupp copied verbatim from RandlettLab_elife.cls (~line 403); the ONLY change
-% is the two caption strings, from
-%   \figurename~\thefigure---figure supplement \arabic{figsupp}
-% to
-%   \figurename~\thefigsupp
-\DeclareRobustCommand{\figsupp}[3][]{%
-  \refstepcounter{figsupp}%
-  \addtostream{suppinfo}{%
-  \protect\refstepcounter{figsupp}
-  \protect\setcounter{fsdata}{0}
-  \protect\setcounter{fssrccode}{0}
-  }%
-  {%
-  \ifstrequal{#1}{none}{}{%
-    \scriptsize\textbf{\figurename~\thefigsupp.}
-    \ifstrempty{#1}{%
-      \renewcommand\figsuppdata[1]{}%
-      \renewcommand\figsuppsrccode[1]{}%
-      #2}{%
-      \renewcommand\figsuppdata[1]{}%
-      \renewcommand\figsuppsrccode[1]{}%
-      #1}}}\raggedright\par
-  \addtostream{suppinfo}{%
-    \noindent\protect\begin{minipage}{\linewidth}
-    \protect\scriptsize
-    \protect #3\noexpand\par
-    \textbf{\figurename~\thefigsupp.} #2\noexpand\par
-    \vskip8pt
-    \protect\end{minipage}
-    \vskip16pt
-  }
-}
-%%% ---------------------------------------------------------------------------
+% \autorefp (panel-aware cross-refs) and the "Figure S<n>" supplement numbering
+% now live in RandlettLab_elife.cls.
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
@@ -115,7 +69,7 @@
 {Lisa Broisin}
 
 \author[1]
-{Abdel Rahman el Hassan}
+{Abdel Rahman El Hassan}
 
 \author[1]
 {Julien Perrichet}
