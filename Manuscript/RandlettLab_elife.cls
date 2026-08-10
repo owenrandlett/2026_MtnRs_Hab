@@ -549,4 +549,35 @@
 %% single \hyperref -- it gets its own, pointing at the same target.
 \newcommand{\autorefp}[2]{\autoref{#1}\emph{\textbf{\hyperref[#1]{#2}}}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% LAB HOUSE STYLE
+%%% Deliberately at the very end of the class, so these load immediately before
+%%% the document preamble -- i.e. in the same order as if they were \usepackage'd
+%%% at the top of the .tex.  Do not move them earlier without re-checking output:
+%%% siunitx in particular is order-sensitive w.r.t. amsmath/unicode-math above.
+%%% NB: xcolor and booktabs are already required earlier in this class.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{setspace}
+\RequirePackage{siunitx}
+\DeclareSIUnit\Molar{M}          % \SI{1}{\micro\Molar}
+\RequirePackage{gensymb}         % \degree, \celsius
+\RequirePackage{textgreek}       % \textalpha etc. in text mode
+\RequirePackage{longtable}       % multi-page tables (load before caption)
+\RequirePackage{pdflscape}       % landscape pages, hyperref-aware
+\RequirePackage{multirow}
+\RequirePackage{array}           % must precede makecell
+\RequirePackage{makecell}
+\RequirePackage{seqsplit}        % breaks long DNA / protein sequences anywhere
+\RequirePackage{doi}
+\renewcommand{\doitext}{}        % show the bare DOI as link text, no "doi:" prefix
+
+%%% Typesetting policy ---------------------------------------------------------
+%% Hyphenation is effectively disabled (hyphenpenalty), which is a deliberate
+%% readability choice; the cost is looser interword spacing, so tolerance and
+%% emergencystretch are raised to stop overfull boxes in the narrow columns.
+\tolerance=9999
+\emergencystretch=10pt
+\hyphenpenalty=1000000
+\exhyphenpenalty=100
+
 \endinput
