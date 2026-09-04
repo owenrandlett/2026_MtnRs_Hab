@@ -1,0 +1,35 @@
+% Pandoc shim for RandlettLab_elife.cls
+% ------------------------------------------------------------------
+% Pandoc never reads the .cls, so every macro the class defines would
+% otherwise be silently dropped.  Pandoc DOES expand \newcommand
+% definitions it finds in its input, so this file is simply prepended
+% to the manuscript body by make-docx.sh.
+%
+% These definitions exist only for the .docx build.  They have no
+% effect on the PDF, which still goes through the real class.
+% ------------------------------------------------------------------
+
+% --- siunitx (the class defines \Molar; gensymb defines \degree) ---
+\newcommand{\Molar}{M}
+\newcommand{\micro}{µ}
+\newcommand{\litre}{L}
+\newcommand{\degree}{°}
+\newcommand{\percent}{\%}
+\newcommand{\SI}[2]{#1 #2}
+\newcommand{\num}[1]{#1}
+
+% --- typesetting helpers that carry no meaning in Word ---
+\newcommand{\seqsplit}[1]{#1}
+\newcommand{\allowbreak}{}
+\newcommand{\internallinenumbers}{}
+\newcommand{\endinternallinenumbers}{}
+\newcommand{\linenumbers}{}
+
+% --- class macros ---
+% \figsupp[short]{caption}{graphic} -> the image, then its legend, matching
+% the layout of the main figures.  preprocess.awk has already prefixed the
+% caption argument with the number the class's figsupp counter would give.
+\newcommand{\figsupp}[3][]{#3\par#2}
+% preprocess.awk renames \caption to \FIGCAP inside figure floats, which it
+% unwraps; this keeps the legend where it sits in the source.
+\newcommand{\FIGCAP}[1]{\par#1}

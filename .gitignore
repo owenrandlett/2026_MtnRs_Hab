@@ -50,3 +50,9 @@ a.out
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# ---------------------------------------------------------------------------
+# .docx build (see Manuscript/make-docx.sh)
+# Intermediates only; the .docx itself is left for you to track or not.
+# ---------------------------------------------------------------------------
+.docx-build/
