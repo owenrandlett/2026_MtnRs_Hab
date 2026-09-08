@@ -105,7 +105,7 @@ Groves, P.~M. and Thompson, R.~F. (1970).
 \bibitem[Hill et~al., 2026]{Hill2026}
 Hill, A.~J., Eliopoulos, O., Emtage, J., Oikonomou, G., and Prober, D.~A. (2026).
 \newblock Melatonin promotes sleep by suppressing responses to visual stimuli via mt1 receptors.
-\newblock {\em Current Biology}.
+\newblock {\em Current Biology}, 36(9):2270–2284.e4.
 \newblock \doi{10.1016/j.cub.2026.03.059}.
 
 \bibitem[Hsiao et~al., 2025]{Hsiao2025}
@@ -233,6 +233,12 @@ Randlett, O., Haesemeyer, M., Forkin, G., Shoenhard, H., Schier, A.~F., Engert, 
 \newblock Distributed plasticity drives visual habituation learning in larval zebrafish.
 \newblock {\em Curr. Biol.}, 29(8):1337--1345.e4.
 \newblock \doi{10.1016/j.cub.2019.02.039}.
+
+\bibitem[Randlett et~al., 2015]{Randlett2015}
+Randlett, O., Wee, C.~L., Naumann, E.~A., Nnaemeka, O., Schoppik, D., Fitzgerald, J.~E., Portugues, R., Lacoste, A. M.~B., Riegler, C., Engert, F., and Schier, A.~F. (2015).
+\newblock Whole-brain activity mapping onto a zebrafish brain atlas.
+\newblock {\em Nat. Methods}, 12:1039--1046.
+\newblock \doi{10.1038/nmeth.3581}.
 
 \bibitem[Rankin et~al., 2009]{Rankin2009-no}
 Rankin, C.~H., Abrams, T., Barry, R.~J., Bhatnagar, S., Clayton, D.~F., Colombo, J., Coppola, G., Geyer, M.~A., Glanzman, D.~L., Marsland, S., McSweeney, F.~K., Wilson, D.~A., Wu, C.-F., and Thompson, R.~F. (2009).

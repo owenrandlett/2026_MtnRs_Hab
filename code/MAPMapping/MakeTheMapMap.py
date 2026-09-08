@@ -104,11 +104,11 @@ fdr_thresh = 0.00005
 pERK_thresh = 10 # minimum staining intensity to be considered
 n_min_group = 5 # minumum number of fish in each group for a pixel to be condisered
 n_cores = 25
-using_erk = False
+using_erk = True
 write_mixed_control = True
 
 # separate folders for each group within one partent folder. Path of parent folder entered below as root directory, if left blank, will prompt for directory
-root_dir = '/media/BigBoy/ciqle/LeicaStellaris/20260115_atp1a3a_Taps_tERK_pERK/SmoothedTiffs'  
+root_dir = r'Q:\2026_MtnrManuscript\pERKData\2023-03-27_pERKtERK_Mtnr1aa+alMutants_60dfwMelatonin'
 
 if root_dir == '':
     root = Tk()
