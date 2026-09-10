@@ -38,7 +38,7 @@ Cecon, E., Oishi, A., and Jockers, R. (2017).
 
 \bibitem[Choi et~al., 2018]{Choi2018}
 Choi, H. M.~T., Schwarzkopf, M., Fornace, M.~E., Acharya, A., Artavanis, G., Stegmaier, J., Cunha, A., and Pierce, N.~A. (2018).
-\newblock Third-generation <i>in situ</i> hybridization chain reaction: multiplexed, quantitative, sensitive, versatile, robust.
+\newblock Third-generation \emph{in situ} hybridization chain reaction: multiplexed, quantitative, sensitive, versatile, robust.
 \newblock {\em Development}, 145(12).
 \newblock \doi{10.1242/dev.165753}.
 
