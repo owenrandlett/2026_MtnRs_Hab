@@ -4,7 +4,7 @@ Data-analysis and acquisition code for:
 
 > Baas D., Darvaux-Hubert I., Dorado-Doncel R., Hsiao A., Broisin L., El Hassan A.R., Perrichet J., Randlett O.
 > *Melatonin modulates habituation learning via the convergent action of two MT<sub>1</sub>-type receptors.*
-> bioRxiv (2026). doi: [TO ADD](https://doi.org/TO_ADD)
+> bioRxiv (2026). doi: [10.64898/2026.09.10.749335](https://doi.org/10.64898/2026.09.10.749335)
 
 Laboratoire MeLiS, Université Claude Bernard Lyon 1 — CNRS UMR5284 — Inserm U1314, Lyon, France.
 
